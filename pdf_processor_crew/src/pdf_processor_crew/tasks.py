@@ -47,3 +47,36 @@ class DocumentTasks:
                 User prompt processed.
             """)
         )
+    
+    def rag_integration_task(self, agent, user_query, json_file_path):
+        return Task(
+            description=dedent(f"""
+                Integrate retrieval-augmented generation (RAG) to handle the user's complex query that requires information from multiple sources.
+                Retrieve relevant data from the JSON file and generate a comprehensive response to the query.
+                
+                User query: {user_query}
+                JSON file path: {json_file_path}
+            """),
+            agent=agent,
+            expected_output=dedent(f("""
+                RAG integration task completed.
+                Response generated and ready for user.
+            """))
+        )
+    
+    def knowledge_graph_generation_task(self, agent, json_file_path, knowledge_graph_path):
+        return Task(
+            description=dedent(f"""
+                Build and maintain a knowledge graph from the extracted and parsed data.
+                Use the JSON file to create a structured representation of the information, enhancing the accessibility and usability of the data.
+                Save the knowledge graph to the specified path.
+                
+                JSON file path: {json_file_path}
+                Knowledge graph path: {knowledge_graph_path}
+            """),
+            agent=agent,
+            expected_output=dedent(f"""
+                Knowledge graph generation task completed.
+                Knowledge graph saved to: {knowledge_graph_path}
+            """)
+        )
