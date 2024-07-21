@@ -2,7 +2,8 @@ from langchain.tools import tool
 from concurrent.futures import ThreadPoolExecutor
 import json
 from typing import ClassVar
-
+from .InformationRetriever import InformationRetriever
+from .ResponseGenerator import ResponseGenerator
 class QueryProcessor:
     ProcessQueries: ClassVar
 
