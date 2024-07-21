@@ -51,8 +51,9 @@ RUN python3.11 -m pip install --upgrade pip
 # Install Python packages
 RUN python3.11 -m pip install pandas PyMuPDF pdfplumber tabula-py nltk spacy transformers faiss-cpu elasticsearch networkx py2neo matplotlib plotly crewai
 RUN apt-get update && apt-get install -y build-essential
-RUN python3.11 -m pip install camelot-py fitz
-
+RUN python3.11 -m pip install camelot-py
+RUN python3.11 -m pip install opencv-python
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 # Download specific NLTK data packages
 RUN python3.11 -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('stopwords'); nltk.download('averaged_perceptron_tagger')"
 
