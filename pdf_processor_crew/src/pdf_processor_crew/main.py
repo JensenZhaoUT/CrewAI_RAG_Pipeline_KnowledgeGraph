@@ -71,7 +71,7 @@ def run():
     print("\nInitial processing completed. Results:\n", result)
 
     # Prompt the user for input
-    user_query = input("Please enter your question: ")
+    user_query = input("Please enter your query: ")
 
     # Initialize the user prompt handling task
     user_prompt_handling_task = tasks.user_prompt_handling_task(
