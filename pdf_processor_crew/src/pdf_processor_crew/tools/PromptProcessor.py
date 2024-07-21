@@ -1,66 +1,47 @@
 from langchain.tools import tool
-import json
-import os
-from typing import ClassVar
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+import re
+
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 class PromptProcessor:
     HandlePrompt: ClassVar
 
-    @tool("Handle user prompt")
+    @tool("handle_prompt")
     @staticmethod
-    def HandlePrompt(query: str) -> str:
+    def HandlePrompt(user_query: str) -> str:
         """
-        Parse rows and columns in CSV files in the save_dir directory and save the parsed results to JSON files.
+        Process the user's query using NLP techniques to refine and prepare it for efficient information retrieval.
 
         Args:
-            save_dir (str): The directory containing the CSV files to be processed.
-            json_save_dir (str): The directory where the parsed results will be saved.
+            user_query (str): The user's query to be processed.
 
         Returns:
-            List[str]: A list of paths to the saved JSON files containing the parsed data.
-
-        Raises:
-            FileNotFoundError: If any of the specified CSV files does not exist.
+            str: The processed user query.
         """
-        # Clean up save directory input
-        save_dir = save_dir.strip('"')
-        json_save_dir = json_save_dir.strip('"')
-        print(f"TableParser received cleaned save directory: {json_save_dir}")
+        # Lowercase the query
+        user_query = user_query.lower()
 
-        # Check if save directory exists, create if it does not
-        if not os.path.exists(json_save_dir):
-            os.makedirs(json_save_dir)
+        # Remove special characters and digits
+        user_query = re.sub(r'[^a-zA-Z\s]', '', user_query)
+
+        # Tokenize the query
+        tokens = user_query.split()
+
+        # Remove stopwords
+        stop_words = set(stopwords.words('english'))
+        tokens = [word for word in tokens if word not in stop_words]
+
+        # Lemmatize the tokens
+        lemmatizer = WordNetLemmatizer()
+        tokens = [lemmatizer.lemmatize(word) for word in tokens]
+
+        # Join tokens back into a string
+        processed_query = ' '.join(tokens)
         
-        parsed_data_paths = []
+        print(f"Processed query: {processed_query}")
 
-        for i in range(1, 61):  # Iterate through potential CSV files (1-60)
-            csv_path = os.path.join(save_dir, f"table_{i}.csv")
-            
-            # Check if file exists
-            if not os.path.exists(csv_path):
-                print(f"DEBUG: os.path.exists({csv_path}) -> {os.path.exists(csv_path)}")
-                continue  # Skip non-existing files
-
-            print(f"TableParser received cleaned file path: {csv_path}")
-
-            # Load the CSV file
-            df = pd.read_csv(csv_path)
-
-            # Parse rows and columns
-            rows = df.values.tolist()
-            columns = list(df.columns)
-
-            parsed_data = {
-                "columns": columns,  # Header information
-                "rows": rows         # Row data
-            }
-
-            # Save parsed data to a JSON file
-            json_file_path = os.path.join(json_save_dir, os.path.basename(csv_path).replace('.csv', '_parsed.json'))
-            with open(json_file_path, 'w') as json_file:
-                json.dump(parsed_data, json_file, indent=4)
-            
-            parsed_data_paths.append(json_file_path)
-            print(f"Parsed data saved to: {json_file_path}")
-
-        return parsed_data_paths, "Table parsing task completed."
+        return processed_query
