@@ -58,10 +58,10 @@ class DocumentTasks:
                 JSON file path: {json_file_path}
             """),
             agent=agent,
-            expected_output=dedent(f("""
+            expected_output=dedent(f"""
                 RAG integration task completed.
                 Response generated and ready for user.
-            """))
+            """)
         )
     
     def knowledge_graph_generation_task(self, agent, json_file_path, knowledge_graph_path):
