@@ -15,6 +15,7 @@ opencv-python-headless = "^4.5.3.56"
 langchain-openai = "^0.1.17"
 PyPDF2 = "<3.0.0"
 ghostscript = "^0.7"
+nltk = "^3.8.1"
 
 [tool.poetry.scripts]
 pdf_processor_crew = "pdf_processor_crew.main:run"
