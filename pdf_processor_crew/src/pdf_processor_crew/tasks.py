@@ -37,15 +37,13 @@ class DocumentTasks:
     def user_prompt_handling_task(self, agent, user_query):
         return Task(
             description=dedent(f"""
-                Parse tables within the CSV filesto extract structured data. Identify headers,
-                parse rows and columns, and relate superscripts in table columns to their references. Save the parsed resulst to a JSON file in json_file_path
-                Ensure data integrity and handle any incomplete or corrupted tables.
-
-                CSV file directory: {path_to_save_dir}
-                JSON Save directory: {json_file_path}
+                Process the user's query to refine and prepare it for efficient information retrieval.
+                Use NLP techniques to analyze and understand the query, ensuring that it is properly formatted and structured for further processing by the system.
+                
+                User query: {user_query}
             """),
             agent=agent,
             expected_output=dedent(f"""
-                Table parsing task completed.
+                User prompt processed.
             """)
         )
