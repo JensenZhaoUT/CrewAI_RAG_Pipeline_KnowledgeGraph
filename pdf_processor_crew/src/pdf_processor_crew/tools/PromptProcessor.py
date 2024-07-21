@@ -44,4 +44,4 @@ class PromptProcessor:
         
         print(f"Processed query: {processed_query}")
 
-        return processed_query
+        return processed_query, "User prompt processed."
