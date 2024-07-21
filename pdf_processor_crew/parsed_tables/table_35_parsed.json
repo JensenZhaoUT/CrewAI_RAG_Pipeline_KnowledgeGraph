@@ -1,0 +1,34 @@
+{
+    "columns": [
+        "0",
+        "1",
+        "2"
+    ],
+    "rows": [
+        [
+            "Type of Record",
+            "Code",
+            "Applicable TOT"
+        ],
+        [
+            "Confidential\tScreening",
+            "C",
+            "CPDR, FNDR, NNDR"
+        ],
+        [
+            "Suppress/Modify\tUnsolicited\tWant/SOR\tNotification\t(Non-\nUrgent Criminal)",
+            "H",
+            "CPNU**"
+        ],
+        [
+            "Pre-commission\tcandidate\trecord\twith\tfingerprints",
+            "P",
+            "NFUF, DOCE, EMUF, NFUE"
+        ],
+        [
+            "Civil submission in support of the National Child Protection \nAct of 1993",
+            "V",
+            "NFUF*, NFUE*"
+        ]
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "Finger Position",
+            "Code"
+        ],
+        [
+            "Right Thumb",
+            "01"
+        ],
+        [
+            "Right Index",
+            "02"
+        ],
+        [
+            "Right Middle",
+            "03"
+        ],
+        [
+            "Right Ring",
+            "04"
+        ],
+        [
+            "Right Little",
+            "05"
+        ],
+        [
+            "Left Thumb",
+            "06"
+        ],
+        [
+            "Left Index",
+            "07"
+        ],
+        [
+            "Left Middle",
+            "08"
+        ],
+        [
+            "Left Ring",
+            "09"
+        ],
+        [
+            "Left Thumb",
+            "10"
+        ]
+    ]
+}

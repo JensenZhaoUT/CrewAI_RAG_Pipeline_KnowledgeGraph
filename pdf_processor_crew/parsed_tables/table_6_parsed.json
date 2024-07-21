@@ -1,0 +1,34 @@
+{
+    "columns": [
+        "0",
+        "1",
+        "2"
+    ],
+    "rows": [
+        [
+            "Pattern Type",
+            "Pattern Subgroup",
+            "NCIC FPC Code"
+        ],
+        [
+            "Arch",
+            "Plain Arch",
+            "AA"
+        ],
+        [
+            NaN,
+            "Tented Arch",
+            "TT"
+        ],
+        [
+            "Loop",
+            "Radial Loop",
+            "Two numeric characters. Determine actual \nridge\tcount\tand\tadd\tfifty\t(50).\tFor\texample,\t\nif the ridge count of a radial loop is 16, add \n50 to 16 for a sum of 66. Enter this sum (66) \nin\tthe\tappropriate\tfinger\tposition\tof\tthe\tFPC\t\nfield."
+        ],
+        [
+            "Loop",
+            "Ulnar Loop",
+            "Two numeric characters indicating actual \nridge count (less than 50). For example, a \nridge count of 14, enter as 14; a ridge count of \n9, enter as 09."
+        ]
+    ]
+}

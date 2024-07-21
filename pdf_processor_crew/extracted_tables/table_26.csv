@@ -1,0 +1,10 @@
+0,1,2,3
+Pattern,Code,RCN1,RCN2
+"Arch, Type Not Designated",AU,0,0
+"Whorl, Type Not Designated",WU,1-31,1-31
+Right Slant Loop,RS,1-31,0
+Left Slant Loop,LS,1-31,0
+Complete Scar,SR,0,0
+Amputation,XX,0,0
+"Unable to print (e.g., bandaged)",UP,0,0
+Unable to Classify,UC,0,0

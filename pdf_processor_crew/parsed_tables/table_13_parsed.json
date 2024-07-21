@@ -1,0 +1,56 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "Identifying Agency",
+            "Code"
+        ],
+        [
+            "U.S. Air Force, Air Force Reserve, Air National Guard",
+            "AF"
+        ],
+        [
+            "Non-Immigrant Admission Number",
+            "AN"
+        ],
+        [
+            "Alien Registration Number",
+            "AR"
+        ],
+        [
+            "U.S. Army, Army Reserve, Army National Guard",
+            "AS"
+        ],
+        [
+            "Bureau Fugitive Index Number",
+            "BF"
+        ],
+        [
+            "Canadian Social Insurance Number",
+            "CI"
+        ],
+        [
+            "U. S. Coast Guard, Coast Guard Reserve",
+            "CG"
+        ],
+        [
+            "Fingerprint\tIdentification\tNumber\t(DHS\tonly)",
+            "FN"
+        ],
+        [
+            "Identification\tOrder\tNumber",
+            "IO"
+        ],
+        [
+            "U.S. Marine Corps, Marine Corps Reserve",
+            "MC"
+        ],
+        [
+            "Mariner\u2019s\tDocument\tor\tIdentification\tNumber",
+            "MD"
+        ]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "Code Value",
+            "Format Description"
+        ],
+        [
+            "R",
+            "Replace\tRap\tBack\tSubscription\tdata\ton\tfile\twith\tthat\tprovided\tin\tthe\trequest"
+        ],
+        [
+            "D",
+            "Delete\tRap\tBack\tsubscription\tdata\tprovided\tin\trequest\tthat\tmatches\twhat\tis\ton\tfile"
+        ],
+        [
+            "A",
+            "Append\tRap\tBack\tsubscription\tdata\tprovided\tin\trequest\tto\tthat\ton\tfile"
+        ],
+        [
+            "C",
+            "Cancel the Rap Back subscription"
+        ],
+        [
+            "N",
+            "Renew the Rap Back subscription (Currently not being used)"
+        ],
+        [
+            "U",
+            "Un-cancel a cancelled Rap Back subscription"
+        ]
+    ]
+}

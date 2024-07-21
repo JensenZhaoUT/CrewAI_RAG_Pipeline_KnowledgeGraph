@@ -1,0 +1,69 @@
+{
+    "columns": [
+        "0",
+        "1",
+        "2"
+    ],
+    "rows": [
+        [
+            "Value",
+            "Definition",
+            "TOT"
+        ],
+        [
+            "C",
+            "Inconclusive",
+            "BDEC, LSR"
+        ],
+        [
+            "D",
+            "Deferred for manual processing",
+            "SRE (FDSP)"
+        ],
+        [
+            "G",
+            "Green - No Hit",
+            "RPISR"
+        ],
+        [
+            "I",
+            "Identification",
+            "BDEC, LSR, SRE (IIDS), SRE"
+        ],
+        [
+            "M",
+            "Match of Images Submitted",
+            "SRE (FVR)"
+        ],
+        [
+            "N",
+            "Non-Identification",
+            "BDEC, LSR, SRE (IIDS), SRE"
+        ],
+        [
+            "P",
+            "Pending\tVerification\tof\tIdentification",
+            "BDEC, LSR"
+        ],
+        [
+            "R",
+            "Red\t-\tHit\ton\tPotential\tCandidate,\tHigh\tConfidence\tMatch",
+            "RPISR, UHN"
+        ],
+        [
+            "Y",
+            "Yellow - Probable Candidate, Potential Match",
+            "RPISR, UHN, BDEC"
+        ],
+        [
+            "X",
+            "Not a Match of Images Submitted",
+            "SRE (FVR)"
+        ],
+        [
+            "Z",
+            "Disposition posted but no biometric search was performed.",
+            "SRE (FDSP)"
+        ]
+    ]
+}

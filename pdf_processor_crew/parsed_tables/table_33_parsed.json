@@ -1,0 +1,44 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "If Following Conditions Exist",
+            "Enter Code"
+        ],
+        [
+            "Bail Supervision",
+            "BLS"
+        ],
+        [
+            "Conditional Release",
+            "CDR"
+        ],
+        [
+            "Mandatory Release",
+            "MAN"
+        ],
+        [
+            "Parole",
+            "PAR"
+        ],
+        [
+            "Probation",
+            "PRO"
+        ],
+        [
+            "Pretrial Diversion",
+            "PTD"
+        ],
+        [
+            "Special Parole Term",
+            "SPT"
+        ],
+        [
+            "Supervised Release",
+            "SUR"
+        ]
+    ]
+}

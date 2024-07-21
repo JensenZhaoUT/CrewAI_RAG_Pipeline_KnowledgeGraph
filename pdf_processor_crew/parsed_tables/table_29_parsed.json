@@ -1,0 +1,40 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "If Following Condition Exists",
+            "Enter Code"
+        ],
+        [
+            "Subject\u2019s gender reported as female",
+            "F"
+        ],
+        [
+            "Occupation\tor\tcharge\tindicated\t\u201cMale\tImpersonator\u201d",
+            "G"
+        ],
+        [
+            "Subject\u2019s gender reported as male",
+            "M"
+        ],
+        [
+            "Occupation\tor\tcharge\tindicated\t\u201cFemale\tImpersonator\u201d\tor\t\ntransvestite",
+            "N"
+        ],
+        [
+            "Male name, no gender given",
+            "Y"
+        ],
+        [
+            "Female name, no gender given",
+            "Z"
+        ],
+        [
+            "Unknown gender",
+            "X"
+        ]
+    ]
+}

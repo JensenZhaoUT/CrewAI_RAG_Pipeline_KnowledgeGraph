@@ -1,0 +1,45 @@
+0,1
+Court Disposition,Description
+CONVICTED,"Judicial	finding	of	guilty	of	a	crime	in	adult	court,	by	verdict	or	plea"
+ACQUITTED,"Finding,	by	jury	or	judge,	that	a	person	is	not	guilty	of	the	charged	offense"
+DISMISSED,"Decision by the court that terminates prosecution; limited to court actions only, including 
+Vacated, and Stricken on Leave, and Set Aside"
+CHARGES DROPPED,Use for arrest disposition only
+NOT PROSECUTED,"Use for events that end at the arrest, grand jury or prosecution phase – Nolle Prosequi, No Bill, 
+Not Filed, No Action Taken"
+"MENTAL HEALTH
+ADJUDICATION","Court	action	to	suspend	prosecution	while	determining	competence	to	stand	trial	or	a	finding	
+of not guilty by lack of mental responsibility. Meets qualifying criteria for mental defective. 
+Includes Acquittal or Dismissal by Reason of Insanity."
+DIVERSION,"Referral	to	a	program	intended	to	enable	alleged	offenders	to	avoid	criminal	charges	and	a	
+criminal record. Diversion programs may be run by law enforcement agencies, courts, prose-
+cutors,	or	outside	agencies.	An	offender	may	be	referred	to	a	diversion	program	before	charges	
+are brought, before trial commences, or before sentence is imposed. Includes Pre-Trial, Adult, 
+Juvenile diversion and Probation before Judgment."
+CONDITIONAL,"Court outcome involving the absence of determination of guilt. If the type is based on condi-
+tions	set	by	the	court,	the	outcome	may	change	if	the	conditions	are	satisfied.	Includes	Adjudi-
+cation Withheld, Conditional Discharge, Non-Adjudication of Guilt, and Retirement."
+"JUVENILE 
+ADJUDICATION","Court adjudication of delinquency or imposition of juvenile sanctions in adult court; not 
+limited to felonies. This would be a conviction if the subject was treated as an adult. Includes 
+Juvenile	Delinquency	and	Youthful	Offender."
+REVOCATION,"An	annulment,	cancellation	or	reversal	of	a	finding	of	guilty"
+EXTRADITED,"The	official	surrender	of	an	alleged	criminal	by	one	jurisdiction	to	another;	the	return	of	a	
+fugitive from justice, regardless of consent, by the authorities where the fugitive resides. Use 
+for arrest dispositions only."
+TRANSFERRED,"The removal of a case from the jurisdiction of one court or judge to another. Includes Re-
+manded (case sent back to court for further action)"
+DEPORTED,The expulsion or transfer of an alien from the country. Use for arrest dispositions only.
+DECEASED,Subject charged is deceased.
+CONSOLIDATED,Court	ordered	unification	of	two	or	more	charges	or	cases	into	a	single	matter.
+"BAIL/BOND 
+FORFEITURE","Money	or	property	lost	or	confiscated	by	this	process;	a	penalty.	This	may	be	a	disposition	in	
+older, legacy records."
+DEFERRED,"Postponed or delayed, could relate to prosecution, sentence, judgment or disposition."
+UNAVAILABLE,"This	will	be	entered	by	the	state	repository	if	the	final	disposition	is	unavailable.	This	code	
+may be used when, upon thorough research, the disposition could not be found or was purged 
+in accordance to record retention schedules."
+DESTROYED,"This will be entered by the state repository if the disposition could not be found due to destruc-
+tion	through	a	fire	or	a	natural	disaster."
+OTHER,"If	using	“OTHER”	it	is	mandatory	to	provide	detail	or	description	under	the	COL	information	
+item."

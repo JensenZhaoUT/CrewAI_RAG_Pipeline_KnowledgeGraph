@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pdf_processor_crew"
+version = "0.1.0"
+description = "pdf_processor_crew using crewAI"
+authors = ["Jensen <jcjensen1998@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<=3.13"
+crewai = { extras = ["tools"], version = "^0.36.1" }
+transformers = "^4.42.4"
+torch = "^2.0.1"
+PyMuPDF = "^1.19.0"
+camelot-py = "^0.10.1"
+opencv-python-headless = "^4.5.3.56"
+langchain-openai = "^0.1.17"
+PyPDF2 = "<3.0.0"
+ghostscript = "^0.7"
+
+[tool.poetry.scripts]
+pdf_processor_crew = "pdf_processor_crew.main:run"
+train = "pdf_processor_crew.main:train"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

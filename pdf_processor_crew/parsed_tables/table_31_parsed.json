@@ -1,0 +1,24 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "If the following condition exists:",
+            "Enter Code"
+        ],
+        [
+            "Establish Agency Supervision",
+            "EAS"
+        ],
+        [
+            "Cancel Agency Supervision",
+            "CAS"
+        ],
+        [
+            "Transfer Agency Supervision",
+            "TAS"
+        ]
+    ]
+}

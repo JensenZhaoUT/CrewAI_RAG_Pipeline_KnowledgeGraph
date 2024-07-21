@@ -1,0 +1,136 @@
+{
+    "columns": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+    "rows": [
+        [
+            "Field\nNumber",
+            "Identifier",
+            "Field Name",
+            "Character",
+            "Field Size",
+            NaN,
+            NaN,
+            NaN,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            "(not including Character \nSeparators)",
+            NaN,
+            NaN,
+            "Occurrences",
+            NaN,
+            NaN
+        ],
+        [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            "Min",
+            "Max",
+            "Min1",
+            "Max",
+            NaN,
+            NaN
+        ],
+        [
+            "2.2023",
+            "SII",
+            "SUPPLEMENTARY IDENTITY INFORMA-\nTION",
+            "ANS",
+            "4",
+            "10,000",
+            NaN,
+            "1",
+            "2.2023:(ASCII TEXT DATA){GS}",
+            "Any printable 7-bit ASCII character is allowed."
+        ],
+        [
+            "2.2024",
+            "HTI",
+            "HIT TYPE INDICATOR",
+            "A",
+            "1",
+            "10",
+            NaN,
+            "1",
+            "2.2024:RISC{GS}",
+            NaN
+        ],
+        [
+            "2.2028\nA\nB\nC\nD\nE\nF\nG",
+            "BID\nSI\nIMT\nBSI\nFNR\nPPD\nPOS\nSMT",
+            "BIOMETRIC IMAGE DESCRIPTION \nSUBJECT IDENTIFIER\nIMAGE TYPE \nBIOMETRIC SET IDENTIFIER \nFINGER NUMBER REQUESTED \nPRINT POSITION DESCRIPTOR\nSUBJECT POSE\nNCIC SMT CODE",
+            "SET\nANS\nN\nN\nN\nAN\nA\nAS",
+            "1\n1\n4\n2\n5\n1\n3",
+            "50\n2\n24\n2\n5\n1\n10",
+            "1\n0\n0\n0\n0\n0\n0",
+            "1000\n1\n1\n1\n1\n1\n1\n1",
+            "2.2028:12AN43215689{US}1{US}123456{US\n}09{US}{US}{US}{GS}",
+            "NCIC SMT codes only allow a space as a special \ncharacter."
+        ],
+        [
+            "2.2029",
+            "BSI",
+            "BIOMETRIC SET IDENTIFIER",
+            "N",
+            "4",
+            "24",
+            NaN,
+            "1000",
+            "2.2029:9283463{GS}",
+            NaN
+        ],
+        [
+            "2.2030\nA\nB",
+            "PPD\nFGP\nFIC",
+            "PRINT POSITION DESCRIPTOR\nFRICTION RIDGE GENERALIZED POSI-\nTION \nFINGER IMAGE CODE",
+            "SET\nN\nAN",
+            "1\n3",
+            "2\n3",
+            "1\n1",
+            "10\n1\n1",
+            "2.2030:02{US}FV1{GS}",
+            NaN
+        ],
+        [
+            "2.2031",
+            "BIA",
+            "BIOMETRIC IMAGE AVAILABLE",
+            "N",
+            "1",
+            "2",
+            NaN,
+            "1",
+            "2.2031:13{GS}",
+            NaN
+        ],
+        [
+            "2.2032\nA\nB\nC\nD\nE\nF\nG\nH\nI",
+            "ATR\nORI\nDAT\nTOT\nBSI\nIMT\nFNR\nPPD\nPOS\nSMT",
+            "AUDIT TRAIL RECORD \nORIGINATING AGENCY IDENTIFIER \nDATE OF DISSEMINATION \nTOT OF DISSEMINATION \nBIOMETRIC SET IDENTIFIER DISSEMI-\nNATED \nIMAGE TYPE DISSEMINATED\nFRICTION RIDGE POSITION REQUESTED\nPRINT POSITION DESCRIPTION\nSUBJECT POSE\nNCIC SMT CODE",
+            "SET\nAN\nN\nA\nN\nN\nN\nAN\nA\nAS",
+            "9\n8\n3\n4\n1\n2\n5\n1\n3",
+            "9\n8\n16\n24\n2\n2\n5\n1\n10",
+            "1\n1\n1\n0\n0\n0\n0\n0\n0",
+            "100\n1\n1\n1\n1\n1\n1\n1\n1\n1",
+            "2.2032:NY0303000{US}20130514{US}\nSRL{US}1023456{US}1{US}06{US}{US}\n{US}{RS}NY0303000{US}20130518{US}\nSRB{US}3065432{US}9{US}{US}{US}\nF{US}{GS}",
+            "NCIC SMT codes only allow a space as a special \ncharacter."
+        ]
+    ]
+}

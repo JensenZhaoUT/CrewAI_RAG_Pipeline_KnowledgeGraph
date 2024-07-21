@@ -1,0 +1,32 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "Military Branch",
+            "Code"
+        ],
+        [
+            "Army",
+            "A"
+        ],
+        [
+            "Air Force",
+            "F"
+        ],
+        [
+            "Navy",
+            "N"
+        ],
+        [
+            "Marines",
+            "M"
+        ],
+        [
+            "Coast Guard",
+            "G"
+        ]
+    ]
+}

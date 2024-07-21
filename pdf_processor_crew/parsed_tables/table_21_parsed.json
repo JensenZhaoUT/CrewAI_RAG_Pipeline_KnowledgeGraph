@@ -1,0 +1,39 @@
+{
+    "columns": [
+        "0",
+        "1",
+        "2"
+    ],
+    "rows": [
+        [
+            "Rap Back Category",
+            "Category Code",
+            "Purpose Code"
+        ],
+        [
+            "Volunteer, Child Care/School Employee, Non-Criminal Justice \nEmployment and Licensing",
+            "I",
+            "I"
+        ],
+        [
+            "Criminal Justice Employment",
+            "J",
+            "J"
+        ],
+        [
+            "Criminal Justice Investigative",
+            "CI",
+            "C"
+        ],
+        [
+            "Criminal Justice \u2013 Supervision",
+            "CS",
+            "C"
+        ],
+        [
+            "Security Clearance Information Act",
+            "S",
+            "S"
+        ]
+    ]
+}

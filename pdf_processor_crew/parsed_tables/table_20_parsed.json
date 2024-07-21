@@ -1,0 +1,32 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "If Subject Is",
+            "Enter Code"
+        ],
+        [
+            "Chinese, Japanese, Filipino, Korean, Polynesian, Indian, Indonesian, Asian Indian, Samoan, or any other \nPacific\tIslander",
+            "A"
+        ],
+        [
+            "A person having origins in any of the black racial groups of Africa",
+            "B"
+        ],
+        [
+            "American Indian, Eskimo, or Alaskan native, or a person having origins in any of the 48 contiguous states \nof\tthe\tUnited\tStates\tor\tAlaska\twho\tmaintains\tcultural\tidentification\tthrough\ttribal\taffiliation\tor\tcommu-\nnity recognition",
+            "I"
+        ],
+        [
+            "Of indeterminable race",
+            "U"
+        ],
+        [
+            "Caucasian, Mexican, Puerto Rican, Cuban, Central or South American, or other Spanish culture or origin, \nRegardless of race",
+            "W"
+        ]
+    ]
+}

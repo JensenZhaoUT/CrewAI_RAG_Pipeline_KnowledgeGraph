@@ -1,0 +1,114 @@
+{
+    "columns": [
+        "0",
+        "1",
+        "2"
+    ],
+    "rows": [
+        [
+            "Pattern Type",
+            "Pattern Subgroup",
+            "NCIC FPC Code"
+        ],
+        [
+            "Whorl*",
+            "Plain Whorl",
+            NaN
+        ],
+        [
+            NaN,
+            "Inner",
+            "PI"
+        ],
+        [
+            NaN,
+            "Meeting",
+            "PM"
+        ],
+        [
+            NaN,
+            "Outer",
+            "PO"
+        ],
+        [
+            NaN,
+            "Central Pocket Loop Whorl",
+            NaN
+        ],
+        [
+            NaN,
+            "Inner",
+            "CI"
+        ],
+        [
+            NaN,
+            "Meeting",
+            "CM"
+        ],
+        [
+            NaN,
+            "Outer",
+            "CO"
+        ],
+        [
+            NaN,
+            "Double Loop Whorl",
+            NaN
+        ],
+        [
+            NaN,
+            "Inner",
+            "DI"
+        ],
+        [
+            NaN,
+            "Meeting",
+            "DM"
+        ],
+        [
+            NaN,
+            "Outer",
+            "DO"
+        ],
+        [
+            NaN,
+            "Accidental Whorl",
+            NaN
+        ],
+        [
+            NaN,
+            "Inner",
+            "XI"
+        ],
+        [
+            NaN,
+            "Meeting",
+            "XM"
+        ],
+        [
+            NaN,
+            "Outer",
+            "XO"
+        ],
+        [
+            "Missing Amputated Finger**",
+            NaN,
+            "XX"
+        ],
+        [
+            "Scarred/Mutilated Pattern ***",
+            NaN,
+            "SR"
+        ],
+        [
+            "Approximate Fingerprint Class****",
+            NaN,
+            "AC"
+        ],
+        [
+            "Unclassifiable\t****",
+            NaN,
+            "UC"
+        ]
+    ]
+}

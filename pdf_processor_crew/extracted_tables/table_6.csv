@@ -1,0 +1,14 @@
+0,1,2
+Pattern Type,Pattern Subgroup,NCIC FPC Code
+Arch,Plain Arch,AA
+,Tented Arch,TT
+Loop,Radial Loop,"Two numeric characters. Determine actual 
+ridge	count	and	add	fifty	(50).	For	example,	
+if the ridge count of a radial loop is 16, add 
+50 to 16 for a sum of 66. Enter this sum (66) 
+in	the	appropriate	finger	position	of	the	FPC	
+field."
+Loop,Ulnar Loop,"Two numeric characters indicating actual 
+ridge count (less than 50). For example, a 
+ridge count of 14, enter as 14; a ridge count of 
+9, enter as 09."

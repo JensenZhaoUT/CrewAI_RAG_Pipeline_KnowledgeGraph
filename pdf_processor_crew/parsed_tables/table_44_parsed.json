@@ -1,0 +1,172 @@
+{
+    "columns": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+    ],
+    "rows": [
+        [
+            "Field",
+            NaN,
+            NaN,
+            NaN,
+            "Field Size",
+            NaN,
+            NaN,
+            NaN,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            "(not including Character \nSeparators)",
+            NaN,
+            NaN,
+            "Occurrences",
+            NaN,
+            NaN
+        ],
+        [
+            "Field Name\nNumber\nIdentifier",
+            NaN,
+            NaN,
+            "Character",
+            "Min\nMax",
+            NaN,
+            "Min1\nMax",
+            NaN,
+            NaN,
+            NaN
+        ],
+        [
+            "2.2061\nBIE\nBIOMETRIC IMAGE ENROLLMENT \nSET\nA\nBSI\nBIOMETRIC SET IDENTIFIER\nN\nB\nIMT\nIMAGE TYPE\nN\nC\nPOS\nSUBJECT POSE\nA\nD\nSMT\nSCARS, MARKS, AND TATTOOS\nAS",
+            NaN,
+            NaN,
+            NaN,
+            "4\n24\n1\n2\n1\n1\n3\n10",
+            NaN,
+            "61\n1\n1\n1\n1\n0\n1\n0\n1",
+            NaN,
+            "2.2061:123456789{US}9{US}F{US}{GS}",
+            "POS\tis\tpopulated\twhen\tIMT=9\t\nSMT\tis\tpopulated\twhen\tIMT=10. \nNCIC SMT codes only allow a space as a special \ncharacter."
+        ],
+        [
+            "RAP BACK ACTIVITY NOTIFICATION \n2.2062\nRBNF\nN\nFORMAT",
+            NaN,
+            NaN,
+            NaN,
+            "1\n1",
+            NaN,
+            "1",
+            NaN,
+            "2.2062:2{GS}",
+            NaN
+        ],
+        [
+            "RAP BACK OPT OUT IN-STATE INDICA-\n2.2063\nRBOO\nA\nTOR",
+            NaN,
+            NaN,
+            NaN,
+            "1\n1",
+            NaN,
+            "1",
+            NaN,
+            "2.2063:Y{GS}",
+            NaN
+        ],
+        [
+            "2.2064\nRBUD\nRAP BACK USER DEFINED\nSET\nA\nRBFN\nRAP BACK FIELD NAME\nANS\nB\nRBFT\nRAP BACK FIELD TEXT\nANS",
+            NaN,
+            NaN,
+            NaN,
+            "1\n50\n1\n100",
+            NaN,
+            "10\n1\n1\n1\n1",
+            NaN,
+            "2.2064:PAROLE OFFICER{US}DOE, \nJOHN{GS}",
+            NaN
+        ],
+        [
+            "2.2065\nRBC\nRAP BACK CATEGORY\nA",
+            NaN,
+            NaN,
+            NaN,
+            "1\n2",
+            NaN,
+            "1",
+            NaN,
+            "2.2065:CS{GS}",
+            NaN
+        ],
+        [
+            "2.2067\nRBDI\nRAP BACK DISCLOSURE INDICATOR\nA",
+            NaN,
+            NaN,
+            NaN,
+            "1\n1",
+            NaN,
+            "1",
+            NaN,
+            "2.2067:Y{GS}",
+            NaN
+        ],
+        [
+            "2.2068\nDTR \nDATE RANGE\nN",
+            NaN,
+            NaN,
+            NaN,
+            "16\n16",
+            NaN,
+            "1",
+            NaN,
+            "2.2068:1994093019950930{GS}",
+            "The\tfirst\teight\tnumerals\tindicate\tthe\tearliest\tdate\tof\t\nexpiration and the second eight numerals the latest date of \nexpiration. There is no separator character used between \nthe two dates."
+        ],
+        [
+            "RAP BACK TRIGGERING EVENT DE-\n2.2069\nRBTED\nSET\nTAILS\nA\nDORBE\nDATE OF RAP BACK EVENT\nN\nB\nRBT\nRAP BACK TRIGGER\nN\nC\nRBEI\nRAP BACK EVENT INFORMATION\nANS",
+            NaN,
+            NaN,
+            NaN,
+            "8\n8\n1\n2\n1\n300",
+            NaN,
+            "10\n1\n1\n0\n1\n0\n1",
+            NaN,
+            "2.2069:20140513{US}5{US}NCIC WANTED \nPERSON ENTRY FROM ORI - NY0303000: \nNIC/12345, DATE OF WARRANT \n20140511{GS}",
+            NaN
+        ],
+        [
+            "2.2070\nRBATN\nRAP BACK ATTENTION INDICATOR\nANS",
+            NaN,
+            NaN,
+            NaN,
+            "3\n50",
+            NaN,
+            "1",
+            NaN,
+            "2.2070:DET J Q PUBLIC{GS}",
+            "Any printable 7-bit ASCII character with the exception of \nthe period is allowed."
+        ],
+        [
+            "2.2071\nRBST\nRAP BACK SUBSCRIPTION TERM\nAN",
+            NaN,
+            NaN,
+            NaN,
+            "1\n2",
+            NaN,
+            "1",
+            NaN,
+            "2.2071:2{GS}",
+            NaN
+        ]
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "Court Disposition",
+            "Description"
+        ],
+        [
+            "CONVICTED",
+            "Judicial\tfinding\tof\tguilty\tof\ta\tcrime\tin\tadult\tcourt,\tby\tverdict\tor\tplea"
+        ],
+        [
+            "ACQUITTED",
+            "Finding,\tby\tjury\tor\tjudge,\tthat\ta\tperson\tis\tnot\tguilty\tof\tthe\tcharged\toffense"
+        ],
+        [
+            "DISMISSED",
+            "Decision by the court that terminates prosecution; limited to court actions only, including \nVacated, and Stricken on Leave, and Set Aside"
+        ],
+        [
+            "CHARGES DROPPED",
+            "Use for arrest disposition only"
+        ],
+        [
+            "NOT PROSECUTED",
+            "Use for events that end at the arrest, grand jury or prosecution phase \u2013 Nolle Prosequi, No Bill, \nNot Filed, No Action Taken"
+        ],
+        [
+            "MENTAL HEALTH\nADJUDICATION",
+            "Court\taction\tto\tsuspend\tprosecution\twhile\tdetermining\tcompetence\tto\tstand\ttrial\tor\ta\tfinding\t\nof not guilty by lack of mental responsibility. Meets qualifying criteria for mental defective. \nIncludes Acquittal or Dismissal by Reason of Insanity."
+        ],
+        [
+            "DIVERSION",
+            "Referral\tto\ta\tprogram\tintended\tto\tenable\talleged\toffenders\tto\tavoid\tcriminal\tcharges\tand\ta\t\ncriminal record. Diversion programs may be run by law enforcement agencies, courts, prose-\ncutors,\tor\toutside\tagencies.\tAn\toffender\tmay\tbe\treferred\tto\ta\tdiversion\tprogram\tbefore\tcharges\t\nare brought, before trial commences, or before sentence is imposed. Includes Pre-Trial, Adult, \nJuvenile diversion and Probation before Judgment."
+        ],
+        [
+            "CONDITIONAL",
+            "Court outcome involving the absence of determination of guilt. If the type is based on condi-\ntions\tset\tby\tthe\tcourt,\tthe\toutcome\tmay\tchange\tif\tthe\tconditions\tare\tsatisfied.\tIncludes\tAdjudi-\ncation Withheld, Conditional Discharge, Non-Adjudication of Guilt, and Retirement."
+        ],
+        [
+            "JUVENILE \nADJUDICATION",
+            "Court adjudication of delinquency or imposition of juvenile sanctions in adult court; not \nlimited to felonies. This would be a conviction if the subject was treated as an adult. Includes \nJuvenile\tDelinquency\tand\tYouthful\tOffender."
+        ],
+        [
+            "REVOCATION",
+            "An\tannulment,\tcancellation\tor\treversal\tof\ta\tfinding\tof\tguilty"
+        ],
+        [
+            "EXTRADITED",
+            "The\tofficial\tsurrender\tof\tan\talleged\tcriminal\tby\tone\tjurisdiction\tto\tanother;\tthe\treturn\tof\ta\t\nfugitive from justice, regardless of consent, by the authorities where the fugitive resides. Use \nfor arrest dispositions only."
+        ],
+        [
+            "TRANSFERRED",
+            "The removal of a case from the jurisdiction of one court or judge to another. Includes Re-\nmanded (case sent back to court for further action)"
+        ],
+        [
+            "DEPORTED",
+            "The expulsion or transfer of an alien from the country. Use for arrest dispositions only."
+        ],
+        [
+            "DECEASED",
+            "Subject charged is deceased."
+        ],
+        [
+            "CONSOLIDATED",
+            "Court\tordered\tunification\tof\ttwo\tor\tmore\tcharges\tor\tcases\tinto\ta\tsingle\tmatter."
+        ],
+        [
+            "BAIL/BOND \nFORFEITURE",
+            "Money\tor\tproperty\tlost\tor\tconfiscated\tby\tthis\tprocess;\ta\tpenalty.\tThis\tmay\tbe\ta\tdisposition\tin\t\nolder, legacy records."
+        ],
+        [
+            "DEFERRED",
+            "Postponed or delayed, could relate to prosecution, sentence, judgment or disposition."
+        ],
+        [
+            "UNAVAILABLE",
+            "This\twill\tbe\tentered\tby\tthe\tstate\trepository\tif\tthe\tfinal\tdisposition\tis\tunavailable.\tThis\tcode\t\nmay be used when, upon thorough research, the disposition could not be found or was purged \nin accordance to record retention schedules."
+        ],
+        [
+            "DESTROYED",
+            "This will be entered by the state repository if the disposition could not be found due to destruc-\ntion\tthrough\ta\tfire\tor\ta\tnatural\tdisaster."
+        ],
+        [
+            "OTHER",
+            "If\tusing\t\u201cOTHER\u201d\tit\tis\tmandatory\tto\tprovide\tdetail\tor\tdescription\tunder\tthe\tCOL\tinformation\t\nitem."
+        ]
+    ]
+}

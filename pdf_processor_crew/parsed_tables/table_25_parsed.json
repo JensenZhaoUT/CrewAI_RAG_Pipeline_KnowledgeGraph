@@ -1,0 +1,44 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "RBT Code Value",
+            "Format Description"
+        ],
+        [
+            "7",
+            "Want\tModification"
+        ],
+        [
+            "8",
+            "Sexual\tOffender\tRegistry\tAddition"
+        ],
+        [
+            "9",
+            "Sexual\tOffender\tRegistry\tDeletion"
+        ],
+        [
+            "10",
+            "Sexual\tOffender\tRegistry\tModification"
+        ],
+        [
+            "11",
+            "External"
+        ],
+        [
+            "12",
+            "Death Notices with Fingerprints"
+        ],
+        [
+            "13",
+            "Death Notices without Fingerprints"
+        ],
+        [
+            "14-40",
+            "Reserved for FBI Future Use"
+        ]
+    ]
+}

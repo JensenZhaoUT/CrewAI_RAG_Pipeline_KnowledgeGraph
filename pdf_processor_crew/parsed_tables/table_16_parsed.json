@@ -1,0 +1,104 @@
+{
+    "columns": [
+        "0",
+        "1"
+    ],
+    "rows": [
+        [
+            "NDR Value",
+            "File Name"
+        ],
+        [
+            "1",
+            "Criminal Master File Records"
+        ],
+        [
+            "2",
+            "Civil Records"
+        ],
+        [
+            "3",
+            "Unsolved Biometric File"
+        ],
+        [
+            "4",
+            "Reserved for FBI use"
+        ],
+        [
+            "5",
+            "Reserved for FBI use"
+        ],
+        [
+            "6",
+            "Repository for Individuals of Special Concern (RISC)"
+        ],
+        [
+            "7",
+            "Canada\tReal\tTime\tIdentification\t(RTID)"
+        ],
+        [
+            "8",
+            "DoD\tAutomated\tBiometric\tIdentification\tSystem\t(ABIS)"
+        ],
+        [
+            "9",
+            "DHS IDENT"
+        ],
+        [
+            "10",
+            "DHS IDENT and LESC"
+        ],
+        [
+            "11",
+            "RISC Wants and Warrants (W&W)"
+        ],
+        [
+            "12",
+            "RISC\tSexual\tOffender\tRegistry\t(SOR)"
+        ],
+        [
+            "13",
+            "RISC Known and Suspected Terrorist (KST)"
+        ],
+        [
+            "14",
+            "RISC Foreign Subjects of Interest (FSI)"
+        ],
+        [
+            "15",
+            "RISC Persons of Special Interest (Other)"
+        ],
+        [
+            "16",
+            "Internal Use Only"
+        ],
+        [
+            "17-19",
+            "Reserved for FBI Future Use"
+        ],
+        [
+            "20 - 50",
+            "Reserved for Department of Defense"
+        ],
+        [
+            "51 - 100",
+            "Reserved for FBI Future Use"
+        ],
+        [
+            "101-199",
+            "FBI or Other Federal Organization Special Population Cognizant Files"
+        ],
+        [
+            "200-399",
+            "Reserved for State/Local System"
+        ],
+        [
+            "400-699",
+            "Reserved for External FBI Use"
+        ],
+        [
+            "700-999",
+            "Reserved for FBI Future Use"
+        ]
+    ]
+}
