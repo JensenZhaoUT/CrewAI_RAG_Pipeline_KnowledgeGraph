@@ -9,16 +9,16 @@ class InformationRetriever:
 
     @staticmethod
     @tool("retrieve_information")
-    def RetrieveInformation(user_query: str, json_file_path: str) -> List[Dict]:
+    def RetrieveInformation(user_query: str, json_file_path: str) -> str:
         """
-        Retrieve relevant information from the JSON files based on the user query using BM25.
+        Retrieve relevant information from the JSON files based on the user query using BM25 and save the results.
 
         Args:
             user_query (str): The user's query.
             json_file_path (str): The path to the JSON file containing the parsed data.
 
         Returns:
-            List[Dict]: Retrieved information relevant to the user query.
+            str: Path to the saved results.
         """
         # Load the JSON data
         if not os.path.exists(json_file_path):
@@ -57,6 +57,12 @@ class InformationRetriever:
                 "row": row
             })
         
-        print(f"Retrieved information: {results}")
+        # Save the results
+        save_dir = os.path.dirname(json_file_path)
+        save_path = os.path.join(save_dir, "retrieved_results.json")
+        with open(save_path, 'w') as file:
+            json.dump(results, file, indent=4)
+        
+        print(f"Retrieved information saved to: {save_path}")
 
-        return results
+        return save_path

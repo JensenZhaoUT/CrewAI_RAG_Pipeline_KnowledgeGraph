@@ -2,6 +2,7 @@ from langchain.tools import tool
 from langchain_openai import ChatOpenAI
 from .InformationRetriever import InformationRetriever
 from typing import ClassVar, List, Dict
+import json
 
 class ResponseGenerator:
     GenerateResponse: ClassVar
@@ -27,8 +28,12 @@ class ResponseGenerator:
             str: The generated response.
         """
         # Retrieve information using InformationRetriever
-        retrieved_info = InformationRetriever.RetrieveInformation(user_query, json_file_path)
-        print("The retrieved info is:", retrieved_info)
+        try:
+            retrieved_file_path = InformationRetriever.RetrieveInformation(user_query, json_file_path)
+            with open(retrieved_file_path, 'r') as file:
+                retrieved_info = json.load(file)
+        except Exception as e:
+            return f"Error retrieving information: {e}"
 
         # Create a prompt with the retrieved information and user query
         context = "Based on the retrieved information, answer the following query:\n"
@@ -40,10 +45,12 @@ class ResponseGenerator:
         
         context += f"User Query: {user_query}\n"
         
-        # Instantiate ResponseGenerator to access the llm instance
-        response_generator = ResponseGenerator()
         # Generate a response using the LLM model
-        response = response_generator.llm.predict(context)
+        try:
+            response_generator = ResponseGenerator()
+            response = response_generator.llm.predict(context)
+        except Exception as e:
+            return f"Error generating response: {e}"
         
         print(f"Generated response: {response}")
 

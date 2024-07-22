@@ -60,7 +60,6 @@ class DocumentTasks:
             agent=agent,
             expected_output=dedent(f"""
                 RAG integration task completed.
-                Response generated and ready for user.
             """)
         )
     

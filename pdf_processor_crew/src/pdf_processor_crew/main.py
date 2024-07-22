@@ -24,7 +24,6 @@ def run():
     # Ensure save_dir exists
     os.makedirs(save_dir, exist_ok=True)
     os.makedirs(json_file_path, exist_ok=True)
-    os.makedirs(parsed_tables, exist_ok=True)
 
     # Check if the PDF file exists
     if not os.path.isfile(pdf_path):
