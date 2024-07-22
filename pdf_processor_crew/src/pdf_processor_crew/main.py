@@ -7,6 +7,7 @@ def run():
     # Define the relative paths
     relative_pdf_path = './src/pdf_processor_crew/RAG_Document.pdf'
     relative_save_dir = './extracted_tables'
+    extracted_txt = './extracted_tables/RAG_Document.txt'
     json_file_path = './parsed_tables'
     parsed_tables = './parsed_tables/all_parsed_tables.json'
     
@@ -15,6 +16,7 @@ def run():
     save_dir = os.path.abspath(relative_save_dir)
     json_file_path = os.path.abspath(json_file_path)
     parsed_tables = os.path.abspath(parsed_tables)
+    extracted_txt = os.path.abspath(extracted_txt)
     
     # Print the absolute paths
     print(f"PDF path: {pdf_path}")
@@ -34,6 +36,7 @@ def run():
     inputs = {
         'path_to_pdf': pdf_path,
         'path_to_save_dir': save_dir,
+        'extracted_txt': extracted_txt,
         'json_file_path': json_file_path, 
         'parsed_tables': parsed_tables
     }
@@ -65,13 +68,14 @@ def run():
     rag_integration_task = tasks.rag_integration_task(
         agent=rag_integration_agent,
         user_query=user_query,
+        text_file_path=inputs['extracted_txt'],
         json_file_path=inputs['parsed_tables']
     )
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[document_ingestion_agent, table_parsing_agent, rag_integration_agent],
-        tasks=[document_ingestion_task, table_parsing_task, rag_integration_task],
+        agents=[rag_integration_agent],
+        tasks=[rag_integration_task],
         process=Process.sequential,
         verbose=True,
     )

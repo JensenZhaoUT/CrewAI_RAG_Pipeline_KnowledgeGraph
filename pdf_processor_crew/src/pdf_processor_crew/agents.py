@@ -46,6 +46,7 @@ class DocumentAgents:
             verbose=True,
             llm=self.llm,
         )
+    
     def rag_integration_agent(self) -> Agent:
         return Agent(
             role='RAG Integration Agent',
@@ -56,6 +57,7 @@ class DocumentAgents:
             verbose=True,
             llm=self.llm,
         )
+    
     def knowledge_graph_generation_agent(self) -> Agent:
         return Agent(
             role='Knowledge Graph Generation Agent',

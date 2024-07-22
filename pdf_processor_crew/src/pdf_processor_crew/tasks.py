@@ -48,13 +48,14 @@ class DocumentTasks:
             """)
         )
     
-    def rag_integration_task(self, agent, user_query, json_file_path):
+    def rag_integration_task(self, agent, user_query, text_file_path, json_file_path):
         return Task(
             description=dedent(f"""
                 Integrate retrieval-augmented generation (RAG) to handle the user's complex query that requires information from multiple sources.
-                Retrieve relevant data from the JSON file and generate a comprehensive response to the query.
+                Retrieve relevant data from the text file and JSON file, then generate a comprehensive response to the query.
                 
                 User query: {user_query}
+                Text file path: {text_file_path}
                 JSON file path: {json_file_path}
             """),
             agent=agent,

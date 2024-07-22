@@ -16,32 +16,32 @@ class ResponseGenerator:
 
     @staticmethod
     @tool("generate_response")
-    def GenerateResponse(user_query: str, json_file_path: str) -> str:
+    def GenerateResponse(user_query: str, text_file_path: str, json_file_path: str) -> str:
         """
-        Generate a response to the user's query using the retrieved information.
+        Generate a response to the user's query using the retrieved information from both text and JSON files.
 
         Args:
             user_query (str): The user's query.
-            json_file_path (str): The path to the JSON file containing the parsed data.
+            text_file_path (str): The path to the text file containing extracted text.
+            json_file_path (str): The path to the JSON file containing parsed data.
 
         Returns:
             str: The generated response.
         """
         # Retrieve information using InformationRetriever
         try:
-            retrieved_file_path = InformationRetriever.RetrieveInformation(user_query, json_file_path)
-            with open(retrieved_file_path, 'r') as file:
-                retrieved_info = json.load(file)
+            information_retriever = InformationRetriever()
+            retrieved_info = information_retriever.invoke(user_query, text_file_path, json_file_path)
+            print(f"Retrieved information: {retrieved_info}")
         except Exception as e:
             return f"Error retrieving information: {e}"
 
         # Create a prompt with the retrieved information and user query
         context = "Based on the retrieved information, answer the following query:\n"
         for info in retrieved_info:
-            table_name = info["table_name"]
-            header = info["header"]
-            row = info["row"]
-            context += f"Table: {table_name}\nHeader: {header}\nRow: {row}\n\n"
+            source = info["source"]
+            data = info["data"]
+            context += f"Source: {source}\nData: {data}\n\n"
         
         context += f"User Query: {user_query}\n"
         
