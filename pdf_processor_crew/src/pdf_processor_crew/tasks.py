@@ -64,19 +64,17 @@ class DocumentTasks:
             """)
         )
     
-    def knowledge_graph_generation_task(self, agent, json_file_path, knowledge_graph_path):
+    def knowledge_graph_generation_task(self, agent, retrieved_file_path, path_to_save_dir):
         return Task(
             description=dedent(f"""
-                Build and maintain a knowledge graph from the extracted and parsed data.
-                Use the JSON file to create a structured representation of the information, enhancing the accessibility and usability of the data.
-                Save the knowledge graph to the specified path.
+                Build and maintain a knowledge graph based on the retrieved file, save the knowledge graph to the save directory.
                 
-                JSON file path: {json_file_path}
-                Knowledge graph path: {knowledge_graph_path}
+                Retrieved path: {retrieved_file_path}
+                Save directory: {path_to_save_dir}
             """),
             agent=agent,
             expected_output=dedent(f"""
                 Knowledge graph generation task completed.
-                Knowledge graph saved to: {knowledge_graph_path}
+                Knowledge graph saved to: {path_to_save_dir}
             """)
         )
