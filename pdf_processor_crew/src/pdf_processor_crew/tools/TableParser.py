@@ -2,23 +2,23 @@ from langchain.tools import tool
 import pandas as pd
 import json
 import os
-from typing import List, ClassVar, Dict
+from typing import ClassVar
 
 class TableParser:
     ParseTable: ClassVar
 
     @tool("parse_row_col")
     @staticmethod
-    def ParseTable(save_dir: str, json_save_dir: str) -> List[str]:
+    def ParseTable(save_dir: str, json_save_dir: str) -> str:
         """
-        Parse rows and columns in CSV files in the save_dir directory and save the parsed results to JSON files.
+        Parse rows and columns in CSV files in the save_dir directory and save the parsed results to a single JSON file.
 
         Args:
             save_dir (str): The directory containing the CSV files to be processed.
             json_save_dir (str): The directory where the parsed results will be saved.
 
         Returns:
-            List[str]: A list of paths to the saved JSON files containing the parsed data.
+            str: The path to the saved JSON file containing the parsed data.
 
         Raises:
             FileNotFoundError: If any of the specified CSV files does not exist.
@@ -32,7 +32,7 @@ class TableParser:
         if not os.path.exists(json_save_dir):
             os.makedirs(json_save_dir)
         
-        parsed_data_paths = []
+        parsed_data = {}
 
         for i in range(1, 61):  # Iterate through potential CSV files (1-60)
             csv_path = os.path.join(save_dir, f"table_{i}.csv")
@@ -49,19 +49,20 @@ class TableParser:
 
             # Parse rows and columns
             rows = df.values.tolist()
-            columns = list(df.columns)
+            headers = rows[0] if rows else []
+            rows = rows[1:]  # Exclude the header row from rows
 
-            parsed_data = {
-                "columns": columns,  # Header information
-                "rows": rows         # Row data
+            parsed_data[f"table_{i}"] = {
+                "headers": headers,  # Header information
+                "columns": list(df.columns),  # Original column names
+                "rows": rows  # Row data
             }
 
-            # Save parsed data to a JSON file
-            json_file_path = os.path.join(json_save_dir, os.path.basename(csv_path).replace('.csv', '_parsed.json'))
-            with open(json_file_path, 'w') as json_file:
-                json.dump(parsed_data, json_file, indent=4)
-            
-            parsed_data_paths.append(json_file_path)
-            print(f"Parsed data saved to: {json_file_path}")
+        # Save all parsed data to a single JSON file
+        json_file_path = os.path.join(json_save_dir, 'all_parsed_tables.json')
+        with open(json_file_path, 'w') as json_file:
+            json.dump(parsed_data, json_file, indent=4)
+        
+        print(f"All parsed data saved to: {json_file_path}")
 
-        return parsed_data_paths, "Table parsing task completed."
+        return "Table parsing task completed."
