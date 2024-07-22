@@ -1,48 +1,53 @@
 from langchain.tools import tool
-from langchain_openai import ChatOpenAI
+import json
+import os
 from typing import ClassVar, List, Dict
-from .InformationRetriever import InformationRetriever
 
-class ResponseGenerator:
-    GenerateResponse: ClassVar
+class InformationRetriever:
+    RetrieveInformation: ClassVar
 
-    def __init__(self):
-        self.llm = ChatOpenAI(
-            model="crewai-llama3",
-            base_url="http://localhost:11434/v1",
-            api_key="NA"
-        )
-        self.info_retriever = InformationRetriever()  # Instantiate the InformationRetriever
-
-    @tool("generate_response")
     @staticmethod
-    def GenerateResponse(user_query: str, json_file_path: str) -> str:
+    @tool("retrieve_information")
+    def RetrieveInformation(user_query: str, json_file_path: str) -> List[Dict]:
         """
-        Generate a response to the user's query using the retrieved information.
+        Retrieve relevant information from the JSON files based on the user query.
 
         Args:
             user_query (str): The user's query.
-            json_file_path (str): The directory containing the parsed JSON files.
+            json_file_path (str): The path to the JSON file containing the parsed data.
 
         Returns:
-            str: The generated response.
+            List[Dict]: Retrieved information relevant to the user query.
         """
-        # Retrieve information using the InformationRetriever tool
-        retrieved_info = InformationRetriever.RetrieveInformation(user_query, json_file_path)
+        # Load the JSON data
+        if not os.path.exists(json_file_path):
+            raise FileNotFoundError(f"JSON file {json_file_path} not found.")
+        
+        with open(json_file_path, 'r') as file:
+            data = json.load(file)
+        
+        # Index the data for efficient search
+        index = {}
+        for table_name, table_data in data.items():
+            headers = table_data.get("headers", [])
+            rows = table_data.get("rows", [])
+            for row in rows:
+                for header, cell in zip(headers, row):
+                    if cell is not None:
+                        index.setdefault(cell.lower(), []).append((table_name, header, row))
+        
+        # Search the index for the query
+        query = user_query.lower()
+        results = []
+        if query in index:
+            entries = index[query]
+            for table_name, header, row in entries:
+                results.append({
+                    "table_name": table_name,
+                    "header": header,
+                    "row": row
+                })
 
-        # Create a prompt with the retrieved information and user query
-        context = "Based on the retrieved information, answer the following query:\n"
-        for info in retrieved_info:
-            table_name = info.get("table_name", "N/A")
-            header = info.get("header", "N/A")
-            row = info.get("row", "N/A")
-            context += f"Table: {table_name}\nHeader: {header}\nRow: {row}\n\n"
-        
-        context += f"User Query: {user_query}\n"
-        
-        # Generate a response using the LLM model
-        response = ResponseGenerator().llm.predict(context)
-        
-        print(f"Generated response: {response}")
+        print(f"Retrieved information: {results}")
 
-        return response
+        return results

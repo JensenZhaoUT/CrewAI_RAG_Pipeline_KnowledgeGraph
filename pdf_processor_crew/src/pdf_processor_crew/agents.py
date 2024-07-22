@@ -4,7 +4,7 @@ from .tools.PdfLoader import PDFLoader
 from .tools.TableExtractor import TableExtractor
 from .tools.TableParser import TableParser
 from .tools.PromptProcessor import PromptProcessor
-
+from .tools.ResponseGenerator import ResponseGenerator
 class DocumentAgents:
 
     def __init__(self):
@@ -42,6 +42,16 @@ class DocumentAgents:
             goal='Process user queries and prepare them for efficient retrieval of relevant information. Pre-process user prompts using NLP techniques.',
             backstory='With a strong background in natural language processing, you excel at interpreting and refining user prompts to ensure accurate information retrieval.',
             tools=[PromptProcessor.HandlePrompt],
+            allow_delegation=False,
+            verbose=True,
+            llm=self.llm,
+        )
+    def rag_integration_agent(self) -> Agent:
+        return Agent(
+            role='RAG Integration Agent',
+            goal='Integrate retrieval-augmented generation (RAG) for handling complex queries that require information from multiple sources.',
+            backstory='With expertise in combining retrieval and generation techniques, you ensure comprehensive and accurate responses to user queries.',
+            tools=[ResponseGenerator.GenerateResponse],
             allow_delegation=False,
             verbose=True,
             llm=self.llm,
