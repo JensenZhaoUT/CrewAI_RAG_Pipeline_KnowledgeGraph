@@ -56,7 +56,7 @@ RUN python3.11 -m pip install opencv-python
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 # Download specific NLTK data packages
 RUN python3.11 -c "import nltk; nltk.download('punkt'); nltk.download('wordnet'); nltk.download('stopwords'); nltk.download('averaged_perceptron_tagger')"
-
+RUN pt-get update && apt-get install -y ghostscript
 # Install spaCy models
 RUN python3.11 -m spacy download en_core_web_sm
 
