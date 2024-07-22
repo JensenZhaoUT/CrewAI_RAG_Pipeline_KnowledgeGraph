@@ -8,11 +8,13 @@ def run():
     relative_pdf_path = './src/pdf_processor_crew/RAG_Document.pdf'
     relative_save_dir = './extracted_tables'
     json_file_path = './parsed_tables'
+    parsed_tables = './parsed_tables/all_parsed_tables.json'
     
     # Convert to absolute paths
     pdf_path = os.path.abspath(relative_pdf_path)
     save_dir = os.path.abspath(relative_save_dir)
     json_file_path = os.path.abspath(json_file_path)
+    parsed_tables = os.path.abspath(parsed_tables)
     
     # Print the absolute paths
     print(f"PDF path: {pdf_path}")
@@ -22,6 +24,7 @@ def run():
     # Ensure save_dir exists
     os.makedirs(save_dir, exist_ok=True)
     os.makedirs(json_file_path, exist_ok=True)
+    os.makedirs(parsed_tables, exist_ok=True)
 
     # Check if the PDF file exists
     if not os.path.isfile(pdf_path):
@@ -32,7 +35,8 @@ def run():
     inputs = {
         'path_to_pdf': pdf_path,
         'path_to_save_dir': save_dir,
-        'json_file_path': json_file_path
+        'json_file_path': json_file_path, 
+        'parsed_tables': parsed_tables
     }
 
     # Initialize agents and tasks
@@ -62,7 +66,7 @@ def run():
     rag_integration_task = tasks.rag_integration_task(
         agent=rag_integration_agent,
         user_query=user_query,
-        json_file_path=inputs['json_file_path']
+        json_file_path=inputs['parsed_tables']
     )
 
     # Create and run the Crew for the first two tasks

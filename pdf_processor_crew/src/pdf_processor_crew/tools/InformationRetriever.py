@@ -1,7 +1,8 @@
-from langchain.tools import tool
+from rank_bm25 import BM25Okapi
 import json
 import os
-from typing import ClassVar, List, Dict
+from typing import List, Dict, ClassVar
+from langchain.tools import tool
 
 class InformationRetriever:
     RetrieveInformation: ClassVar
@@ -10,7 +11,7 @@ class InformationRetriever:
     @tool("retrieve_information")
     def RetrieveInformation(user_query: str, json_file_path: str) -> List[Dict]:
         """
-        Retrieve relevant information from the JSON files based on the user query.
+        Retrieve relevant information from the JSON files based on the user query using BM25.
 
         Args:
             user_query (str): The user's query.
@@ -26,28 +27,36 @@ class InformationRetriever:
         with open(json_file_path, 'r') as file:
             data = json.load(file)
         
-        # Index the data for efficient search
-        index = {}
+        # Index the data for BM25 search
+        contexts = []
+        table_info = []
         for table_name, table_data in data.items():
             headers = table_data.get("headers", [])
             rows = table_data.get("rows", [])
             for row in rows:
-                for header, cell in zip(headers, row):
-                    if cell is not None:
-                        index.setdefault(cell.lower(), []).append((table_name, header, row))
+                context = " ".join(row)
+                contexts.append(context)
+                table_info.append((table_name, headers, row))
         
-        # Search the index for the query
-        query = user_query.lower()
+        # Initialize BM25
+        bm25 = BM25Okapi([context.split() for context in contexts])
+        
+        # Perform BM25 search
+        query_terms = user_query.split()
+        scores = bm25.get_scores(query_terms)
+        
+        # Retrieve top results
+        top_n = 5
+        top_indices = scores.argsort()[-top_n:][::-1]
         results = []
-        if query in index:
-            entries = index[query]
-            for table_name, header, row in entries:
-                results.append({
-                    "table_name": table_name,
-                    "header": header,
-                    "row": row
-                })
-
+        for idx in top_indices:
+            table_name, headers, row = table_info[idx]
+            results.append({
+                "table_name": table_name,
+                "header": headers,
+                "row": row
+            })
+        
         print(f"Retrieved information: {results}")
 
         return results
