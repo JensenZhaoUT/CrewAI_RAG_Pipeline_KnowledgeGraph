@@ -1,0 +1,7221 @@
+{
+    "table_1": {
+        "headers": [
+            "Biometric Image(s) \nAvailable",
+            "Value",
+            "Biometric Image(s)\nAvailable",
+            "Value"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "rows": [
+            [
+                "None and/or Unsolved",
+                "0",
+                "IRIS",
+                "32"
+            ],
+            [
+                "FP",
+                "1",
+                "FP, IRIS",
+                "33"
+            ],
+            [
+                "PP",
+                "2",
+                "PP, IRIS",
+                "34"
+            ],
+            [
+                "FP, PP",
+                "3",
+                "FP, PP, IRIS",
+                "35"
+            ],
+            [
+                "SP",
+                "4",
+                "SP, IRIS",
+                "36"
+            ],
+            [
+                "FP, SP",
+                "5",
+                "FP, SP, IRIS",
+                "37"
+            ],
+            [
+                "PP, SP",
+                "6",
+                "PP, SP, IRIS",
+                "38"
+            ],
+            [
+                "FP, PP, SP",
+                "7",
+                "FP, PP, SP, IRIS",
+                "39"
+            ],
+            [
+                "PHF",
+                "8",
+                "PHF, IRIS",
+                "40"
+            ],
+            [
+                "FP, PHF",
+                "9",
+                "FP, PHF, IRIS",
+                "41"
+            ],
+            [
+                "PP, PHF",
+                "10",
+                "PP, PHF, IRIS",
+                "42"
+            ],
+            [
+                "FP, PP, PHF",
+                "11",
+                "FP, PP, PHF, IRIS",
+                "43"
+            ],
+            [
+                "SP, PHF",
+                "12",
+                "SP, PHF, IRIS",
+                "44"
+            ],
+            [
+                "FP, SP, PHF",
+                "13",
+                "FP, SP, PHF, IRIS",
+                "45"
+            ],
+            [
+                "PP, SP, PHF",
+                "14",
+                "PP, SP, PHF, IRIS",
+                "46"
+            ],
+            [
+                "FP, PP, SP, PHF",
+                "15",
+                "FP, PP, SP, PHF, IRIS",
+                "47"
+            ],
+            [
+                "PSMT",
+                "16",
+                "PSMT, IRIS",
+                "48"
+            ],
+            [
+                "FP, PSMT",
+                "17",
+                "FP, PSMT, IRIS",
+                "49"
+            ],
+            [
+                "PP, PSMT",
+                "18",
+                "PP, PSMT, IRIS",
+                "50"
+            ],
+            [
+                "FP, PP, PSMT",
+                "19",
+                "FP, PP, PSMT, IRIS",
+                "51"
+            ],
+            [
+                "SP, PSMT",
+                "20",
+                "SP, PSMT, IRIS",
+                "52"
+            ],
+            [
+                "FP, SP, PSMT",
+                "21",
+                "FP, SP, PSMT, IRIS",
+                "53"
+            ],
+            [
+                "PP, SP, PSMT",
+                "22",
+                "PP, SP, PSMT, IRIS",
+                "54"
+            ],
+            [
+                "FP, PP, SP, PSMT",
+                "23",
+                "FP, PP, SP, PSMT, IRIS",
+                "55"
+            ],
+            [
+                "PHF, PSMT",
+                "24",
+                "PHF, PSMT, IRIS",
+                "56"
+            ],
+            [
+                "FP, PHF, PSMT",
+                "25",
+                "FP, PHF, PSMT, IRIS",
+                "57"
+            ],
+            [
+                "PP, PHF, PSMT",
+                "26",
+                "PP, PHF, PSMT, IRIS",
+                "58"
+            ],
+            [
+                "FP, PP, PHF, PSMT",
+                "27",
+                "FP, PP, PHF, PSMT, IRIS",
+                "59"
+            ],
+            [
+                "SP, PHF, PSMT",
+                "28",
+                "SP, PHF, PSMT, IRIS",
+                "60"
+            ],
+            [
+                "FP, SP, PHF, PSMT",
+                "29",
+                "FP, SP, PHF, PSMT, IRIS",
+                "61"
+            ],
+            [
+                "PP, SP, PHF, PSMT",
+                "30",
+                "PP, SP, PHF, PSMT, IRIS",
+                "62"
+            ]
+        ]
+    },
+    "table_2": {
+        "headers": [
+            "BID Field Values Submitted",
+            "Biometric Images Returned"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "SI",
+                "Composite\tfingerprint\tset\tfor\tthe\tidentity\tspecified"
+            ],
+            [
+                "SI, IMT",
+                "Representative\tset\tfor\timage\ttype\tspecified"
+            ],
+            [
+                "SI, BSI",
+                "Specific\timage\tset\tindicated\tby\tthe\tBSI"
+            ],
+            [
+                "SI, IMT, FNR",
+                "The friction ridge position image of the representative set for \nthe\timage\ttype\tspecified"
+            ],
+            [
+                "SI, BSI, FNR",
+                "The\tfinger\tposition\timage\tof\tthe\tspecific\timage\tset\tindicated\t\nby the BSI"
+            ]
+        ]
+    },
+    "table_3": {
+        "headers": [
+            "Court Disposition",
+            "Description"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "CONVICTED",
+                "Judicial\tfinding\tof\tguilty\tof\ta\tcrime\tin\tadult\tcourt,\tby\tverdict\tor\tplea"
+            ],
+            [
+                "ACQUITTED",
+                "Finding,\tby\tjury\tor\tjudge,\tthat\ta\tperson\tis\tnot\tguilty\tof\tthe\tcharged\toffense"
+            ],
+            [
+                "DISMISSED",
+                "Decision by the court that terminates prosecution; limited to court actions only, including \nVacated, and Stricken on Leave, and Set Aside"
+            ],
+            [
+                "CHARGES DROPPED",
+                "Use for arrest disposition only"
+            ],
+            [
+                "NOT PROSECUTED",
+                "Use for events that end at the arrest, grand jury or prosecution phase \u2013 Nolle Prosequi, No Bill, \nNot Filed, No Action Taken"
+            ],
+            [
+                "MENTAL HEALTH\nADJUDICATION",
+                "Court\taction\tto\tsuspend\tprosecution\twhile\tdetermining\tcompetence\tto\tstand\ttrial\tor\ta\tfinding\t\nof not guilty by lack of mental responsibility. Meets qualifying criteria for mental defective. \nIncludes Acquittal or Dismissal by Reason of Insanity."
+            ],
+            [
+                "DIVERSION",
+                "Referral\tto\ta\tprogram\tintended\tto\tenable\talleged\toffenders\tto\tavoid\tcriminal\tcharges\tand\ta\t\ncriminal record. Diversion programs may be run by law enforcement agencies, courts, prose-\ncutors,\tor\toutside\tagencies.\tAn\toffender\tmay\tbe\treferred\tto\ta\tdiversion\tprogram\tbefore\tcharges\t\nare brought, before trial commences, or before sentence is imposed. Includes Pre-Trial, Adult, \nJuvenile diversion and Probation before Judgment."
+            ],
+            [
+                "CONDITIONAL",
+                "Court outcome involving the absence of determination of guilt. If the type is based on condi-\ntions\tset\tby\tthe\tcourt,\tthe\toutcome\tmay\tchange\tif\tthe\tconditions\tare\tsatisfied.\tIncludes\tAdjudi-\ncation Withheld, Conditional Discharge, Non-Adjudication of Guilt, and Retirement."
+            ],
+            [
+                "JUVENILE \nADJUDICATION",
+                "Court adjudication of delinquency or imposition of juvenile sanctions in adult court; not \nlimited to felonies. This would be a conviction if the subject was treated as an adult. Includes \nJuvenile\tDelinquency\tand\tYouthful\tOffender."
+            ],
+            [
+                "REVOCATION",
+                "An\tannulment,\tcancellation\tor\treversal\tof\ta\tfinding\tof\tguilty"
+            ],
+            [
+                "EXTRADITED",
+                "The\tofficial\tsurrender\tof\tan\talleged\tcriminal\tby\tone\tjurisdiction\tto\tanother;\tthe\treturn\tof\ta\t\nfugitive from justice, regardless of consent, by the authorities where the fugitive resides. Use \nfor arrest dispositions only."
+            ],
+            [
+                "TRANSFERRED",
+                "The removal of a case from the jurisdiction of one court or judge to another. Includes Re-\nmanded (case sent back to court for further action)"
+            ],
+            [
+                "DEPORTED",
+                "The expulsion or transfer of an alien from the country. Use for arrest dispositions only."
+            ],
+            [
+                "DECEASED",
+                "Subject charged is deceased."
+            ],
+            [
+                "CONSOLIDATED",
+                "Court\tordered\tunification\tof\ttwo\tor\tmore\tcharges\tor\tcases\tinto\ta\tsingle\tmatter."
+            ],
+            [
+                "BAIL/BOND \nFORFEITURE",
+                "Money\tor\tproperty\tlost\tor\tconfiscated\tby\tthis\tprocess;\ta\tpenalty.\tThis\tmay\tbe\ta\tdisposition\tin\t\nolder, legacy records."
+            ],
+            [
+                "DEFERRED",
+                "Postponed or delayed, could relate to prosecution, sentence, judgment or disposition."
+            ],
+            [
+                "UNAVAILABLE",
+                "This\twill\tbe\tentered\tby\tthe\tstate\trepository\tif\tthe\tfinal\tdisposition\tis\tunavailable.\tThis\tcode\t\nmay be used when, upon thorough research, the disposition could not be found or was purged \nin accordance to record retention schedules."
+            ],
+            [
+                "DESTROYED",
+                "This will be entered by the state repository if the disposition could not be found due to destruc-\ntion\tthrough\ta\tfire\tor\ta\tnatural\tdisaster."
+            ],
+            [
+                "OTHER",
+                "If\tusing\t\u201cOTHER\u201d\tit\tis\tmandatory\tto\tprovide\tdetail\tor\tdescription\tunder\tthe\tCOL\tinformation\t\nitem."
+            ]
+        ]
+    },
+    "table_4": {
+        "headers": [
+            "Eye Color",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Black",
+                "BLK"
+            ],
+            [
+                "Blue",
+                "BLU"
+            ],
+            [
+                "Brown",
+                "BRO"
+            ],
+            [
+                "Gray",
+                "GRY"
+            ],
+            [
+                "Green",
+                "GRN"
+            ],
+            [
+                "Hazel",
+                "HAZ"
+            ],
+            [
+                "Maroon",
+                "MAR"
+            ],
+            [
+                "Multicolored",
+                "MUL"
+            ],
+            [
+                "Pink",
+                "PNK"
+            ],
+            [
+                "Unknown",
+                "XXX"
+            ]
+        ]
+    },
+    "table_5": {
+        "headers": [
+            "Positions",
+            "Finger"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "1 and 2",
+                "Right Thumb"
+            ],
+            [
+                "3 and 4",
+                "Right Index"
+            ],
+            [
+                "5 and 6",
+                "Right Middle"
+            ],
+            [
+                "7 and 8",
+                "Right Ring"
+            ],
+            [
+                "9 and 10",
+                "Right Little"
+            ],
+            [
+                "11 and 12",
+                "Left Thumb"
+            ],
+            [
+                "13 and 14",
+                "Left Index"
+            ],
+            [
+                "15 and 16",
+                "Left Middle"
+            ],
+            [
+                "17 and 18",
+                "Left Ring"
+            ],
+            [
+                "19 and 20",
+                "Left Little"
+            ]
+        ]
+    },
+    "table_6": {
+        "headers": [
+            "Pattern Type",
+            "Pattern Subgroup",
+            "NCIC FPC Code"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rows": [
+            [
+                "Arch",
+                "Plain Arch",
+                "AA"
+            ],
+            [
+                null,
+                "Tented Arch",
+                "TT"
+            ],
+            [
+                "Loop",
+                "Radial Loop",
+                "Two numeric characters. Determine actual \nridge\tcount\tand\tadd\tfifty\t(50).\tFor\texample,\t\nif the ridge count of a radial loop is 16, add \n50 to 16 for a sum of 66. Enter this sum (66) \nin\tthe\tappropriate\tfinger\tposition\tof\tthe\tFPC\t\nfield."
+            ],
+            [
+                "Loop",
+                "Ulnar Loop",
+                "Two numeric characters indicating actual \nridge count (less than 50). For example, a \nridge count of 14, enter as 14; a ridge count of \n9, enter as 09."
+            ]
+        ]
+    },
+    "table_7": {
+        "headers": [
+            "Pattern Type",
+            "Pattern Subgroup",
+            "NCIC FPC Code"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rows": [
+            [
+                "Whorl*",
+                "Plain Whorl",
+                null
+            ],
+            [
+                null,
+                "Inner",
+                "PI"
+            ],
+            [
+                null,
+                "Meeting",
+                "PM"
+            ],
+            [
+                null,
+                "Outer",
+                "PO"
+            ],
+            [
+                null,
+                "Central Pocket Loop Whorl",
+                null
+            ],
+            [
+                null,
+                "Inner",
+                "CI"
+            ],
+            [
+                null,
+                "Meeting",
+                "CM"
+            ],
+            [
+                null,
+                "Outer",
+                "CO"
+            ],
+            [
+                null,
+                "Double Loop Whorl",
+                null
+            ],
+            [
+                null,
+                "Inner",
+                "DI"
+            ],
+            [
+                null,
+                "Meeting",
+                "DM"
+            ],
+            [
+                null,
+                "Outer",
+                "DO"
+            ],
+            [
+                null,
+                "Accidental Whorl",
+                null
+            ],
+            [
+                null,
+                "Inner",
+                "XI"
+            ],
+            [
+                null,
+                "Meeting",
+                "XM"
+            ],
+            [
+                null,
+                "Outer",
+                "XO"
+            ],
+            [
+                "Missing Amputated Finger**",
+                null,
+                "XX"
+            ],
+            [
+                "Scarred/Mutilated Pattern ***",
+                null,
+                "SR"
+            ],
+            [
+                "Approximate Fingerprint Class****",
+                null,
+                "AC"
+            ],
+            [
+                "Unclassifiable\t****",
+                null,
+                "UC"
+            ]
+        ]
+    },
+    "table_8": {
+        "headers": [
+            "Hair Color",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Bald",
+                "BAL"
+            ],
+            [
+                "Black",
+                "BLK"
+            ],
+            [
+                "Blond or Strawberry",
+                "BLN"
+            ],
+            [
+                "Blue",
+                "BLU"
+            ],
+            [
+                "Brown",
+                "BRO"
+            ],
+            [
+                "Gray or Partially Gray",
+                "GRY"
+            ],
+            [
+                "Green",
+                "GRN"
+            ],
+            [
+                "Orange",
+                "ONG"
+            ],
+            [
+                "Pink",
+                "PNK"
+            ],
+            [
+                "Purple",
+                "PLE"
+            ],
+            [
+                "Red or Auburn",
+                "RED"
+            ],
+            [
+                "Sandy",
+                "SDY"
+            ],
+            [
+                "Unknown",
+                "XXX"
+            ],
+            [
+                "White",
+                "WHI"
+            ]
+        ]
+    },
+    "table_9": {
+        "headers": [
+            "Code",
+            "Hit Type"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "RISC",
+                "Result of activity on a RISC Identity"
+            ],
+            [
+                "FSI",
+                "Result of activity on an FSI Identity"
+            ],
+            [
+                "SUPV REL",
+                "Result of activity on a Supervised Release Subject"
+            ]
+        ]
+    },
+    "table_10": {
+        "headers": [
+            "Image Type",
+            "Value"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Fingerprint (Event)",
+                "1"
+            ],
+            [
+                "Palm Print",
+                "3"
+            ],
+            [
+                "Supplemental Print",
+                "6"
+            ],
+            [
+                "Latent Friction Ridge",
+                "7"
+            ],
+            [
+                "Composite Fingerprint",
+                "8"
+            ],
+            [
+                "Photo Facial",
+                "9"
+            ],
+            [
+                "Photo Scar, Mark, & Tattoo",
+                "10"
+            ],
+            [
+                "Iris",
+                "11"
+            ],
+            [
+                "Fingerprints on Front of Palm Card",
+                "12"
+            ],
+            [
+                "Fingerprints on Back of Palm Card (Future)",
+                "13"
+            ],
+            [
+                "Unknown Facial Photo (UFP)",
+                "14"
+            ]
+        ]
+    },
+    "table_11": {
+        "headers": [
+            "MAI Code Values",
+            "Maintenance Operations"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "REPLACE",
+                "Replace existing data with supplied information"
+            ],
+            [
+                "DELETE",
+                "Delete existing data for referenced record"
+            ],
+            [
+                "ADD",
+                "Add supplied information to existing data"
+            ],
+            [
+                "APPEND",
+                "Append supplied information to existing data for referenced record"
+            ]
+        ]
+    },
+    "table_12": {
+        "headers": [
+            "Military Branch",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Army",
+                "A"
+            ],
+            [
+                "Air Force",
+                "F"
+            ],
+            [
+                "Navy",
+                "N"
+            ],
+            [
+                "Marines",
+                "M"
+            ],
+            [
+                "Coast Guard",
+                "G"
+            ]
+        ]
+    },
+    "table_13": {
+        "headers": [
+            "Identifying Agency",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "U.S. Air Force, Air Force Reserve, Air National Guard",
+                "AF"
+            ],
+            [
+                "Non-Immigrant Admission Number",
+                "AN"
+            ],
+            [
+                "Alien Registration Number",
+                "AR"
+            ],
+            [
+                "U.S. Army, Army Reserve, Army National Guard",
+                "AS"
+            ],
+            [
+                "Bureau Fugitive Index Number",
+                "BF"
+            ],
+            [
+                "Canadian Social Insurance Number",
+                "CI"
+            ],
+            [
+                "U. S. Coast Guard, Coast Guard Reserve",
+                "CG"
+            ],
+            [
+                "Fingerprint\tIdentification\tNumber\t(DHS\tonly)",
+                "FN"
+            ],
+            [
+                "Identification\tOrder\tNumber",
+                "IO"
+            ],
+            [
+                "U.S. Marine Corps, Marine Corps Reserve",
+                "MC"
+            ],
+            [
+                "Mariner\u2019s\tDocument\tor\tIdentification\tNumber",
+                "MD"
+            ]
+        ]
+    },
+    "table_14": {
+        "headers": [
+            "Identifying Agency",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "RCMP\tIdentification\tor\tFingerprint\tSection\tNumber",
+                "MP"
+            ],
+            [
+                "National Agency Case Number",
+                null
+            ],
+            [
+                "U.S. Navy, Navy Reserve",
+                "NS"
+            ],
+            [
+                "Originating\tAgency\tPolice\tor\tIdentification\tNumber",
+                "OA"
+            ],
+            [
+                "Personal\tIdentification\tNumber\t(State\tIssued\tOnly)",
+                "PI"
+            ],
+            [
+                "Passport Number (U.S. Only)",
+                "PP"
+            ],
+            [
+                "Port Security Card Number",
+                "PS"
+            ],
+            [
+                "Selective Service Number",
+                "SS"
+            ],
+            [
+                "Veterans Administration Claim Number",
+                "VA"
+            ]
+        ]
+    },
+    "table_15": {
+        "headers": [
+            "Condition Name",
+            "Field Name"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Amnesia Victim",
+                "\u201cUNKNOWN\tAMNESIA,XX\u201d"
+            ],
+            [
+                "Unknown Deceased",
+                "\u201cUNKNOWN\tDECEASED,XX\u201d"
+            ],
+            [
+                "Name Not Available (Other)",
+                "\u201cDOE,JOHN\u201d\tor\t\u201cDOE,JANE\u201d"
+            ]
+        ]
+    },
+    "table_16": {
+        "headers": [
+            "NDR Value",
+            "File Name"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "1",
+                "Criminal Master File Records"
+            ],
+            [
+                "2",
+                "Civil Records"
+            ],
+            [
+                "3",
+                "Unsolved Biometric File"
+            ],
+            [
+                "4",
+                "Reserved for FBI use"
+            ],
+            [
+                "5",
+                "Reserved for FBI use"
+            ],
+            [
+                "6",
+                "Repository for Individuals of Special Concern (RISC)"
+            ],
+            [
+                "7",
+                "Canada\tReal\tTime\tIdentification\t(RTID)"
+            ],
+            [
+                "8",
+                "DoD\tAutomated\tBiometric\tIdentification\tSystem\t(ABIS)"
+            ],
+            [
+                "9",
+                "DHS IDENT"
+            ],
+            [
+                "10",
+                "DHS IDENT and LESC"
+            ],
+            [
+                "11",
+                "RISC Wants and Warrants (W&W)"
+            ],
+            [
+                "12",
+                "RISC\tSexual\tOffender\tRegistry\t(SOR)"
+            ],
+            [
+                "13",
+                "RISC Known and Suspected Terrorist (KST)"
+            ],
+            [
+                "14",
+                "RISC Foreign Subjects of Interest (FSI)"
+            ],
+            [
+                "15",
+                "RISC Persons of Special Interest (Other)"
+            ],
+            [
+                "16",
+                "Internal Use Only"
+            ],
+            [
+                "17-19",
+                "Reserved for FBI Future Use"
+            ],
+            [
+                "20 - 50",
+                "Reserved for Department of Defense"
+            ],
+            [
+                "51 - 100",
+                "Reserved for FBI Future Use"
+            ],
+            [
+                "101-199",
+                "FBI or Other Federal Organization Special Population Cognizant Files"
+            ],
+            [
+                "200-399",
+                "Reserved for State/Local System"
+            ],
+            [
+                "400-699",
+                "Reserved for External FBI Use"
+            ],
+            [
+                "700-999",
+                "Reserved for FBI Future Use"
+            ]
+        ]
+    },
+    "table_17": {
+        "headers": [
+            "Finger Position",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Right Thumb",
+                "01"
+            ],
+            [
+                "Right Index",
+                "02"
+            ],
+            [
+                "Right Middle",
+                "03"
+            ],
+            [
+                "Right Ring",
+                "04"
+            ],
+            [
+                "Right Little",
+                "05"
+            ],
+            [
+                "Left Thumb",
+                "06"
+            ],
+            [
+                "Left Index",
+                "07"
+            ],
+            [
+                "Left Middle",
+                "08"
+            ],
+            [
+                "Left Ring",
+                "09"
+            ],
+            [
+                "Left Thumb",
+                "10"
+            ]
+        ]
+    },
+    "table_18": {
+        "headers": [
+            "Pattern",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Arch, Type Not Designated",
+                "AU"
+            ],
+            [
+                "Whorl, Type Not Designated",
+                "WU"
+            ],
+            [
+                "Right Slant Loop",
+                "RS"
+            ],
+            [
+                "Left Slant Loop",
+                "LS"
+            ],
+            [
+                "Complete Scar",
+                "SR"
+            ],
+            [
+                "Amputation",
+                "XX"
+            ],
+            [
+                "Unable to Print (e.g., bandaged)",
+                "UP"
+            ],
+            [
+                "Unable to Classify",
+                "UC"
+            ]
+        ]
+    },
+    "table_19": {
+        "headers": [
+            "If the following conditions exist",
+            "Enter Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "POB stated as state AND country and applicable code not \ncontained in Code Table; OR city can be ascertained as not \nbeing located in the United States; OR foreign POB and ap-\nplicable code not contained in Code Table",
+                "YY"
+            ],
+            [
+                "POB stated as only city AND city can be ascertained as being \nlocated in the United States",
+                "US"
+            ],
+            [
+                "POB is Mexico or any Mexican state or province not in Code \nTable",
+                "MM"
+            ],
+            [
+                "POB\tis\t\u201cMexico,\tMexico\u201d",
+                "MX"
+            ],
+            [
+                "POB is unknown",
+                "XX"
+            ]
+        ]
+    },
+    "table_20": {
+        "headers": [
+            "If Subject Is",
+            "Enter Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Chinese, Japanese, Filipino, Korean, Polynesian, Indian, Indonesian, Asian Indian, Samoan, or any other \nPacific\tIslander",
+                "A"
+            ],
+            [
+                "A person having origins in any of the black racial groups of Africa",
+                "B"
+            ],
+            [
+                "American Indian, Eskimo, or Alaskan native, or a person having origins in any of the 48 contiguous states \nof\tthe\tUnited\tStates\tor\tAlaska\twho\tmaintains\tcultural\tidentification\tthrough\ttribal\taffiliation\tor\tcommu-\nnity recognition",
+                "I"
+            ],
+            [
+                "Of indeterminable race",
+                "U"
+            ],
+            [
+                "Caucasian, Mexican, Puerto Rican, Cuban, Central or South American, or other Spanish culture or origin, \nRegardless of race",
+                "W"
+            ]
+        ]
+    },
+    "table_21": {
+        "headers": [
+            "Rap Back Category",
+            "Category Code",
+            "Purpose Code"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rows": [
+            [
+                "Volunteer, Child Care/School Employee, Non-Criminal Justice \nEmployment and Licensing",
+                "I",
+                "I"
+            ],
+            [
+                "Criminal Justice Employment",
+                "J",
+                "J"
+            ],
+            [
+                "Criminal Justice Investigative",
+                "CI",
+                "C"
+            ],
+            [
+                "Criminal Justice \u2013 Supervision",
+                "CS",
+                "C"
+            ],
+            [
+                "Security Clearance Information Act",
+                "S",
+                "S"
+            ]
+        ]
+    },
+    "table_22": {
+        "headers": [
+            "Code Value",
+            "Format Description"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "R",
+                "Replace\tRap\tBack\tSubscription\tdata\ton\tfile\twith\tthat\tprovided\tin\tthe\trequest"
+            ],
+            [
+                "D",
+                "Delete\tRap\tBack\tsubscription\tdata\tprovided\tin\trequest\tthat\tmatches\twhat\tis\ton\tfile"
+            ],
+            [
+                "A",
+                "Append\tRap\tBack\tsubscription\tdata\tprovided\tin\trequest\tto\tthat\ton\tfile"
+            ],
+            [
+                "C",
+                "Cancel the Rap Back subscription"
+            ],
+            [
+                "N",
+                "Renew the Rap Back subscription (Currently not being used)"
+            ],
+            [
+                "U",
+                "Un-cancel a cancelled Rap Back subscription"
+            ]
+        ]
+    },
+    "table_23": {
+        "headers": [
+            "Code Value",
+            "Format Description"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "1",
+                "Pre-notification"
+            ],
+            [
+                "2",
+                "Triggering Event"
+            ],
+            [
+                "3",
+                "Triggering Event and Identity History Summary"
+            ]
+        ]
+    },
+    "table_24": {
+        "headers": [
+            "RBT Code Value",
+            "Format Description"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "1",
+                "Criminal Retain Submission"
+            ],
+            [
+                "2",
+                "Dispositions"
+            ],
+            [
+                "3",
+                "Civil Retain Submission"
+            ],
+            [
+                "4",
+                "Expungement/Partial Expungement"
+            ],
+            [
+                "5",
+                "Want Addition"
+            ],
+            [
+                "6",
+                "Want Deletion"
+            ]
+        ]
+    },
+    "table_25": {
+        "headers": [
+            "RBT Code Value",
+            "Format Description"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "7",
+                "Want\tModification"
+            ],
+            [
+                "8",
+                "Sexual\tOffender\tRegistry\tAddition"
+            ],
+            [
+                "9",
+                "Sexual\tOffender\tRegistry\tDeletion"
+            ],
+            [
+                "10",
+                "Sexual\tOffender\tRegistry\tModification"
+            ],
+            [
+                "11",
+                "External"
+            ],
+            [
+                "12",
+                "Death Notices with Fingerprints"
+            ],
+            [
+                "13",
+                "Death Notices without Fingerprints"
+            ],
+            [
+                "14-40",
+                "Reserved for FBI Future Use"
+            ]
+        ]
+    },
+    "table_26": {
+        "headers": [
+            "Pattern",
+            "Code",
+            "RCN1",
+            "RCN2"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "rows": [
+            [
+                "Arch, Type Not Designated",
+                "AU",
+                "0",
+                "0"
+            ],
+            [
+                "Whorl, Type Not Designated",
+                "WU",
+                "1-31",
+                "1-31"
+            ],
+            [
+                "Right Slant Loop",
+                "RS",
+                "1-31",
+                "0"
+            ],
+            [
+                "Left Slant Loop",
+                "LS",
+                "1-31",
+                "0"
+            ],
+            [
+                "Complete Scar",
+                "SR",
+                "0",
+                "0"
+            ],
+            [
+                "Amputation",
+                "XX",
+                "0",
+                "0"
+            ],
+            [
+                "Unable to print (e.g., bandaged)",
+                "UP",
+                "0",
+                "0"
+            ],
+            [
+                "Unable to Classify",
+                "UC",
+                "0",
+                "0"
+            ]
+        ]
+    },
+    "table_27": {
+        "headers": [
+            "Parameter",
+            "Value",
+            "Criminal",
+            "Civil",
+            "Combined"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "rows": [
+            [
+                "RACE",
+                "U",
+                "0.027",
+                "0.015",
+                "0.025"
+            ],
+            [
+                "RACE",
+                "A",
+                "0.015",
+                "0.218",
+                "0.12"
+            ],
+            [
+                "GENDER",
+                "X",
+                "0.001",
+                "0",
+                "0.001"
+            ],
+            [
+                "GENDER",
+                "M",
+                "0.748",
+                "0.692",
+                "0.723"
+            ],
+            [
+                "DOB",
+                "UNK",
+                "0.001",
+                "0.001",
+                "0.001"
+            ],
+            [
+                "DOB",
+                "0",
+                "0",
+                "0.003",
+                "0.003"
+            ],
+            [
+                "DOB",
+                "1",
+                "0.001",
+                "0.002",
+                "0.002"
+            ],
+            [
+                "POB",
+                "AL",
+                "0.012",
+                "0.02",
+                "0.022"
+            ],
+            [
+                "ARREST",
+                "TX",
+                "0.303",
+                "0.27",
+                "0.432"
+            ],
+            [
+                "FINGER",
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            [
+                "FINGER",
+                "1",
+                "0.901",
+                "0.923",
+                "0.924"
+            ],
+            [
+                "PALM",
+                "21",
+                "0.072",
+                "0",
+                "0.07"
+            ],
+            [
+                "EJI",
+                "LEFT",
+                "0.081",
+                "0",
+                "0.08"
+            ],
+            [
+                "EJI",
+                "DST01",
+                "0.038",
+                "0",
+                "0.035"
+            ],
+            [
+                "ARCH",
+                "2",
+                "0.27",
+                "0.38",
+                "0.47"
+            ],
+            [
+                "LEFTSLT",
+                "3",
+                "0.432",
+                "0.295",
+                "0.552"
+            ],
+            [
+                "RIGHTSLT",
+                "4",
+                "0.47",
+                "0.501",
+                "0.59"
+            ],
+            [
+                "WHORL",
+                "5",
+                "0.283",
+                "0.244",
+                "0.372"
+            ]
+        ]
+    },
+    "table_28": {
+        "headers": [
+            "Definition",
+            "Parameter",
+            "Parameter Size",
+            "Parameter Values"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "rows": [
+            [
+                "Race",
+                "RACE",
+                "5",
+                "U, A, B, I, W"
+            ],
+            [
+                "Gender",
+                "GENDER",
+                "7",
+                "X, M, N, G, Y, F, Z"
+            ],
+            [
+                "Year of Birth",
+                "DOB",
+                "101",
+                "UNK, or last two digits of year"
+            ],
+            [
+                "Place of Birth",
+                "POB",
+                "422",
+                "EBTS\tdefined\tin\tAppendix\tO"
+            ],
+            [
+                "Place of Arrest",
+                "ARREST",
+                "422",
+                "EBTS\tdefined\tin\tAppendix\tO"
+            ],
+            [
+                "Finger Positions",
+                "FINGER",
+                "11",
+                "EBTS\tdefined\tfinger\tcodes:\t00-10"
+            ],
+            [
+                "Hand Positions",
+                "PALM",
+                "17",
+                "EBTS\tdefined\tpalm\tcodes\t20-36"
+            ],
+            [
+                "EJI Positions",
+                "EJI",
+                "30",
+                "EBTS\tdefined\tjoint\timage\tsegments\tfor\teach\tfinger.\tPRX01,\t\nDST01, PRX02, MED02, DST02, etc. and LEFT/RIGHT \nwhen\tonly\tfull\tEJI\tis\tidentified"
+            ],
+            [
+                "Arch",
+                "ARCH",
+                "10",
+                "EBTS\tdefined\tfinger\tcodes:\t01-10"
+            ],
+            [
+                "Left Slant Loop",
+                "LEFTSLT",
+                "10",
+                "EBTS\tdefined\tfinger\tcodes:\t01-10"
+            ],
+            [
+                "Right Slant Loop",
+                "RIGHTSLT",
+                "10",
+                "EBTS\tdefined\tfinger\tcodes:\t01-10"
+            ],
+            [
+                "Whorl",
+                "WHORL",
+                "10",
+                "EBTS\tdefined\tfinger\tcodes:\t01-10"
+            ]
+        ]
+    },
+    "table_29": {
+        "headers": [
+            "If Following Condition Exists",
+            "Enter Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Subject\u2019s gender reported as female",
+                "F"
+            ],
+            [
+                "Occupation\tor\tcharge\tindicated\t\u201cMale\tImpersonator\u201d",
+                "G"
+            ],
+            [
+                "Subject\u2019s gender reported as male",
+                "M"
+            ],
+            [
+                "Occupation\tor\tcharge\tindicated\t\u201cFemale\tImpersonator\u201d\tor\t\ntransvestite",
+                "N"
+            ],
+            [
+                "Male name, no gender given",
+                "Y"
+            ],
+            [
+                "Female name, no gender given",
+                "Z"
+            ],
+            [
+                "Unknown gender",
+                "X"
+            ]
+        ]
+    },
+    "table_30": {
+        "headers": [
+            "Value",
+            "Description"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "SCAR",
+                "Indicate healed scar tissue that was the result of accident or medical procedure."
+            ],
+            [
+                "PIERCING",
+                "A deliberately made hole through body tissue, usually to wear body ornamentation."
+            ],
+            [
+                "MARK",
+                "Used for the pattern resulting from needle or track marks."
+            ],
+            [
+                "TATTOO",
+                "For deliberately applied or drawn images (common tattoo) or indelible image resulting from the \npricking of the skin with a coloring matter."
+            ],
+            [
+                "CHEMICAL",
+                "The image was created by the use of chemicals to burn the image into the skin."
+            ],
+            [
+                "BRANDED",
+                "The image was burned into the skin using a branding iron or other form of heat."
+            ],
+            [
+                "CUT",
+                "The image was caused by incision of the skin.*"
+            ]
+        ]
+    },
+    "table_31": {
+        "headers": [
+            "If the following condition exists:",
+            "Enter Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Establish Agency Supervision",
+                "EAS"
+            ],
+            [
+                "Cancel Agency Supervision",
+                "CAS"
+            ],
+            [
+                "Transfer Agency Supervision",
+                "TAS"
+            ]
+        ]
+    },
+    "table_32": {
+        "headers": [
+            "Value",
+            "Definition",
+            "TOT"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rows": [
+            [
+                "C",
+                "Inconclusive",
+                "BDEC, LSR"
+            ],
+            [
+                "D",
+                "Deferred for manual processing",
+                "SRE (FDSP)"
+            ],
+            [
+                "G",
+                "Green - No Hit",
+                "RPISR"
+            ],
+            [
+                "I",
+                "Identification",
+                "BDEC, LSR, SRE (IIDS), SRE"
+            ],
+            [
+                "M",
+                "Match of Images Submitted",
+                "SRE (FVR)"
+            ],
+            [
+                "N",
+                "Non-Identification",
+                "BDEC, LSR, SRE (IIDS), SRE"
+            ],
+            [
+                "P",
+                "Pending\tVerification\tof\tIdentification",
+                "BDEC, LSR"
+            ],
+            [
+                "R",
+                "Red\t-\tHit\ton\tPotential\tCandidate,\tHigh\tConfidence\tMatch",
+                "RPISR, UHN"
+            ],
+            [
+                "Y",
+                "Yellow - Probable Candidate, Potential Match",
+                "RPISR, UHN, BDEC"
+            ],
+            [
+                "X",
+                "Not a Match of Images Submitted",
+                "SRE (FVR)"
+            ],
+            [
+                "Z",
+                "Disposition posted but no biometric search was performed.",
+                "SRE (FDSP)"
+            ]
+        ]
+    },
+    "table_33": {
+        "headers": [
+            "If Following Conditions Exist",
+            "Enter Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Bail Supervision",
+                "BLS"
+            ],
+            [
+                "Conditional Release",
+                "CDR"
+            ],
+            [
+                "Mandatory Release",
+                "MAN"
+            ],
+            [
+                "Parole",
+                "PAR"
+            ],
+            [
+                "Probation",
+                "PRO"
+            ],
+            [
+                "Pretrial Diversion",
+                "PTD"
+            ],
+            [
+                "Special Parole Term",
+                "SPT"
+            ],
+            [
+                "Supervised Release",
+                "SUR"
+            ]
+        ]
+    },
+    "table_34": {
+        "headers": [
+            "Definition",
+            "Code"
+        ],
+        "columns": [
+            "0",
+            "1"
+        ],
+        "rows": [
+            [
+                "Share ALL",
+                "1"
+            ],
+            [
+                "Limited Sharing",
+                "2"
+            ],
+            [
+                "Silent Hit",
+                "3"
+            ],
+            [
+                "Limited Sharing - Not Foreign Dissemination",
+                "4"
+            ],
+            [
+                "Federal Sharing",
+                "5"
+            ]
+        ]
+    },
+    "table_35": {
+        "headers": [
+            "Type of Record",
+            "Code",
+            "Applicable TOT"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2"
+        ],
+        "rows": [
+            [
+                "Confidential\tScreening",
+                "C",
+                "CPDR, FNDR, NNDR"
+            ],
+            [
+                "Suppress/Modify\tUnsolicited\tWant/SOR\tNotification\t(Non-\nUrgent Criminal)",
+                "H",
+                "CPNU**"
+            ],
+            [
+                "Pre-commission\tcandidate\trecord\twith\tfingerprints",
+                "P",
+                "NFUF, DOCE, EMUF, NFUE"
+            ],
+            [
+                "Civil submission in support of the National Child Protection \nAct of 1993",
+                "V",
+                "NFUF*, NFUE*"
+            ]
+        ]
+    },
+    "table_36": {
+        "headers": [
+            "Field\nNumber",
+            "Identifier",
+            "Field Name",
+            "Character",
+            "Field Size",
+            null,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                null,
+                null,
+                null,
+                "(not including Character \nSeparators)",
+                null,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                "Min",
+                "Max",
+                "Min1",
+                "Max",
+                null,
+                null
+            ],
+            [
+                "2.001",
+                "LEN",
+                "LOGICAL RECORD LENGTH",
+                "N",
+                "2",
+                "7",
+                null,
+                "1",
+                "2.001:909{GS}",
+                null
+            ],
+            [
+                "2.002",
+                "IDC",
+                "INFORMATION DESIGNATION CHARAC-\nTER",
+                "N",
+                "1",
+                "2",
+                null,
+                "1",
+                "2.002:00{GS}",
+                null
+            ],
+            [
+                "2.003",
+                "FFN",
+                "FBI FILE NUMBER",
+                "N",
+                "10",
+                "10",
+                null,
+                "1",
+                "2.003:2537597861{GS}",
+                null
+            ],
+            [
+                "2.005",
+                "RET",
+                "RETENTION CODE",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.005:Y{GS}",
+                null
+            ],
+            [
+                "2.006",
+                "ATN",
+                "ATTENTION INDICATOR",
+                "ANS",
+                "3",
+                "30",
+                null,
+                "1",
+                "2.006:SA J Q DOE,RM 11867{GS}",
+                "Any printable 7-bit ASCII character with the exception of \nthe period is allowed."
+            ],
+            [
+                "2.007",
+                "SCO",
+                "SEND COPY TO",
+                "ANS",
+                "9",
+                "19",
+                null,
+                "9",
+                "2.007:NY030025P{GS}",
+                null
+            ],
+            [
+                "2.009",
+                "OCA",
+                "ORIGINATING AGENCY CASE NUMBER",
+                "ANS",
+                "1",
+                "20",
+                null,
+                "1",
+                "2.009:Q880312465{GS}",
+                "Any printable 7-bit ASCII character with the exception of \nthe period is allowed"
+            ],
+            [
+                "2.010\nA\nB",
+                "CIN\nCIN_PRE\nCIN_ID",
+                "CONTRIBUTOR CASE IDENTIFIER NUM-\nBER\nCONTRIBUTOR CASE PREFIX\nCONTRIBUTOR CASE ID",
+                "SET\nANS\nANS",
+                "1\n1",
+                "24\n24",
+                "1\n1",
+                "5\n1\n1",
+                "2.010:INCIDENT \nNUMBER{US}1963BRT715{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.011",
+                "CIX",
+                "CONTRIBUTOR CASE IDENTIFIER EX-\nTENSION",
+                "N",
+                "2",
+                "4",
+                null,
+                "5",
+                "2.011:23{GS}",
+                null
+            ],
+            [
+                "2.012",
+                "LCN",
+                "FBI LATENT CASE NUMBER",
+                "ANS",
+                "11",
+                "11",
+                null,
+                "1",
+                "2.012:MX-12345678{GS}",
+                "The only special character allowed is a hyphen"
+            ],
+            [
+                "2.013",
+                "LCX",
+                "FBI LATENT CASE EXTENSION",
+                "N",
+                "5",
+                "5",
+                null,
+                "1",
+                "2.013:98765{GS}",
+                null
+            ],
+            [
+                "2.014",
+                "FBI",
+                "FBI NUMBER/UCN",
+                "AN",
+                "1",
+                "9",
+                null,
+                "1000",
+                "2.014:62760NY12{GS}",
+                null
+            ],
+            [
+                "2.015",
+                "SID",
+                "STATE IDENTIFICATION NUMBER",
+                "ANS",
+                "3",
+                "10",
+                null,
+                "1000",
+                "2.015:NY12345678{GS}",
+                "OR and PA may use a hyphen in the last position"
+            ],
+            [
+                "2.016",
+                "SOC",
+                "SOCIAL SECURITY ACCOUNT NUMBER",
+                "N",
+                "9",
+                "9",
+                null,
+                "4",
+                "2.016:220565855{GS}",
+                null
+            ],
+            [
+                "2.017",
+                "MNU",
+                "MISCELLANEOUS IDENTIFICATION \nNUMBER",
+                "ANS",
+                "4",
+                "15",
+                null,
+                "4",
+                "2.017:PP-1234567890P{GS}",
+                "A hyphen is allowed as a special character"
+            ],
+            [
+                "2.018",
+                "NAM",
+                "NAME",
+                "AS",
+                "3",
+                "50",
+                null,
+                "1",
+                "2.018:JONES,ANTHONY P{GS}",
+                "Commas, hyphens, and spaces are all allowed as special \ncharacters."
+            ]
+        ]
+    },
+    "table_37": {
+        "headers": [
+            "Field\nNumber",
+            "Identifier",
+            "Field Name",
+            "Character",
+            "Field Size",
+            null,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                null,
+                null,
+                null,
+                "(not including Character \nSeparators)",
+                null,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                "Min",
+                "Max",
+                "Min1",
+                "Max",
+                null,
+                null
+            ],
+            [
+                "2.019",
+                "AKA",
+                "ALIASES",
+                "AS",
+                "3",
+                "50",
+                null,
+                "10",
+                "2.019:JONES,TONY{RS}JONES,A P{GS}",
+                "Commas, hyphens, and spaces are all allowed as special \ncharacters."
+            ],
+            [
+                "2.020",
+                "POB",
+                "PLACE OF BIRTH",
+                "A",
+                "2",
+                "2",
+                null,
+                "1",
+                "2.020:VA{GS}",
+                null
+            ],
+            [
+                "2.021",
+                "CTZ",
+                "COUNTRY OF CITIZENSHIP",
+                "A",
+                "2",
+                "2",
+                null,
+                "10",
+                "2.021:US{GS}",
+                null
+            ],
+            [
+                "2.022",
+                "DOB",
+                "DATE OF BIRTH",
+                "N",
+                "8",
+                "8",
+                null,
+                "5",
+                "2.022:19790815{GS}",
+                null
+            ],
+            [
+                "2.023",
+                "AGR",
+                "AGE RANGE",
+                "N",
+                "4",
+                "4",
+                null,
+                "1",
+                "2.023:1619{GS}",
+                "Estimated age range entered using a pair of two digit num-\nbers with no separator between them."
+            ],
+            [
+                "2.024",
+                "SEX",
+                "SEX",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.024:M{GS}",
+                null
+            ],
+            [
+                "2.025",
+                "RAC",
+                "RACE",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.025:W{GS}",
+                null
+            ],
+            [
+                "2.026",
+                "SMT",
+                "SCARS, MARKS, AND TATTOOS",
+                "AS",
+                "3",
+                "10",
+                null,
+                "10",
+                "2.026:TAT R ARM{GS}",
+                "Spaces are allowed as special characters."
+            ],
+            [
+                "2.027",
+                "HGT",
+                "HEIGHT",
+                "AN",
+                "3",
+                "3",
+                null,
+                "1",
+                "2.027:601{GS}",
+                null
+            ],
+            [
+                "2.028",
+                "HTR",
+                "HEIGHT RANGE",
+                "AN",
+                "6",
+                "6",
+                null,
+                "1",
+                "2.028:508603{GS}",
+                null
+            ],
+            [
+                "2.029",
+                "WGT",
+                "WEIGHT",
+                "N",
+                "3",
+                "3",
+                null,
+                "1",
+                "2.029:182{GS}",
+                null
+            ],
+            [
+                "2.030",
+                "WTR",
+                "WEIGHT RANGE",
+                "N",
+                "6",
+                "6",
+                null,
+                "1",
+                "2.030:175190{GS}",
+                null
+            ],
+            [
+                "2.031",
+                "EYE",
+                "EYE COLOR",
+                "A",
+                "3",
+                "3",
+                null,
+                "1",
+                "2.031:BLU{GS}",
+                null
+            ],
+            [
+                "2.032",
+                "HAI",
+                "HAIR COLOR",
+                "A",
+                "3",
+                "3",
+                null,
+                "1",
+                "2.032:BRO{GS}",
+                null
+            ],
+            [
+                "2.033",
+                "FPC",
+                "NCIC FINGERPRINT CLASSIFICATION",
+                "AN",
+                "20",
+                "20",
+                null,
+                "1",
+                "2.033:AAXXP158PMXM62POTTDI{GS}",
+                null
+            ],
+            [
+                "2.034\nA\nB",
+                "PAT\nFGP\nPATCL",
+                "PATTERN LEVEL CLASSIFICATIONS\nFINGER POSITION\nPATTERN CLASSIFICATION CODE",
+                "SET\nN\nA",
+                "2\n2",
+                "2\n2",
+                "1\n1",
+                "10\n1\n3",
+                "2.034:01{US}WU{RS}02{US}LS{RS}03{US} \nLS{RS}04{US}LS{RS}05{US}\nLS{RS}06{US}RS{RS}07{US}\nRS{RS}08{US}LS{RS}09{US}\nRS{RS}10{US}RS{GS}",
+                null
+            ],
+            [
+                "2.035",
+                "PPA",
+                "PALM PRINTS AVAILABLE INDICATOR",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.035:Y{GS}",
+                null
+            ],
+            [
+                "2.036",
+                "PHT",
+                "PHOTO AVAILABLE INDICATOR",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.036:Y{GS}",
+                null
+            ],
+            [
+                "2.037",
+                "RFP",
+                "REASON FINGERPRINTED",
+                "ANS",
+                "1",
+                "75",
+                null,
+                "1",
+                "2.037:CONSIDERING FOR \nEMPLOYMENT{GS}",
+                "Commas, spaces, dashes, hyphens, and slashes are all al-\nlowed as special characters"
+            ],
+            [
+                "2.038",
+                "DPR",
+                "DATE PRINTED",
+                "N",
+                "8",
+                "8",
+                null,
+                "1",
+                "2.038:19950324{GS}",
+                null
+            ],
+            [
+                "2.039",
+                "EAD",
+                "EMPLOYER AND ADDRESS",
+                "ANS",
+                "1",
+                "120",
+                null,
+                "1",
+                "2.039:ACE CONSTRUCTION COMPANY,327 \nMAPLE AVE, BUFFALO,NY{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.040",
+                "OCP",
+                "OCCUPATION",
+                "ANS",
+                "1",
+                "50",
+                null,
+                "1",
+                "2.040:PLUMBER{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ]
+        ]
+    },
+    "table_38": {
+        "headers": [
+            "Field\nNumber",
+            "Identifier",
+            "Field Name",
+            "Character",
+            "Field Size",
+            null,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                null,
+                null,
+                null,
+                "(not including Character \nSeparators)",
+                null,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                "Min",
+                "Max",
+                "Min1",
+                "Max",
+                null,
+                null
+            ],
+            [
+                "2.041",
+                "RES",
+                "RESIDENCE OF PERSON FINGERPRINT-\nED",
+                "ANS",
+                "1",
+                "120",
+                null,
+                "1",
+                "2.041:5021 OAK LEAF DRIVE, BUFFALO \nNY, USA., 14221{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.042",
+                "MIL",
+                "MILITARY CODE",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.042:M{GS}",
+                null
+            ],
+            [
+                "2.043",
+                "TSR",
+                "TYPE OF SEARCH REQUESTED",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.043:P{GS}",
+                null
+            ],
+            [
+                "2.044",
+                "GEO",
+                "GEOGRAPHICAL AREA OF SEARCH",
+                "A",
+                "2",
+                "2",
+                null,
+                "5",
+                "2:044:MD{GS}",
+                null
+            ],
+            [
+                "2.045",
+                "DOA",
+                "DATE OF ARREST",
+                "N",
+                "8",
+                "8",
+                null,
+                "1",
+                "2.045:19950324{GS}",
+                null
+            ],
+            [
+                "2.046",
+                "DOS",
+                "DATE OF ARREST - SUFFIX",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.046:L{GS}",
+                null
+            ],
+            [
+                "2.047\nA\nB",
+                "ASL\nDOO\nAOL",
+                "ARREST SEGMENT LITERAL\nDATE OF OFFENSE (DOO)\nARREST OFFENSE LITERAL (AOL)",
+                "SET\nN\nANS",
+                "8\n1",
+                "8\n300",
+                "0\n1",
+                "999\n1\n1",
+                "2.047:19940915{US}DUI{RS}19940920{US}\nPOSSESSION OF FIREARMS{GS}",
+                "Commas, hyphens, and spaces are all allowed as special \ncharacters.\nAny printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.051\nA\nB\nC\nD\nE",
+                "CSL\nCDD\nCOL\nCPL\nCDN\nCCT",
+                "COURT SEGMENT LITERAL\nCOURT DISPOSITION DATE \nCOURT OFFENSE LITERAL\nOTHER COURT SENTENCE PROVISION \nLITERAL\nCOURT DISPOSITION\nCOURT COUNT NUMBER",
+                "SET\nN\nANS\nANS\nA\nN",
+                "8\n1\n1\n1\n2",
+                "8\n300\n300\n32\n3",
+                "0\n1\n1\n1\n0",
+                "999\n1\n1\n1\n1\n1",
+                "2.051:19940930{US}DUI{US}5 DAYS \nJAIL, PAY COURT COSTS{US}\nCONVICTED{US}01{RS}19940930{US}\nPOSSESSION OF FIREARMS{US}10 \nDAYS JAIL, PAY COURT COSTS, $50{US}\nCONVICTED{US}02{GS}",
+                "Any printable 7-bit ASCII character is allowed.\nAny printable 7-bit ASCII character is allowed.\nText Value from CDN Values Table"
+            ],
+            [
+                "2.053",
+                "OFC",
+                "OFFENSE CATEGORY",
+                "N",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.053:1{GS}",
+                null
+            ],
+            [
+                "2.054",
+                "SSD",
+                "CUSTODY OR SUPERVISORY STATUS - \nSTART DATE",
+                "N",
+                "8",
+                "8",
+                null,
+                "1",
+                "2.054:19940930{GS}",
+                null
+            ],
+            [
+                "2.055",
+                "SLE",
+                "CUSTODY OR SUPERVISORY STATUS \nLITERAL",
+                "ANS",
+                "1",
+                "300",
+                null,
+                "1",
+                "2.055:RELEASED BY COURT ORDER{GS}",
+                "Any printable 7-bit ASCII character is allowed. First char-\nacter must not be a space."
+            ],
+            [
+                "2.056",
+                "ICO",
+                "IDENTIFICATION COMMENTS",
+                "ANS",
+                "1",
+                "50",
+                null,
+                "1",
+                "2.056:ARMED AND DANGEROUS{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.057",
+                "FNR",
+                "FINGER NUMBER(S) REQUESTED",
+                "N",
+                "2",
+                "2",
+                null,
+                "13",
+                "2.057:01{RS}06{RS}10{GS}",
+                null
+            ],
+            [
+                "2.059",
+                "SRF",
+                "SEARCH RESULTS FINDINGS",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.059:N{GS}",
+                null
+            ],
+            [
+                "2.060",
+                "MSG",
+                "STATUS/ERROR MESSAGE",
+                "ANS",
+                "1",
+                "300",
+                null,
+                "1000",
+                "2.060:MATCH MADE AGAINST SUBJECTS \nFINGERPRINTS ON 05/01/94. PLEASE \nNOTIFY SUBMITTING STATE IF MATCH \nRESULTS{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ]
+        ]
+    },
+    "table_39": {
+        "headers": [
+            "Field\nNumber",
+            "Identifier",
+            "Field Name",
+            "Character",
+            "Field Size",
+            null,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                null,
+                null,
+                null,
+                "(not including Character \nSeparators)",
+                null,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                "Min",
+                "Max",
+                "Min1",
+                "Max",
+                null,
+                null
+            ],
+            [
+                "2.061",
+                "CST",
+                "CASE TITLE",
+                "ANS",
+                "1",
+                "50",
+                null,
+                "1",
+                "2.061:ARMED ROBBERY FIRST \nCOUNTY{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.062",
+                "IMT",
+                "IMAGE TYPE",
+                "N",
+                "1",
+                "2",
+                null,
+                "1000",
+                "2.062:1{RS}2{RS}3{RS}4{RS}5{GS}",
+                null
+            ],
+            [
+                "2.064\nA\nB",
+                "CAN\nUCN\nNAM",
+                "CANDIDATE LIST\nUNIVERSAL CONTROL NUMBER\nNAME",
+                "SET\nAN\nAS",
+                "1\n3",
+                "9\n30",
+                "1\n1",
+                "99\n1\n1",
+                "2.064:273849CA2{US}BROWN,JOHN \nD{RS}83625NY{US}COLLINS,TERRY \nG{GS}",
+                "Commas, hyphens, and spaces are all allowed as special \ncharacters."
+            ],
+            [
+                "2.065",
+                "RSR",
+                "REPOSITORY STATISTICS RESPONSE",
+                "ANS",
+                "1",
+                "96,000",
+                null,
+                "1",
+                "2.065:(ASCII TEXT DATA){GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.067\nA\nB\nC",
+                "IMA\nMAK\nMODL\nSERNO",
+                "IMAGE CAPTURE EQUIPMENT\nORIGINATING FINGERPRINT READING \nSYSTEM MAKE \nORIGINATING FINGERPRINT READING \nSYSTEM MODEL \nORIGINATING FINGERPRINT READING \nSYSTEM SERIAL NUMBER",
+                "SET\nANS\nANS\nANS",
+                "1\n1\n1",
+                "25\n25\n50",
+                "1\n1\n1",
+                "1\n1\n1\n1",
+                "2.067:DBI{US}1134{US}12345{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.070",
+                "RAP",
+                "REQUEST FOR ELECTRONIC RAP SHEET",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.070:Y{GS}",
+                null
+            ],
+            [
+                "2.071",
+                "ACN",
+                "ACTION TO BE TAKEN",
+                "ANS",
+                "0",
+                "300",
+                null,
+                "1",
+                "2.071:IF NON-IDENT, SUBMIT TO \nUNSOLVED BIOMETRIC FILE{GS}",
+                "Commas, hyphens, ampersands, slashes, number signs, un-\nderscores, and spaces are all allowed as special characters."
+            ],
+            [
+                "2.072",
+                "FIU",
+                "FINGERPRINT IMAGE(S) UPDATED",
+                "AN",
+                "1",
+                "2",
+                null,
+                "13",
+                "2.072:01{RS}02{RS}05{RS}07{RS}08{RS}1\n1{RS}13{GS}",
+                null
+            ],
+            [
+                "2.073",
+                "CRI",
+                "CONTROLLING AGENCY IDENTIFIER",
+                "ANS",
+                "9",
+                "9",
+                null,
+                "3",
+                "2.073:NY0303000{GS}",
+                null
+            ],
+            [
+                "2.074",
+                "FGP",
+                "FRICTION RIDGE GENERALIZED POSI-\nTION",
+                "N",
+                "2",
+                "2",
+                null,
+                "99",
+                "2.074:01{RS}02{RS}03{RS}04{RS}05{RS}0\n6{RS}07{RS}08{RS}09{RS}10{GS]",
+                null
+            ],
+            [
+                "2.075",
+                "ERS",
+                "ELECTRONIC RAP SHEET",
+                "ANS",
+                "4",
+                "200,000",
+                null,
+                "1",
+                "2.075:(ASCII TEXT DATA){GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.078",
+                "PEN",
+                "PENETRATION QUERY RESPONSE",
+                "N",
+                "2",
+                "2",
+                null,
+                "1",
+                "2.078:10{GS}",
+                null
+            ],
+            [
+                "2.079",
+                "NCR",
+                "NUMBER OF CANDIDATES RETURNED",
+                "N",
+                "1",
+                "2",
+                null,
+                "1",
+                "2.079:10{GS}",
+                null
+            ],
+            [
+                "2.080",
+                "EXP",
+                "RESPONSE EXPLANATION",
+                "ANS",
+                "1",
+                "50",
+                null,
+                "1",
+                "2.080:PHOTO NOT FOUND FOR \nSPECIFIED DOA DOS{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.082",
+                "REC",
+                "RESPONSE CODE",
+                "A",
+                "1",
+                "1",
+                null,
+                "1",
+                "2.082:Y{GS}",
+                null
+            ]
+        ]
+    },
+    "table_40": {
+        "headers": [
+            "Field",
+            NaN,
+            NaN,
+            null,
+            "Field Size",
+            NaN,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                NaN,
+                NaN,
+                null,
+                "(not including Character \nSeparators)",
+                NaN,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                "Field Name\nNumber\nIdentifier",
+                NaN,
+                NaN,
+                "Character",
+                "Min\nMax",
+                NaN,
+                "Min1\nMax",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.083\nULF\nUNSOLVED BIOMETRIC FILE\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.083:Y{FS}",
+                null
+            ],
+            [
+                "2.084\nAMP\nAMPUTATED OR BANDAGED\nSET\nA\nFGP\nFINGER POSITION\nN\nB\nAMPCD\nAMPUTATED OR BANDAGED CODE \nA",
+                NaN,
+                NaN,
+                null,
+                "2\n2\n2\n2",
+                NaN,
+                "13\n1\n1\n1\n1",
+                null,
+                "2.084:03{US}XX{RS}09{US}UP{GS}",
+                null
+            ],
+            [
+                "2.086\nSCNA\nSUBJECT CONTROL NUMBER\nAN",
+                NaN,
+                NaN,
+                null,
+                "1\n10",
+                NaN,
+                "1",
+                null,
+                "2.086:3124{GS}",
+                null
+            ],
+            [
+                "2.087\nTAA\nTREAT AS ADULT\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.087:Y{GS}",
+                null
+            ],
+            [
+                "2.088\nNOT\nNOTE FIELD\nANS",
+                NaN,
+                NaN,
+                null,
+                "1\n1,000",
+                NaN,
+                "1",
+                null,
+                "2.088:NOTE{GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.089\nMSC\nMATCHSCORE\nN",
+                NaN,
+                NaN,
+                null,
+                "1\n6",
+                NaN,
+                "99",
+                null,
+                "2.089:1200{GS}",
+                null
+            ],
+            [
+                "RIDGE CORE DELTA ONE FOR SUBPAT-\n2.091\nRCD1\nSET\nTERN CLASSIFICATION\nA\nFGP\nFINGER POSITION \nN\nB\nRCN1\nRIDGE COUNT NUMBER 1 \nN",
+                NaN,
+                NaN,
+                null,
+                "2\n2\n1\n2",
+                NaN,
+                "10\n1\n1\n1\n3",
+                null,
+                "2.091:01{US}13{RS}02{US}6{RS}03{US}11\n{RS}04{US}10{RS}05{US}11{RS}06{US}11\n{RS}07{US}12{RS}08{US}10{RS}09{US}13\n{RS}10{US}11{GS}",
+                null
+            ],
+            [
+                "RIDGE CORE DELTA TWO FOR SUBPAT-\n2.092\nRCD2\nSET\nTERN CLASSIFICATION\nA\nFGP\nFINGER POSITION \nN\nB\nRCN2\nRIDGE COUNT NUMBER 2 \nN",
+                NaN,
+                NaN,
+                null,
+                "2\n2\n1\n2",
+                NaN,
+                "10\n1\n1\n1\n3",
+                null,
+                "2.092:01{US}10{RS}02{US}0{RS}03{US}0{\nRS}04{US}0{RS}05{US}0{RS}06{US}0{RS\n}07{US}0{RS}08{US}0{RS}09{US}0{RS}10\n{US}0{GS}",
+                null
+            ],
+            [
+                "2.095\nA\nRFR\nREQUEST FEATURES RECORD",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.095:Y{GS}",
+                null
+            ],
+            [
+                "2.096\nRPR\nREQUEST PHOTO RECORD\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.096:Y{GS}",
+                null
+            ],
+            [
+                "2.098\nNDR\nNAME OF DESIGNATED REPOSITORY \nN",
+                NaN,
+                NaN,
+                null,
+                "1\n3",
+                NaN,
+                "10",
+                null,
+                "2.098:1{GS}",
+                null
+            ],
+            [
+                "2.2007\nSDOB\nSUBMITTED DATE OF BIRTH\nN",
+                NaN,
+                NaN,
+                null,
+                "8\n8",
+                NaN,
+                "1",
+                null,
+                "2.2007:10470123{GS}",
+                null
+            ],
+            [
+                "2.2008\nSNAM\nSUBMITTED NAME\nAS",
+                NaN,
+                NaN,
+                null,
+                "3\n50",
+                NaN,
+                "1",
+                null,
+                "2.2008:JONES, ANTHONY P{GS}",
+                "Commas, hyphens, and spaces are all allowed as special \ncharacters."
+            ],
+            [
+                "2.2010\nNIR\nNUMBER OF IMAGES REQUESTED \nN",
+                NaN,
+                NaN,
+                null,
+                "1\n2",
+                NaN,
+                "1",
+                null,
+                "2.2010:2{GS}",
+                null
+            ],
+            [
+                "2.2015\nRBXD\nRAP BACK EXPIRATION DATE\nN",
+                NaN,
+                NaN,
+                null,
+                "8\n8",
+                NaN,
+                "1",
+                null,
+                "2.2015:20100101{GS}",
+                null
+            ],
+            [
+                "2.2018\nDNAC\nDNA IN CODIS FLAG\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2018:N{GS}",
+                null
+            ],
+            [
+                "2.2020\nRBR\nRAP BACK RECIPIENT\nANS",
+                NaN,
+                NaN,
+                null,
+                "9\n19",
+                NaN,
+                "9",
+                null,
+                "2.2020:NY0303000{GS}",
+                null
+            ],
+            [
+                "2.2021\nIFS\nIDENTIFICATION FIREARMS SALES\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2021:D{GS}",
+                null
+            ],
+            [
+                "CONTRIBUTOR ASSIGNED IDENTIFICA-\n2.2022\nCIDN\nAN\nTION NUMBER",
+                NaN,
+                NaN,
+                null,
+                "10\n10",
+                NaN,
+                "1",
+                null,
+                "2.2022:CINR12345{GS}",
+                null
+            ]
+        ]
+    },
+    "table_41": {
+        "headers": [
+            "Field\nNumber",
+            "Identifier",
+            "Field Name",
+            "Character",
+            "Field Size",
+            null,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                null,
+                null,
+                null,
+                "(not including Character \nSeparators)",
+                null,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                "Min",
+                "Max",
+                "Min1",
+                "Max",
+                null,
+                null
+            ],
+            [
+                "2.2023",
+                "SII",
+                "SUPPLEMENTARY IDENTITY INFORMA-\nTION",
+                "ANS",
+                "4",
+                "10,000",
+                null,
+                "1",
+                "2.2023:(ASCII TEXT DATA){GS}",
+                "Any printable 7-bit ASCII character is allowed."
+            ],
+            [
+                "2.2024",
+                "HTI",
+                "HIT TYPE INDICATOR",
+                "A",
+                "1",
+                "10",
+                null,
+                "1",
+                "2.2024:RISC{GS}",
+                null
+            ],
+            [
+                "2.2028\nA\nB\nC\nD\nE\nF\nG",
+                "BID\nSI\nIMT\nBSI\nFNR\nPPD\nPOS\nSMT",
+                "BIOMETRIC IMAGE DESCRIPTION \nSUBJECT IDENTIFIER\nIMAGE TYPE \nBIOMETRIC SET IDENTIFIER \nFINGER NUMBER REQUESTED \nPRINT POSITION DESCRIPTOR\nSUBJECT POSE\nNCIC SMT CODE",
+                "SET\nANS\nN\nN\nN\nAN\nA\nAS",
+                "1\n1\n4\n2\n5\n1\n3",
+                "50\n2\n24\n2\n5\n1\n10",
+                "1\n0\n0\n0\n0\n0\n0",
+                "1000\n1\n1\n1\n1\n1\n1\n1",
+                "2.2028:12AN43215689{US}1{US}123456{US\n}09{US}{US}{US}{GS}",
+                "NCIC SMT codes only allow a space as a special \ncharacter."
+            ],
+            [
+                "2.2029",
+                "BSI",
+                "BIOMETRIC SET IDENTIFIER",
+                "N",
+                "4",
+                "24",
+                null,
+                "1000",
+                "2.2029:9283463{GS}",
+                null
+            ],
+            [
+                "2.2030\nA\nB",
+                "PPD\nFGP\nFIC",
+                "PRINT POSITION DESCRIPTOR\nFRICTION RIDGE GENERALIZED POSI-\nTION \nFINGER IMAGE CODE",
+                "SET\nN\nAN",
+                "1\n3",
+                "2\n3",
+                "1\n1",
+                "10\n1\n1",
+                "2.2030:02{US}FV1{GS}",
+                null
+            ],
+            [
+                "2.2031",
+                "BIA",
+                "BIOMETRIC IMAGE AVAILABLE",
+                "N",
+                "1",
+                "2",
+                null,
+                "1",
+                "2.2031:13{GS}",
+                null
+            ],
+            [
+                "2.2032\nA\nB\nC\nD\nE\nF\nG\nH\nI",
+                "ATR\nORI\nDAT\nTOT\nBSI\nIMT\nFNR\nPPD\nPOS\nSMT",
+                "AUDIT TRAIL RECORD \nORIGINATING AGENCY IDENTIFIER \nDATE OF DISSEMINATION \nTOT OF DISSEMINATION \nBIOMETRIC SET IDENTIFIER DISSEMI-\nNATED \nIMAGE TYPE DISSEMINATED\nFRICTION RIDGE POSITION REQUESTED\nPRINT POSITION DESCRIPTION\nSUBJECT POSE\nNCIC SMT CODE",
+                "SET\nAN\nN\nA\nN\nN\nN\nAN\nA\nAS",
+                "9\n8\n3\n4\n1\n2\n5\n1\n3",
+                "9\n8\n16\n24\n2\n2\n5\n1\n10",
+                "1\n1\n1\n0\n0\n0\n0\n0\n0",
+                "100\n1\n1\n1\n1\n1\n1\n1\n1\n1",
+                "2.2032:NY0303000{US}20130514{US}\nSRL{US}1023456{US}1{US}06{US}{US}\n{US}{RS}NY0303000{US}20130518{US}\nSRB{US}3065432{US}9{US}{US}{US}\nF{US}{GS}",
+                "NCIC SMT codes only allow a space as a special \ncharacter."
+            ]
+        ]
+    },
+    "table_42": {
+        "headers": [
+            "Field",
+            NaN,
+            NaN,
+            null,
+            "Field Size",
+            NaN,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                NaN,
+                NaN,
+                null,
+                "(not including Character \nSeparators)",
+                NaN,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                "Field Name\nNumber\nIdentifier",
+                NaN,
+                NaN,
+                "Character",
+                "Min\nMax",
+                NaN,
+                "Min1\nMax",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2033\nCNL\nCANDIDATE INVESTIGATIVE LIST\nSET\nA\nSI\nSUBJECT IDENTIFIER\nANS\nB\nNAM\nMASTER NAME\nAS\nC\nBSI\nBIOMETRIC SET IDENTIFIER \nN\nD\nIMT\nIMAGE TYPE \nN\nFRICTION RIDGE GENERALIZED POSI-\nE\nFGP\nN\nTION\nF\nPPD\nPRINT POSITION DESCRIPTOR \nAN\nG\nMSC\nMATCH SCORE \nN\nH\nBIA\nBIOMETRIC IMAGE AVAILABLE \nN\nI\nNDR\nNAME OF DESIGNATED REPOSITORY\nNS\nINFORMATION DESIGNATION CHARAC-\nJ\nIDC\nN\nTER\nK\nNOT\nNOTE FIELD \nANS\nL\nPOS\nSUBJECT POSE\nA\nM\nSMT\nNCIC SMT CODE\nAS",
+                NaN,
+                NaN,
+                null,
+                "1\n50\n3\n50\n4\n24\n1\n2\n2\n2\n5\n5\n1\n6\n1\n2\n1\n400\n2\n2\n1\n1,000\n1\n1\n3\n10",
+                NaN,
+                "297\n1\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1\n0\n1",
+                null,
+                "2.2033:123456789{US}DOE, \nJOHN{US}12345{US}9{US}{US}\n{US}2000{US}25{US}1{US}01{US} {US}\nF{US}{GS}",
+                "NAM allows commas, hyphens, and spaces as special \ncharacters\nNDR value list, separated by commas\nNote Field allows any printable 7-bit ASCII character.\nNCIC SMT codes only allow a space as a special \ncharacter."
+            ],
+            [
+                "2.2034\nULR\nUNSOLVED LATENT RETAINED\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2034:Y{GS}",
+                null
+            ],
+            [
+                "2.2035\nEVI\nEVENT IDENTIFIER \nN",
+                NaN,
+                NaN,
+                null,
+                "4\n24",
+                NaN,
+                "1",
+                null,
+                "2.2035:9283463{GS}",
+                null
+            ],
+            [
+                "2.2036\nPOS\nSUBJECT POSE\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2036:F{GS}",
+                null
+            ],
+            [
+                "2.2037\nESI\nEXTERNAL SUBJECT IDENTIFIER\nANS",
+                NaN,
+                NaN,
+                null,
+                "1\n50",
+                NaN,
+                "1000",
+                null,
+                "2.2037:12EF345678{GS}",
+                null
+            ],
+            [
+                "2.2039\nRBMI\nRAP BACK MAINTENANCE INDICATOR\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2039:R{GS}",
+                "Acceptable values are R, D, A, C, and U. Value of N is \ncurrently not being used."
+            ],
+            [
+                "2.2040\nRBT\nRAP BACK TRIGGER\nN",
+                NaN,
+                NaN,
+                null,
+                "1\n2",
+                NaN,
+                "40",
+                null,
+                "2.2040:7{GS}",
+                null
+            ],
+            [
+                "RAP BACK ACTIVITY NOTIFICATION \n2.2041\nRBNI\nN\nIDENTIFIER",
+                NaN,
+                NaN,
+                null,
+                "4\n24",
+                NaN,
+                "10",
+                null,
+                "2.2041:12345{GS}",
+                "Field should not include any leading zeroes."
+            ],
+            [
+                "2.2046\nTLI\nTIER LEVEL INDICATOR\nN",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2046:2{GS}",
+                null
+            ],
+            [
+                "2.2047\nRAR\nRETURN ALL RECORDS INDICATOR\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2047:Y{GS}",
+                null
+            ],
+            [
+                "2.2048\nRBSI\nRAP BACK SUBSCRIPTION IDENTIFIER\nN",
+                NaN,
+                NaN,
+                null,
+                "4 \n24",
+                NaN,
+                "1",
+                null,
+                "2.2048:12345{GS}",
+                "Field should not include any leading zeroes."
+            ]
+        ]
+    },
+    "table_43": {
+        "headers": [
+            "TC6\nTATTOO COLOR CODE 6\nTATTOO COLOR CODE 5\nTC5\nTC4\nTATTOO COLOR CODE 4\nTC3\nTATTOO COLOR CODE 3\nTC2\nTATTOO COLOR CODE 2\nTC1\nTATTOO COLOR CODE 1\n2.2059\nTCL\nTATTOO COLOR\nSET\nF\nE\nC\nB\nD\nA\nA\nA\nA\nA\nA\nA\n3\n3\n3\n3\n3\n3\n7\n7\n7\n7\n7\n7\n0\n0\n0\n1\n0\n0\n1\n1\n1\n1\n9\n1\n1",
+            "TDS\nTATTOO DESCRIPTION\nANS\n256\nTSC\nTATTOO SUBCLASS\nTAC\nTATTOO CLASS\nSMI\nSMT CODE INDICATOR\n2.2058\nSMD\nSMT DESCRIPTORS\nSET\nC\nB\nD\nA\nA\nA\nA\n1\n3\n4\n3\n9\n8\n8\n0\n0\n0\n1\n1\n1\n1\n1\n9",
+            "WID\nWIDTH\nHGT\nHEIGHT\n2.2055\nSMS\nSMT SIZE\nSET\nB\nA\nN\nN\n1\n1\n3\n3\n1\n1\n1\n1\n1",
+            "2.2054\nRBSD\nRAP BACK SUBSCRIPTION DATE\nN\n8\n8\n1",
+            "2.2052\nMAI\nMAINTENANCE ACTION INDICATOR\n10\nA\n3\n1",
+            "2.2051\nHNOTI\nHIT NOTIFICATION INDICATOR\nA\n1\n1\n1",
+            "2.2050\nRBSL\nRAP BACK SUBSCRIPTION LIST\nANS\n10485760\n1\n1",
+            "2.2049\nRBTD\nRAP BACK TERM DATE\nN\n8\n8\n1",
+            "Number\nIdentifier\nField Name\nCharacter\nMin\nMax\nMin1\nMax\nField",
+            "Separators)\n(not including Character",
+            "Field Size"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "rows": [
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "Occurrences",
+                null
+            ],
+            [
+                "2.2059:RED{US}GREEN{GS}",
+                "WITH THORNS{GS}\n 2.2058:TATTOO{US}PLANT{US}ROSE{US}",
+                "2.2055:3{US}5{GS}",
+                "2.2054:19940930{GS}",
+                "2.2052:REPLACE{GS}",
+                "2.2051:Y{GS}",
+                "2.2050:(ASCII TEXT DATA){GS}",
+                "2.2049:19940930{GS}",
+                "Example",
+                null,
+                null
+            ],
+            [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "with Rap Back Services at this time.\nThis\tfield\tis\tnot\tbeing\tused\tas\tthere\tare\tno\tfees\tassociated",
+                "Comments/Special Characters",
+                null,
+                null
+            ]
+        ]
+    },
+    "table_44": {
+        "headers": [
+            "Field",
+            NaN,
+            NaN,
+            null,
+            "Field Size",
+            NaN,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                NaN,
+                NaN,
+                null,
+                "(not including Character \nSeparators)",
+                NaN,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                "Field Name\nNumber\nIdentifier",
+                NaN,
+                NaN,
+                "Character",
+                "Min\nMax",
+                NaN,
+                "Min1\nMax",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2061\nBIE\nBIOMETRIC IMAGE ENROLLMENT \nSET\nA\nBSI\nBIOMETRIC SET IDENTIFIER\nN\nB\nIMT\nIMAGE TYPE\nN\nC\nPOS\nSUBJECT POSE\nA\nD\nSMT\nSCARS, MARKS, AND TATTOOS\nAS",
+                NaN,
+                NaN,
+                null,
+                "4\n24\n1\n2\n1\n1\n3\n10",
+                NaN,
+                "61\n1\n1\n1\n1\n0\n1\n0\n1",
+                null,
+                "2.2061:123456789{US}9{US}F{US}{GS}",
+                "POS\tis\tpopulated\twhen\tIMT=9\t\nSMT\tis\tpopulated\twhen\tIMT=10. \nNCIC SMT codes only allow a space as a special \ncharacter."
+            ],
+            [
+                "RAP BACK ACTIVITY NOTIFICATION \n2.2062\nRBNF\nN\nFORMAT",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2062:2{GS}",
+                null
+            ],
+            [
+                "RAP BACK OPT OUT IN-STATE INDICA-\n2.2063\nRBOO\nA\nTOR",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2063:Y{GS}",
+                null
+            ],
+            [
+                "2.2064\nRBUD\nRAP BACK USER DEFINED\nSET\nA\nRBFN\nRAP BACK FIELD NAME\nANS\nB\nRBFT\nRAP BACK FIELD TEXT\nANS",
+                NaN,
+                NaN,
+                null,
+                "1\n50\n1\n100",
+                NaN,
+                "10\n1\n1\n1\n1",
+                null,
+                "2.2064:PAROLE OFFICER{US}DOE, \nJOHN{GS}",
+                null
+            ],
+            [
+                "2.2065\nRBC\nRAP BACK CATEGORY\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n2",
+                NaN,
+                "1",
+                null,
+                "2.2065:CS{GS}",
+                null
+            ],
+            [
+                "2.2067\nRBDI\nRAP BACK DISCLOSURE INDICATOR\nA",
+                NaN,
+                NaN,
+                null,
+                "1\n1",
+                NaN,
+                "1",
+                null,
+                "2.2067:Y{GS}",
+                null
+            ],
+            [
+                "2.2068\nDTR \nDATE RANGE\nN",
+                NaN,
+                NaN,
+                null,
+                "16\n16",
+                NaN,
+                "1",
+                null,
+                "2.2068:1994093019950930{GS}",
+                "The\tfirst\teight\tnumerals\tindicate\tthe\tearliest\tdate\tof\t\nexpiration and the second eight numerals the latest date of \nexpiration. There is no separator character used between \nthe two dates."
+            ],
+            [
+                "RAP BACK TRIGGERING EVENT DE-\n2.2069\nRBTED\nSET\nTAILS\nA\nDORBE\nDATE OF RAP BACK EVENT\nN\nB\nRBT\nRAP BACK TRIGGER\nN\nC\nRBEI\nRAP BACK EVENT INFORMATION\nANS",
+                NaN,
+                NaN,
+                null,
+                "8\n8\n1\n2\n1\n300",
+                NaN,
+                "10\n1\n1\n0\n1\n0\n1",
+                null,
+                "2.2069:20140513{US}5{US}NCIC WANTED \nPERSON ENTRY FROM ORI - NY0303000: \nNIC/12345, DATE OF WARRANT \n20140511{GS}",
+                null
+            ],
+            [
+                "2.2070\nRBATN\nRAP BACK ATTENTION INDICATOR\nANS",
+                NaN,
+                NaN,
+                null,
+                "3\n50",
+                NaN,
+                "1",
+                null,
+                "2.2070:DET J Q PUBLIC{GS}",
+                "Any printable 7-bit ASCII character with the exception of \nthe period is allowed."
+            ],
+            [
+                "2.2071\nRBST\nRAP BACK SUBSCRIPTION TERM\nAN",
+                NaN,
+                NaN,
+                null,
+                "1\n2",
+                NaN,
+                "1",
+                null,
+                "2.2071:2{GS}",
+                null
+            ]
+        ]
+    },
+    "table_45": {
+        "headers": [
+            "Field",
+            NaN,
+            NaN,
+            null,
+            "Field Size",
+            NaN,
+            null,
+            null,
+            "Example",
+            "Comments/Special Characters"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rows": [
+            [
+                null,
+                NaN,
+                NaN,
+                null,
+                "(not including Character \nSeparators)",
+                NaN,
+                null,
+                "Occurrences",
+                null,
+                null
+            ],
+            [
+                "Field Name\nNumber\nIdentifier",
+                NaN,
+                NaN,
+                "Character",
+                "Min\nMax",
+                NaN,
+                "Min1\nMax",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2072\nPOC\nPOINT OF CONTACT\nSET\nA\nNAM\nNAME\nAS\nB\nPHONE\nPHONE NUMBER\nANS",
+                NaN,
+                NaN,
+                null,
+                "3\n50\n10\n30",
+                NaN,
+                "1\n1\n1\n1\n1",
+                null,
+                "2.2072:Uncle Sam Biometric Support \nCenter{US}304-555-1212{GS}",
+                "NAM allows commas, hyphens, and spaces as special \ncharacters."
+            ],
+            [
+                "2.2073\nBIL\nBIOMETRIC IMAGE LIST\nSET\nA\nSI\nSUBJECT IDENTIFIER\nANS\nB\nBSI\nBIOMETRIC SET IDENTIFIER\nN\nC\nBCD\nBIOMETRIC CAPTURE DATE\nN\nD\nIMT\nIMAGE TYPE\nN",
+                NaN,
+                NaN,
+                null,
+                "1\n50\n4\n24\n8\n8\n1\n2",
+                NaN,
+                "1000\n1\n1\n1\n1\n1\n1\n1\n1",
+                null,
+                "2.2073:123456789{US}12345{US}20140304{\nUS}9{GS}",
+                null
+            ],
+            [
+                "CUSTODY OR SUPERVISORY STATUS \n2.2100\nSED\nN\n-END DATE",
+                NaN,
+                NaN,
+                null,
+                "8\n8",
+                NaN,
+                "1",
+                null,
+                "2.2100:19940930{GS}",
+                null
+            ],
+            [
+                "2.2101\nSST\nSUPERVISED STATUS TYPE\nA",
+                NaN,
+                NaN,
+                null,
+                "3\n3",
+                NaN,
+                "8",
+                null,
+                "2.2101:MAN{GS}",
+                null
+            ],
+            [
+                "2.2102\nRSC\nREASON SUPERVISION CANCELLED\nANS",
+                NaN,
+                NaN,
+                null,
+                "1\n300",
+                NaN,
+                "1",
+                null,
+                "2.2102:REVOKED,20120215{GS}",
+                null
+            ],
+            [
+                "2.2103\nSTT\nSUPERVISION TRANSFERRED TO\nANS",
+                NaN,
+                NaN,
+                null,
+                "9\n9",
+                NaN,
+                "1",
+                null,
+                "2.2103:NY0303000{GS}",
+                null
+            ],
+            [
+                "2.2104\nSRA\nSUPERVISED RELEASED ACTION\nA",
+                NaN,
+                NaN,
+                null,
+                "3\n3",
+                NaN,
+                "1",
+                null,
+                "2.2104:EAS{GS}",
+                null
+            ],
+            [
+                "2.2105\nFI\nFOREIGN INFORMATION\nANS",
+                NaN,
+                NaN,
+                null,
+                "1\n300",
+                NaN,
+                "900",
+                null,
+                "2.2105 CAPTURED DURING RAID {GS}",
+                null
+            ]
+        ]
+    },
+    "table_46": {
+        "headers": [
+            "Tag Element",
+            "AMN",
+            "CAR",
+            "CNA",
+            "CPDR",
+            "CPNU",
+            "DEK",
+            "DEU",
+            "DOCE",
+            "EMUF",
+            "ERRT",
+            "FANC",
+            "FAUF",
+            "FDSP",
+            "FIDR",
+            "FNDR",
+            "FVR"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "rows": [
+            [
+                "2.001 LEN",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            [
+                "2.002 IDC",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            [
+                "2.003 FFN",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.005 RET",
+                "1",
+                "1",
+                "1 1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "1"
+            ],
+            [
+                "2.006 ATN",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.007 SCO",
+                "0..9",
+                "0..9",
+                null,
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9"
+            ],
+            [
+                "2.009 OCA",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "1",
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.012 LCN",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.013 LCX",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.014 FBI",
+                null,
+                "0..5 5",
+                "0..5 5",
+                "0..5 5",
+                "0..5 5",
+                "0..5",
+                null,
+                "0..5",
+                "0..5",
+                "0..5",
+                "0..5",
+                "0..5",
+                "0..5",
+                "0..5",
+                "0..5",
+                "1"
+            ],
+            [
+                "2.015 SID",
+                null,
+                "0..1 6",
+                "0..1 6",
+                "0..1 6",
+                "0..1 6",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.016 SOC",
+                null,
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                null,
+                "0..4",
+                "0..4",
+                null,
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4"
+            ],
+            [
+                "2.017 MNU",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4 3",
+                "0..4 3",
+                "0..4",
+                "0..4",
+                "0..4 3",
+                "0..4"
+            ],
+            [
+                "2.018 NAM",
+                "1 4",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1 4",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            [
+                "2.019 AKA",
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10"
+            ],
+            [
+                "2.020 POB",
+                null,
+                "1",
+                "1",
+                "1",
+                "1",
+                "0..1",
+                null,
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "1",
+                "0..1",
+                "1",
+                "1"
+            ],
+            [
+                "2.021 CTZ",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10"
+            ],
+            [
+                "2.022 DOB",
+                "1..5 4",
+                "1..5",
+                "1..5",
+                "1..5",
+                "1..5",
+                "1..5",
+                "1..5 4",
+                "1..5",
+                "1..5",
+                null,
+                "1..5",
+                "1..5",
+                "1..5",
+                "0..5",
+                "1..5",
+                "1..5"
+            ],
+            [
+                "2.023 AGR",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.024 SEX",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "1",
+                "0..1",
+                "1",
+                "0..1"
+            ],
+            [
+                "2.025 RAC",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "0..1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "1",
+                "0..1",
+                "1",
+                "0..1"
+            ],
+            [
+                "2.026 SMT",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10"
+            ],
+            [
+                "2.027 HGT",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "0..1",
+                "0..1",
+                "1",
+                "0..1"
+            ],
+            [
+                "2.028 HTR",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.029 WGT",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "0..1",
+                "0..1",
+                "1",
+                "0..1"
+            ],
+            [
+                "2.030 WTR",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.031 EYE",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "0..1",
+                "0..1",
+                "1",
+                "0..1"
+            ],
+            [
+                "2.032 HAI",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "0..1",
+                "0..1",
+                "1",
+                "0..1"
+            ],
+            [
+                "2.033 FPC",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.034 PAT",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.035 PPA",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    "table_47": {
+        "headers": [
+            "Tag Element",
+            "AMN",
+            "CAR",
+            "CNA",
+            "CPDR",
+            "CPNU",
+            "DEK",
+            "DEU",
+            "DOCE",
+            "EMUF",
+            "ERRT",
+            "FANC",
+            "FAUF",
+            "FDSP",
+            "FIDR",
+            "FNDR",
+            "FVR"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "rows": [
+            [
+                "2.036 PHT",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.037 RFP",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                null
+            ],
+            [
+                "2.038 DPR",
+                "1",
+                null,
+                null,
+                null,
+                null,
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            [
+                "2.039 EAD",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.040 OCP",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.041 RES",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.042 MIL",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.043 TSR",
+                null,
+                null,
+                null,
+                "1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                "0..1"
+            ],
+            [
+                "2.044 GEO",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.045 DOA",
+                null,
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.046 DOS",
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                null
+            ],
+            [
+                "2.047 ASL",
+                null,
+                "1..999 2",
+                "1..999 2",
+                "1..999 2",
+                "1..999 2",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.051 CSL",
+                null,
+                "0..999",
+                "0..999",
+                "0..999",
+                "0..999",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1..999 12",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.053 OFC",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.054 SSD",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.055 SLE",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.056 ICO",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.059 SRF",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.060 MSG",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1..11",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.061 CST",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.067 IMA",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.070 RAP",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.071 ACN",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.073 CRI",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "0..3",
+                "1..3",
+                "1..3",
+                "0..3",
+                "1..3",
+                "1..3",
+                "1..3"
+            ],
+            [
+                "2.074 FGP",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.075 ERS",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.083 ULF",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.084 AMP",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                null,
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7"
+            ],
+            [
+                "2.087 TAA",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.088 NOT",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.096 RPR",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null
+            ]
+        ]
+    },
+    "table_48": {
+        "headers": [
+            "Tag Element",
+            "AMN",
+            "CAR",
+            "CNA",
+            "CPDR",
+            "CPNU",
+            "DEK",
+            "DEU",
+            "DOCE",
+            "EMUF",
+            "ERRT",
+            "FANC",
+            "FAUF",
+            "FDSP",
+            "FIDR",
+            "FNDR",
+            "FVR"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+        ],
+        "rows": [
+            [
+                "2.098 NDR",
+                "0..10",
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                null,
+                null,
+                "0..10",
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                null
+            ],
+            [
+                "2.2007 SDOB",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2008 SNAM",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2015 RBXD",
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.2018 DNAC",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2020 RBR",
+                null,
+                "0..9",
+                null,
+                "0..9",
+                "0..9",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..9",
+                "0..9",
+                null,
+                null,
+                "0..9",
+                null
+            ],
+            [
+                "2.2021 IFS",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2023 SII",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2030 PPD",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2031 BIA",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2035 EVI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2037 ESI",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.2040 RBT",
+                null,
+                "0..40",
+                null,
+                "0..40",
+                "0..40",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..40",
+                "0..40",
+                null,
+                null,
+                "0..40",
+                null
+            ],
+            [
+                "2.2046 TLI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                null,
+                null
+            ],
+            [
+                "2.2048 RBSI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2049 RBTD",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2051 HNOTI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                null
+            ],
+            [
+                "2.2054 RBSD",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2061 BIE",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2062 RBNF",
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.2063 RBOO",
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.2064 RBUD",
+                null,
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..10",
+                "0..10",
+                null,
+                null,
+                "0..10",
+                null
+            ],
+            [
+                "2.2065 RBC",
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.2067 RBDI",
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2070 RBATN",
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.2071 RBST",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.2072 POC",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                null
+            ],
+            [
+                "2.2105 FI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..999",
+                null,
+                null
+            ]
+        ]
+    },
+    "table_49": {
+        "headers": [
+            "Tag Element",
+            "IIDS",
+            "LFS",
+            "LSR",
+            "MAP",
+            "MPR",
+            "NFUE",
+            "NFUF",
+            "NNDR",
+            "RPIS",
+            "RPISR",
+            "SRE"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "rows": [
+            [
+                "2.001 LEN",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            [
+                "2.002 IDC",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1"
+            ],
+            [
+                "2.003 FFN",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.005 RET",
+                null,
+                null,
+                null,
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.006 ATN",
+                "0..1",
+                "1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "1",
+                "1",
+                "0..1"
+            ],
+            [
+                "2.007 SCO",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                "0..9",
+                null,
+                null,
+                "0..9"
+            ],
+            [
+                "2.009 OCA",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.012 LCN",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.013 LCX",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.014 FBI",
+                "0..1",
+                null,
+                "0..1 10",
+                "0..5",
+                null,
+                "0..5",
+                "0..5",
+                "0..5",
+                null,
+                "0..2",
+                "0..18"
+            ],
+            [
+                "2.015 SID",
+                "0..1",
+                null,
+                "0..5 10",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.016 SOC",
+                null,
+                null,
+                "0..4 11",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.017 MNU",
+                "0..4",
+                "0..4",
+                "0..4 11",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4",
+                "0..4 3",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.018 NAM",
+                "0..1",
+                null,
+                "0..1 10",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "0..1",
+                "0..1",
+                "1"
+            ],
+            [
+                "2.019 AKA",
+                null,
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.020 POB",
+                null,
+                "0..1",
+                "0..1 10",
+                "1",
+                "0..1",
+                "1",
+                "1",
+                "1",
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.021 CTZ",
+                null,
+                null,
+                "0..10 11",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.022 DOB",
+                null,
+                null,
+                "0..5 11",
+                "1..5",
+                "1..5",
+                "1..5",
+                "1..5",
+                "1..5",
+                "0..1",
+                null,
+                null
+            ],
+            [
+                "2.023 AGR",
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.024 SEX",
+                null,
+                "0..1",
+                "0..1 11",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "0..1",
+                null,
+                null
+            ],
+            [
+                "2.025 RAC",
+                null,
+                "0..1",
+                "0..1 11",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.026 SMT",
+                null,
+                "0..10",
+                "0..10 11",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.027 HGT",
+                null,
+                null,
+                "0..1 11",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.028 HTR",
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.029 WGT",
+                null,
+                null,
+                "0..1 11",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.030 WTR",
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.031 EYE",
+                null,
+                "0..1",
+                "0..1 11",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.032 HAI",
+                null,
+                "0..1",
+                "0..1 11",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.033 FPC",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.034 PAT",
+                null,
+                "0..10",
+                "0..10 11",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    },
+    "table_50": {
+        "headers": [
+            "Tag Element",
+            "IIDS",
+            "LFS",
+            "LSR",
+            "MAP",
+            "MPR",
+            "NFUE",
+            "NFUF",
+            "NNDR",
+            "RPIS",
+            "RPISR",
+            "SRE"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "rows": [
+            [
+                "2.035 PPA",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.036 PHT",
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.037 RFP",
+                null,
+                null,
+                null,
+                "1",
+                null,
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.038 DPR",
+                null,
+                null,
+                "0..1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.039 EAD",
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.040 OCP",
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.041 RES",
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.042 MIL",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.043 TSR",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "1",
+                null,
+                null,
+                null
+            ],
+            [
+                "2.044 GEO",
+                null,
+                "0..5",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.045 DOA",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.046 DOS",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.047 ASL",
+                null,
+                "0..999 3",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.051 CSL",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.053 OFC",
+                null,
+                "1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.054 SSD",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.055 SLE",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.056 ICO",
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.059 SRF",
+                null,
+                null,
+                "1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                "1"
+            ],
+            [
+                "2.060 MSG",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..11"
+            ],
+            [
+                "2.061 CST",
+                null,
+                "1",
+                "1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.067 IMA",
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null
+            ],
+            [
+                "2.070 RAP",
+                "0..1",
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null
+            ],
+            [
+                "2.071 ACN",
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                null
+            ],
+            [
+                "2.073 CRI",
+                "0..3",
+                "0..3",
+                "0..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "1..3",
+                "0..3",
+                "1..3"
+            ],
+            [
+                "2.074 FGP",
+                null,
+                "0..10",
+                "0..10",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.075 ERS",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.083 ULF",
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.084 AMP",
+                null,
+                null,
+                null,
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                "0..13 7",
+                null,
+                null
+            ],
+            [
+                "2.087 TAA",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ]
+        ]
+    },
+    "table_51": {
+        "headers": [
+            "Tag Element",
+            "IIDS",
+            "LFS",
+            "LSR",
+            "MAP",
+            "MPR",
+            "NFUE",
+            "NFUF",
+            "NNDR",
+            "RPIS",
+            "RPISR",
+            "SRE"
+        ],
+        "columns": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11"
+        ],
+        "rows": [
+            [
+                "2.088 NOT",
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "1",
+                "0..1"
+            ],
+            [
+                "2.096 RPR",
+                "0..1",
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null
+            ],
+            [
+                "2.098 NDR",
+                null,
+                null,
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "0..10",
+                "1..10",
+                null,
+                null
+            ],
+            [
+                "2.2007 SDOB",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2008 SNAM",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2015 RBXD",
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2018 DNAC",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2020 RBR",
+                null,
+                null,
+                null,
+                "0..9",
+                null,
+                "0..9",
+                "0..9",
+                "0..9",
+                null,
+                null,
+                "0..9"
+            ],
+            [
+                "2.2021 IFS",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2023 SII",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1"
+            ],
+            [
+                "2.2030 PPD",
+                null,
+                "0..10",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2031 BIA",
+                null,
+                null,
+                "0..1",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2035 EVI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2037 ESI",
+                null,
+                null,
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2040 RBT",
+                null,
+                null,
+                null,
+                "0..40",
+                null,
+                "0..40",
+                "0..40",
+                "0..40",
+                null,
+                null,
+                "0..40"
+            ],
+            [
+                "2.2046 TLI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2048 RBSI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2049 RBTD",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2051 HNOTI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2054 RBSD",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2061 BIE",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..36"
+            ],
+            [
+                "2.2062 RBNF",
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2063 RBOO",
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2064 RBUD",
+                null,
+                null,
+                null,
+                "0..10",
+                null,
+                "0..10",
+                "0..10",
+                "0..10",
+                null,
+                null,
+                "0..10"
+            ],
+            [
+                "2.2065 RBC",
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2067 RBDI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2070 RBATN",
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2071 RBST",
+                null,
+                null,
+                null,
+                "0..1",
+                null,
+                "0..1",
+                "0..1",
+                "0..1",
+                null,
+                null,
+                "0..1"
+            ],
+            [
+                "2.2072 POC",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            [
+                "2.2105 FI",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        ]
+    }
+}

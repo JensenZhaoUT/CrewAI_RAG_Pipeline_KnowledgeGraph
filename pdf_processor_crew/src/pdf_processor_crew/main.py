@@ -59,8 +59,8 @@ def run():
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[document_ingestion_agent, table_parsing_agent],
-        tasks=[document_ingestion_task, table_parsing_task],
+        agents=[table_parsing_agent],
+        tasks=[table_parsing_task],
         process=Process.sequential,
         verbose=True,
     )
@@ -70,25 +70,25 @@ def run():
 
     print("\nInitial processing completed. Results:\n", result)
 
-    # Prompt the user for input
-    user_query = input("Please enter your query: ")
+    # # Prompt the user for input
+    # user_query = input("Please enter your query: ")
 
-    # Initialize the user prompt handling task
-    user_prompt_handling_task = tasks.user_prompt_handling_task(
-        agent=user_prompt_handling_agent,
-        user_query=user_query
-    )
+    # # Initialize the user prompt handling task
+    # user_prompt_handling_task = tasks.user_prompt_handling_task(
+    #     agent=user_prompt_handling_agent,
+    #     user_query=user_query
+    # )
 
-    # Run the user prompt handling task
-    crew = Crew(
-        agents=[user_prompt_handling_agent],
-        tasks=[user_prompt_handling_task],
-        process=Process.sequential,
-        verbose=True,
-    )
+    # # Run the user prompt handling task
+    # crew = Crew(
+    #     agents=[user_prompt_handling_agent],
+    #     tasks=[user_prompt_handling_task],
+    #     process=Process.sequential,
+    #     verbose=True,
+    # )
 
-    result = crew.kickoff()
-    print("\nUser prompt processing completed. Results:\n", result)
+    # result = crew.kickoff()
+    # print("\nUser prompt processing completed. Results:\n", result)
 
 if __name__ == "__main__":
     run()

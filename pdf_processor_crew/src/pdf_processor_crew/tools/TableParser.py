@@ -47,6 +47,9 @@ class TableParser:
             # Load the CSV file
             df = pd.read_csv(csv_path)
 
+            # Replace NaN values with "null"
+            df = df.where(pd.notnull(df), None)
+
             # Parse rows and columns
             rows = df.values.tolist()
             headers = rows[0] if rows else []
