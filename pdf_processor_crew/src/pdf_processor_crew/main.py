@@ -43,23 +43,23 @@ def run():
     tasks = DocumentTasks()
 
     # Initialize agents
-    # document_ingestion_agent = agents.document_ingestion_agent()
-    # table_parsing_agent = agents.table_parsing_agent()
+    document_ingestion_agent = agents.document_ingestion_agent()
+    table_parsing_agent = agents.table_parsing_agent()
     # user_prompt_handling_agent = agents.user_prompt_handling_agent()
     rag_integration_agent = agents.rag_integration_agent()
 
     # Initialize tasks
-    # document_ingestion_task = tasks.document_ingestion_task(
-    #     agent=document_ingestion_agent,
-    #     path_to_pdf=inputs['path_to_pdf'],
-    #     path_to_save_dir=inputs['path_to_save_dir']
-    # )
+    document_ingestion_task = tasks.document_ingestion_task(
+        agent=document_ingestion_agent,
+        path_to_pdf=inputs['path_to_pdf'],
+        path_to_save_dir=inputs['path_to_save_dir']
+    )
 
-    # table_parsing_task = tasks.table_parsing_task(
-    #     agent=table_parsing_agent,
-    #     path_to_save_dir=inputs['path_to_save_dir'],
-    #     json_file_path=inputs['json_file_path']
-    # )
+    table_parsing_task = tasks.table_parsing_task(
+        agent=table_parsing_agent,
+        path_to_save_dir=inputs['path_to_save_dir'],
+        json_file_path=inputs['json_file_path']
+    )
     
     user_query = input("Please enter your query: ")
     rag_integration_task = tasks.rag_integration_task(
@@ -70,8 +70,8 @@ def run():
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[rag_integration_agent],
-        tasks=[rag_integration_task],
+        agents=[document_ingestion_agent, table_parsing_agent, rag_integration_agent],
+        tasks=[document_ingestion_task, table_parsing_task, rag_integration_task],
         process=Process.sequential,
         verbose=True,
     )

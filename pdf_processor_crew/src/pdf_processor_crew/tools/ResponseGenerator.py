@@ -54,4 +54,4 @@ class ResponseGenerator:
         
         print(f"Generated response: {response}")
 
-        return response
+        return response, "RAG integration task completed."
