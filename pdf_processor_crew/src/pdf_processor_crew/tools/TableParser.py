@@ -35,7 +35,7 @@ class TableParser:
         parsed_data = {}
 
         for i in range(1, 61):  # Iterate through potential CSV files (1-60)
-            csv_path = os.path.join(save_dir, f"table_{i}.csv")
+            csv_path = os.path.join(save_dir, f"table_{i-1}.csv")
             
             # Check if file exists
             if not os.path.exists(csv_path):
