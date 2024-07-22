@@ -34,36 +34,35 @@ class TableParser:
         
         parsed_data = {}
 
-        for filename in os.listdir(save_dir):
-            if filename.startswith("table_") and filename.endswith(".csv"):
-                csv_path = os.path.join(save_dir, filename)
-                
-                # Check if file exists
-                if not os.path.exists(csv_path):
-                    print(f"DEBUG: os.path.exists({csv_path}) -> {os.path.exists(csv_path)}")
-                    continue  # Skip non-existing files
+        for i in range(1, 61):  # Iterate through potential CSV files (1-60)
+            csv_path = os.path.join(save_dir, f"table_{i}.csv")
+            
+            # Check if file exists
+            if not os.path.exists(csv_path):
+                print(f"DEBUG: os.path.exists({csv_path}) -> {os.path.exists(csv_path)}")
+                continue  # Skip non-existing files
 
-                print(f"TableParser received cleaned file path: {csv_path}")
+            print(f"TableParser received cleaned file path: {csv_path}")
 
-                # Load the CSV file
-                df = pd.read_csv(csv_path)
+            # Load the CSV file
+            df = pd.read_csv(csv_path)
 
-                # Replace NaN values with None
-                df = df.where(pd.notnull(df), None)
-                rows = df.values.tolist()
+            # Replace NaN values with "null"
+            df = df.where(pd.notnull(df), None)
+            rows = df.values.tolist()
 
-                # Parse rows and columns
-                headers = df.columns.tolist()  # Use columns as headers
-                rows = rows  # All row data
+            # Explicitly replace NaN with None in rows
+            rows = [[None if pd.isna(item) else item for item in row] for row in rows]
 
-                # Use the file name without extension as the table name
-                table_name = os.path.splitext(filename)[0]
+            # Parse rows and columns
+            headers = rows[0] if rows else []
+            rows = rows[1:]  # Exclude the header row from rows
 
-                parsed_data[table_name] = {
-                    "headers": headers,  # Header information
-                    "columns": list(df.columns),  # Original column names
-                    "rows": rows  # Row data
-                }
+            parsed_data[f"table_{i}"] = {
+                "headers": headers,  # Header information
+                "columns": list(df.columns),  # Original column names
+                "rows": rows  # Row data
+            }
 
         # Save all parsed data to a single JSON file
         json_file_path = os.path.join(json_save_dir, 'all_parsed_tables.json')
