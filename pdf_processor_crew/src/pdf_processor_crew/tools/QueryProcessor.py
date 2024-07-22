@@ -20,9 +20,11 @@ class QueryProcessor:
         Returns:
             list: A list of responses to the user queries.
         """
-        def process_query(query):
+        process_query = []
+        for query in queries:
             retrieved_info = InformationRetriever.RetrieveInformation(query, json_file_path)
-            return ResponseGenerator.GenerateResponse(retrieved_info, query)
+            response = ResponseGenerator.GenerateResponse(retrieved_info, query)
+            process_query.append(response)
 
         with ThreadPoolExecutor() as executor:
             responses = list(executor.map(process_query, queries))
