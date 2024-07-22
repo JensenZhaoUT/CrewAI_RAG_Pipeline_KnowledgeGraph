@@ -49,9 +49,12 @@ class TableParser:
 
             # Replace NaN values with "null"
             df = df.where(pd.notnull(df), None)
+            rows = df.values.tolist()
+
+            # Explicitly replace NaN with None in rows
+            rows = [[None if pd.isna(item) else item for item in row] for row in rows]
 
             # Parse rows and columns
-            rows = df.values.tolist()
             headers = rows[0] if rows else []
             rows = rows[1:]  # Exclude the header row from rows
 
@@ -68,4 +71,4 @@ class TableParser:
         
         print(f"All parsed data saved to: {json_file_path}")
 
-        return "Table parsing task completed."
+        return json_file_path
