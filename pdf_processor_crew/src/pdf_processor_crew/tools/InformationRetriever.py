@@ -1,4 +1,4 @@
-from langchain_community.retrievers import BM25Retriever
+from rank_bm25 import BM25Okapi
 import json
 import os
 from typing import List, Dict, ClassVar
@@ -23,7 +23,6 @@ class InformationRetriever:
         Returns:
             List[Dict[str, str]]: List of retrieved information with source and data.
         """
-
         text_file_path = text_file_path.strip('"')
         json_file_path = json_file_path.strip('"')
 
@@ -34,10 +33,10 @@ class InformationRetriever:
         if os.path.exists(text_file_path):
             with open(text_file_path, 'r') as file:
                 text_data = file.read().split('\n')
+            text_data = [line for line in text_data if line.strip()]  # Only non-empty lines
             # Index the text data for BM25 search
-            bm25_retriever = BM25Retriever()
-            bm25_retriever.fit(text_data)
-            text_scores = bm25_retriever.get_scores(user_query)
+            bm25_text = BM25Okapi([line.split() for line in text_data])
+            text_scores = bm25_text.get_scores(user_query.split())
             top_text_indices = text_scores.argsort()[-5:][::-1]
             for idx in top_text_indices:
                 results.append({"source": "text", "data": text_data[idx]})
@@ -50,12 +49,13 @@ class InformationRetriever:
         print(f"Top text indices: {top_text_indices}")
 
         # Load and process the JSON file
+        json_data = {}
+        contexts = []
+        table_info = []
         if os.path.exists(json_file_path):
             with open(json_file_path, 'r') as file:
                 json_data = json.load(file)
             # Index the JSON data for BM25 search
-            contexts = []
-            table_info = []
             for table_name, table_data in json_data.items():
                 headers = table_data.get("headers", [])
                 rows = table_data.get("rows", [])
@@ -63,9 +63,8 @@ class InformationRetriever:
                     context = " ".join(row)
                     contexts.append(context)
                     table_info.append((table_name, headers, row))
-            bm25_retriever = BM25Retriever()
-            bm25_retriever.fit(contexts)
-            json_scores = bm25_retriever.get_scores(user_query)
+            bm25_json = BM25Okapi([context.split() for context in contexts])
+            json_scores = bm25_json.get_scores(user_query.split())
             top_json_indices = json_scores.argsort()[-5:][::-1]
             for idx in top_json_indices:
                 table_name, headers, row = table_info[idx]
