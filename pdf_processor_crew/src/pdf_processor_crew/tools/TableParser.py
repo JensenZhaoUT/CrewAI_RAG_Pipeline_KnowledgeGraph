@@ -47,12 +47,9 @@ class TableParser:
             # Load the CSV file
             df = pd.read_csv(csv_path)
 
-            # Replace NaN values with "null"
-            df = df.where(pd.notnull(df), None)
+            # Replace NaN values with "missing"
+            df = df.fillna("missing")
             rows = df.values.tolist()
-
-            # Explicitly replace NaN with None in rows
-            rows = [[None if pd.isna(item) else item for item in row] for row in rows]
 
             # Parse rows and columns
             headers = rows[0] if rows else []
@@ -71,4 +68,4 @@ class TableParser:
         
         print(f"All parsed data saved to: {json_file_path}")
 
-        return json_file_path
+        return json_file_path, "Table parsing task completed."

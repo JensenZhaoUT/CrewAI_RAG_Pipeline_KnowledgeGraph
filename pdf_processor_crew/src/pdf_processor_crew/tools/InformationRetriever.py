@@ -23,8 +23,12 @@ class InformationRetriever:
         Returns:
             List[Dict[str, str]]: List of retrieved information with source and data.
         """
-        results = []
 
+        text_file_path = text_file_path.strip('"')
+        json_file_path = json_file_path.strip('"')
+
+        results = []
+        
         # Load and process the text file
         text_data = []
         if os.path.exists(text_file_path):

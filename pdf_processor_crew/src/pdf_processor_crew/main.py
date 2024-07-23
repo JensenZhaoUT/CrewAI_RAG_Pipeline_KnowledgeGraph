@@ -19,10 +19,10 @@ def run():
     parsed_tables = os.path.abspath(parsed_tables)
     extracted_txt = os.path.abspath(extracted_txt)
     
-    # Print the absolute paths
-    print(f"PDF path: {pdf_path}")
-    print(f"Save directory: {save_dir}")
-    print(f"JSON save directory: {json_file_path}")
+    # # Print the absolute paths
+    # print(f"PDF path: {pdf_path}")
+    # print(f"Save directory: {save_dir}")
+    # print(f"JSON save directory: {json_file_path}")
     
     # Ensure save_dir exists
     os.makedirs(save_dir, exist_ok=True)
@@ -82,8 +82,8 @@ def run():
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[knowledge_graph_generation_agent],
-        tasks=[knowledge_graph_generation_task],
+        agents=[document_ingestion_agent],
+        tasks=[document_ingestion_task],
         process=Process.sequential,
         verbose=True,
     )
