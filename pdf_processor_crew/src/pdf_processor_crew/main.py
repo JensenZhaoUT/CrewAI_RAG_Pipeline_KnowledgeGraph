@@ -72,8 +72,7 @@ def run():
     rag_integration_task = tasks.rag_integration_task(
         agent=rag_integration_agent,
         user_query=user_query,
-        text_file_path=inputs['extracted_txt'],
-        json_file_path=inputs['parsed_tables']
+        text_file_path=inputs['extracted_txt']
     )
 
     knowledge_graph_generation_task = tasks.knowledge_graph_generation_task(

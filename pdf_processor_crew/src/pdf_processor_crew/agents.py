@@ -51,7 +51,7 @@ class DocumentAgents:
     def rag_integration_agent(self) -> Agent:
         return Agent(
             role='RAG Integration Agent',
-            goal='Integrate retrieval-augmented generation (RAG) for handling complex queries that require information from multiple sources.',
+            goal='Integrate retrieval-augmented generation (RAG) for handling complex queries that require information from text files.',
             backstory='With expertise in combining retrieval and generation techniques, you ensure comprehensive and accurate responses to user queries.',
             tools=[ResponseGenerator.GenerateResponse],
             allow_delegation=False,
