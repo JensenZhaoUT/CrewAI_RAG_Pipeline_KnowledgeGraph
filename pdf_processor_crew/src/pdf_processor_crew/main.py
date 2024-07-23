@@ -77,14 +77,15 @@ def run():
 
     knowledge_graph_generation_task = tasks.knowledge_graph_generation_task(
         agent=knowledge_graph_generation_agent,
-        retrieved_file_path=inputs['retrieved_file_path'],
+        user_query=user_query,
+        parsed_tables=inputs['parsed_tables'],
         path_to_save_dir=inputs['path_to_save_dir']
     )
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[rag_integration_agent],
-        tasks=[rag_integration_task],
+        agents=[knowledge_graph_generation_agent],
+        tasks=[knowledge_graph_generation_task],
         process=Process.sequential,
         verbose=True,
     )

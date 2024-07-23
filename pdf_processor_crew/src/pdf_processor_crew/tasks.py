@@ -63,12 +63,12 @@ class DocumentTasks:
             """)
         )
     
-    def knowledge_graph_generation_task(self, agent, retrieved_file_path, path_to_save_dir):
+    def knowledge_graph_generation_task(self, agent, user_query, parsed_tables, path_to_save_dir):
         return Task(
             description=dedent(f"""
-                Build and maintain a knowledge graph based on the retrieved file, save the knowledge graph to the save directory.
-                
-                Retrieved path: {retrieved_file_path}
+                Search the data in parsed_tables. Build a knowledge graph based on the results, save the knowledge graph to the save directory.
+                user_query: {user_query}
+                parsed_tables: {parsed_tables}
                 Save directory: {path_to_save_dir}
             """),
             agent=agent,
