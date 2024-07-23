@@ -1,0 +1,160 @@
+0,1,2,3,4,5,6,7,8,9,10
+"TC6
+TATTOO COLOR CODE 6
+TATTOO COLOR CODE 5
+TC5
+TC4
+TATTOO COLOR CODE 4
+TC3
+TATTOO COLOR CODE 3
+TC2
+TATTOO COLOR CODE 2
+TC1
+TATTOO COLOR CODE 1
+2.2059
+TCL
+TATTOO COLOR
+SET
+F
+E
+C
+B
+D
+A
+A
+A
+A
+A
+A
+A
+3
+3
+3
+3
+3
+3
+7
+7
+7
+7
+7
+7
+0
+0
+0
+1
+0
+0
+1
+1
+1
+1
+9
+1
+1","TDS
+TATTOO DESCRIPTION
+ANS
+256
+TSC
+TATTOO SUBCLASS
+TAC
+TATTOO CLASS
+SMI
+SMT CODE INDICATOR
+2.2058
+SMD
+SMT DESCRIPTORS
+SET
+C
+B
+D
+A
+A
+A
+A
+1
+3
+4
+3
+9
+8
+8
+0
+0
+0
+1
+1
+1
+1
+1
+9","WID
+WIDTH
+HGT
+HEIGHT
+2.2055
+SMS
+SMT SIZE
+SET
+B
+A
+N
+N
+1
+1
+3
+3
+1
+1
+1
+1
+1","2.2054
+RBSD
+RAP BACK SUBSCRIPTION DATE
+N
+8
+8
+1","2.2052
+MAI
+MAINTENANCE ACTION INDICATOR
+10
+A
+3
+1","2.2051
+HNOTI
+HIT NOTIFICATION INDICATOR
+A
+1
+1
+1","2.2050
+RBSL
+RAP BACK SUBSCRIPTION LIST
+ANS
+10485760
+1
+1","2.2049
+RBTD
+RAP BACK TERM DATE
+N
+8
+8
+1","Number
+Identifier
+Field Name
+Character
+Min
+Max
+Min1
+Max
+Field","Separators)
+(not including Character",Field Size
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,Occurrences,
+2.2059:RED{US}GREEN{GS},"WITH THORNS{GS}
+ 2.2058:TATTOO{US}PLANT{US}ROSE{US}",2.2055:3{US}5{GS},2.2054:19940930{GS},2.2052:REPLACE{GS},2.2051:Y{GS},2.2050:(ASCII TEXT DATA){GS},2.2049:19940930{GS},Example,,
+,,,,,,,"with Rap Back Services at this time.
+This	field	is	not	being	used	as	there	are	no	fees	associated",Comments/Special Characters,,

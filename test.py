@@ -46,8 +46,7 @@ class TableParser:
             combined_data = [sublist + last_two_items for sublist in transposed_data]  # Combine transposed lists with the last two items
             return combined_data
 
-        # Process general tables
-        for i in range(1, 37):  # Iterate through general tables (1-35)
+        for i in range(1, 61):  # Iterate through potential CSV files (1-60)
             csv_path = os.path.join(save_dir, f"table_{i-1}.csv")
             
             # Check if file exists
@@ -61,47 +60,11 @@ class TableParser:
             df = pd.read_csv(csv_path)
 
             # Replace NaN values with "null"
-            df = df.fillna("null")
+            df = df.where(pd.notnull(df), None)
             rows = df.values.tolist()
 
-            headers = rows[0] if rows else []
-            rows = rows[1:]  # Exclude the header row from rows
-
-            parsed_data[f"table_{i-1}"] = {
-                "headers": headers,  # Header information
-                "columns": list(df.columns),  # Original column names
-                "rows": rows  # Row data
-            }
-        special_headers = [
-            "Field Number",
-            "Identifier",
-            "Field Name",
-            "Character",
-            "Field Size Min",
-            "Field Size Max",
-            "Occurrences Min",
-            "Occurrences Max",
-            "Example",
-            "Comments/Special Characters"
-        ]
-
-        # Process special tables (36-41)
-        for i in range(37, 43):  # Iterate through special tables (36-41)
-            csv_path = os.path.join(save_dir, f"table_{i-1}.csv")
-            
-            # Check if file exists
-            if not os.path.exists(csv_path):
-                print(f"DEBUG: os.path.exists({csv_path}) -> {os.path.exists(csv_path)}")
-                continue  # Skip non-existing files
-
-            print(f"TableParser received cleaned file path: {csv_path}")
-
-            # Load the CSV file
-            df = pd.read_csv(csv_path)
-
-            # Replace NaN values with "null"
-            df = df.fillna("null")
-            rows = df.values.tolist()
+            # Explicitly replace NaN with None in rows
+            rows = [[None if pd.isna(item) else item for item in row] for row in rows]
 
             processed_rows = [rows[0]]  # Keep the header row as is
             for row in rows[1:]:  # Skip the first row (header)
@@ -110,36 +73,8 @@ class TableParser:
                 else:
                     processed_rows.append(row)
 
-            headers = special_headers
+            headers = processed_rows[0] if processed_rows else []
             rows = processed_rows[1:]  # Exclude the header row from rows
-
-            parsed_data[f"table_{i-1}"] = {
-                "headers": headers,  # Header information
-                "columns": list(df.columns),  # Original column names
-                "rows": rows  # Row data
-            }
-                    # Process special tables (36-41)
-
-        # Process remaining tables
-        for i in range(43, 53):  # Iterate through remaining tables (42-60)
-            csv_path = os.path.join(save_dir, f"table_{i-1}.csv")
-            
-            # Check if file exists
-            if not os.path.exists(csv_path):
-                print(f"DEBUG: os.path.exists({csv_path}) -> {os.path.exists(csv_path)}")
-                continue  # Skip non-existing files
-
-            print(f"TableParser received cleaned file path: {csv_path}")
-
-            # Load the CSV file
-            df = pd.read_csv(csv_path)
-
-            # Replace NaN values with "null"
-            df = df.fillna("null")
-            rows = df.values.tolist()
-
-            headers = rows[0] if rows else []
-            rows = rows[1:]  # Exclude the header row from rows
 
             parsed_data[f"table_{i-1}"] = {
                 "headers": headers,  # Header information

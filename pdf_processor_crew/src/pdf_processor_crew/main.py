@@ -82,8 +82,8 @@ def run():
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[document_ingestion_agent],
-        tasks=[document_ingestion_task],
+        agents=[table_parsing_agent],
+        tasks=[table_parsing_task],
         process=Process.sequential,
         verbose=True,
     )

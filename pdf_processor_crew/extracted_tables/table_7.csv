@@ -1,0 +1,22 @@
+0,1,2
+Pattern Type,Pattern Subgroup,NCIC FPC Code
+Whorl*,Plain Whorl,
+,Inner,PI
+,Meeting,PM
+,Outer,PO
+,Central Pocket Loop Whorl,
+,Inner,CI
+,Meeting,CM
+,Outer,CO
+,Double Loop Whorl,
+,Inner,DI
+,Meeting,DM
+,Outer,DO
+,Accidental Whorl,
+,Inner,XI
+,Meeting,XM
+,Outer,XO
+Missing Amputated Finger**,,XX
+Scarred/Mutilated Pattern ***,,SR
+Approximate Fingerprint Class****,,AC
+Unclassifiable	****,,UC

@@ -1,0 +1,43 @@
+0,1,2,3,4,5,6,7,8,9
+"Field
+Number",Identifier,Field Name,Character,Field Size,,,,Example,Comments/Special Characters
+,,,,"(not including Character 
+Separators)",,,Occurrences,,
+,,,,Min,Max,Min1,Max,,
+2.001,LEN,LOGICAL RECORD LENGTH,N,2,7,,1,2.001:909{GS},
+2.002,IDC,"INFORMATION DESIGNATION CHARAC-
+TER",N,1,2,,1,2.002:00{GS},
+2.003,FFN,FBI FILE NUMBER,N,10,10,,1,2.003:2537597861{GS},
+2.005,RET,RETENTION CODE,A,1,1,,1,2.005:Y{GS},
+2.006,ATN,ATTENTION INDICATOR,ANS,3,30,,1,"2.006:SA J Q DOE,RM 11867{GS}","Any printable 7-bit ASCII character with the exception of 
+the period is allowed."
+2.007,SCO,SEND COPY TO,ANS,9,19,,9,2.007:NY030025P{GS},
+2.009,OCA,ORIGINATING AGENCY CASE NUMBER,ANS,1,20,,1,2.009:Q880312465{GS},"Any printable 7-bit ASCII character with the exception of 
+the period is allowed"
+"2.010
+A
+B","CIN
+CIN_PRE
+CIN_ID","CONTRIBUTOR CASE IDENTIFIER NUM-
+BER
+CONTRIBUTOR CASE PREFIX
+CONTRIBUTOR CASE ID","SET
+ANS
+ANS","1
+1","24
+24","1
+1","5
+1
+1","2.010:INCIDENT 
+NUMBER{US}1963BRT715{GS}",Any printable 7-bit ASCII character is allowed.
+2.011,CIX,"CONTRIBUTOR CASE IDENTIFIER EX-
+TENSION",N,2,4,,5,2.011:23{GS},
+2.012,LCN,FBI LATENT CASE NUMBER,ANS,11,11,,1,2.012:MX-12345678{GS},The only special character allowed is a hyphen
+2.013,LCX,FBI LATENT CASE EXTENSION,N,5,5,,1,2.013:98765{GS},
+2.014,FBI,FBI NUMBER/UCN,AN,1,9,,1000,2.014:62760NY12{GS},
+2.015,SID,STATE IDENTIFICATION NUMBER,ANS,3,10,,1000,2.015:NY12345678{GS},OR and PA may use a hyphen in the last position
+2.016,SOC,SOCIAL SECURITY ACCOUNT NUMBER,N,9,9,,4,2.016:220565855{GS},
+2.017,MNU,"MISCELLANEOUS IDENTIFICATION 
+NUMBER",ANS,4,15,,4,2.017:PP-1234567890P{GS},A hyphen is allowed as a special character
+2.018,NAM,NAME,AS,3,50,,1,"2.018:JONES,ANTHONY P{GS}","Commas, hyphens, and spaces are all allowed as special 
+characters."

@@ -1,0 +1,16 @@
+0,1,2,3
+Definition,Parameter,Parameter Size,Parameter Values
+Race,RACE,5,"U, A, B, I, W"
+Gender,GENDER,7,"X, M, N, G, Y, F, Z"
+Year of Birth,DOB,101,"UNK, or last two digits of year"
+Place of Birth,POB,422,EBTS	defined	in	Appendix	O
+Place of Arrest,ARREST,422,EBTS	defined	in	Appendix	O
+Finger Positions,FINGER,11,EBTS	defined	finger	codes:	00-10
+Hand Positions,PALM,17,EBTS	defined	palm	codes	20-36
+EJI Positions,EJI,30,"EBTS	defined	joint	image	segments	for	each	finger.	PRX01,	
+DST01, PRX02, MED02, DST02, etc. and LEFT/RIGHT 
+when	only	full	EJI	is	identified"
+Arch,ARCH,10,EBTS	defined	finger	codes:	01-10
+Left Slant Loop,LEFTSLT,10,EBTS	defined	finger	codes:	01-10
+Right Slant Loop,RIGHTSLT,10,EBTS	defined	finger	codes:	01-10
+Whorl,WHORL,10,EBTS	defined	finger	codes:	01-10
