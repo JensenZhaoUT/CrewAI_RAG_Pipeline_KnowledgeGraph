@@ -10,6 +10,7 @@ def run():
     extracted_txt = './extracted_tables/RAG_Document.txt'
     json_file_path = './parsed_tables'
     parsed_tables = './parsed_tables/all_parsed_tables.json'
+    retrieved_file_path = './parsed_tables/retrieved_info.json'
     
     # Convert to absolute paths
     pdf_path = os.path.abspath(relative_pdf_path)
@@ -38,7 +39,8 @@ def run():
         'path_to_save_dir': save_dir,
         'extracted_txt': extracted_txt,
         'json_file_path': json_file_path, 
-        'parsed_tables': parsed_tables
+        'parsed_tables': parsed_tables,
+        'retrieved_file_path': retrieved_file_path
     }
 
     # Initialize agents and tasks
@@ -48,8 +50,9 @@ def run():
     # Initialize agents
     document_ingestion_agent = agents.document_ingestion_agent()
     table_parsing_agent = agents.table_parsing_agent()
-    # user_prompt_handling_agent = agents.user_prompt_handling_agent()
+    user_prompt_handling_agent = agents.user_prompt_handling_agent()
     rag_integration_agent = agents.rag_integration_agent()
+    knowledge_graph_generation_agent = agents.knowledge_graph_generation_agent()
 
     # Initialize tasks
     document_ingestion_task = tasks.document_ingestion_task(
@@ -63,7 +66,12 @@ def run():
         path_to_save_dir=inputs['path_to_save_dir'],
         json_file_path=inputs['json_file_path']
     )
-    
+    knowledge_graph_generation_task = tasks.knowledge_graph_generation_task(
+        agent=knowledge_graph_generation_agent,
+        retrieved_file_path=inputs['retrieved_file_path'],
+        path_to_save_dir=inputs['path_to_save_dir']
+    )
+
     user_query = input("Please enter your query: ")
     rag_integration_task = tasks.rag_integration_task(
         agent=rag_integration_agent,
@@ -74,8 +82,8 @@ def run():
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[rag_integration_agent],
-        tasks=[rag_integration_task],
+        agents=[knowledge_graph_generation_agent],
+        tasks=[knowledge_graph_generation_task],
         process=Process.sequential,
         verbose=True,
     )

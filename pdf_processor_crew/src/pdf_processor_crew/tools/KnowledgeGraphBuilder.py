@@ -1,7 +1,7 @@
 from langchain.tools import tool
 import json
 import os
-from typing import ClassVar, List, Dict
+from typing import ClassVar
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -51,11 +51,10 @@ class KnowledgeGraphBuilder:
             headers = table_data.get("headers", [])
             rows = table_data.get("rows", [])
             for row in rows:
-                for i, header in enumerate(headers):
-                    if i < len(row):
-                        G.add_node(row[i])
-                        if i > 0:
-                            G.add_edge(row[i-1], row[i])
+                for i, item in enumerate(row):
+                    header = headers[i] if i < len(headers) else f"Header_{i}"
+                    G.add_node(item)
+                    G.add_edge(header, item)
         
         # Define the save path for the knowledge graph image
         graph_image_path = os.path.join(path_to_save_dir, "knowledge_graph.png")

@@ -5,6 +5,7 @@ from .tools.TableExtractor import TableExtractor
 from .tools.TableParser import TableParser
 from .tools.PromptProcessor import PromptProcessor
 from .tools.ResponseGenerator import ResponseGenerator
+from .tools.KnowledgeGraphBuilder import KnowledgeGraphBuilder
 class DocumentAgents:
 
     def __init__(self):
