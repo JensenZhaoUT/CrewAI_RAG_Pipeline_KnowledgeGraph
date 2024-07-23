@@ -9,6 +9,6 @@ docker run --rm -it \
     --net=host \
     --privileged \
     rag-pipeline \
-    bash
+    bash -c "echo 'export PS1=\"\\u@jensen:\\w\\$ \"' >> ~/.bashrc && bash"
 
 echo "Done."
