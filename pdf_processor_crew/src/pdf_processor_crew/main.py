@@ -79,13 +79,13 @@ def run():
         agent=knowledge_graph_generation_agent,
         user_query=user_query,
         parsed_tables=inputs['parsed_tables'],
-        path_to_save_dir=inputs['path_to_save_dir']
+        path_to_save_dir=inputs['json_file_path']
     )
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[knowledge_graph_generation_agent],
-        tasks=[knowledge_graph_generation_task],
+        agents=[rag_integration_agent, knowledge_graph_generation_agent],
+        tasks=[rag_integration_task, knowledge_graph_generation_task],
         process=Process.sequential,
         verbose=True,
     )

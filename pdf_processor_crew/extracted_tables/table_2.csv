@@ -1,9 +1,0 @@
-0,1
-BID Field Values Submitted,Biometric Images Returned
-SI,Composite	fingerprint	set	for	the	identity	specified
-"SI, IMT",Representative	set	for	image	type	specified
-"SI, BSI",Specific	image	set	indicated	by	the	BSI
-"SI, IMT, FNR","The friction ridge position image of the representative set for 
-the	image	type	specified"
-"SI, BSI, FNR","The	finger	position	image	of	the	specific	image	set	indicated	
-by the BSI"

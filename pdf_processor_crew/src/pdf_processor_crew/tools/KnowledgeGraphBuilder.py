@@ -61,19 +61,38 @@ class KnowledgeGraphBuilder:
         # Load the JSON data
         with open(parsed_tables, 'r') as file:
             data = json.load(file)
+        
+        # Initialize the parsed_result dictionary
+        parsed_result = {}
 
-        # Create a directed graph
-        G = nx.DiGraph()
-
-        # Populate the graph with nodes and edges
+        # Search for the keyword in the rows of the tables
         for table_name, table_data in data.items():
             headers = table_data.get("headers", [])
             rows = table_data.get("rows", [])
             for row in rows:
-                for i, item in enumerate(row):
-                    header = headers[i] if i < len(headers) else f"Header_{i}"
-                    G.add_node(item)
-                    G.add_edge(header, item)
+                if len(row) > 1 and row[1].lower() == top_keyword.lower():
+                    parsed_result[table_name] = {
+                        "headers": headers,
+                        "row": row
+                    }
+                    break  # Stop searching once a match is found
+        
+        print(f"Parsed result: {parsed_result}")
+
+        # Create a directed graph
+        G = nx.DiGraph()
+
+        # Add the top_keyword as the central node
+        G.add_node(top_keyword)
+
+        # Populate the graph with nodes and edges from parsed_result
+        for table_name, table_data in parsed_result.items():
+            headers = table_data.get("headers", [])
+            row = table_data.get("row", [])
+            for i, item in enumerate(row):
+                header = headers[i] if i < len(headers) else f"Header_{i}"
+                G.add_node(item)
+                G.add_edge(top_keyword, item, label=header)
         
         # Define the save path for the knowledge graph image
         graph_image_path = os.path.join(path_to_save_dir, "knowledge_graph.png")
@@ -81,10 +100,22 @@ class KnowledgeGraphBuilder:
         # Draw the graph
         plt.figure(figsize=(12, 8))
         pos = nx.spring_layout(G)
-        nx.draw(G, pos, with_labels=True, node_size=2000, node_color="lightblue", font_size=10, font_weight="bold", arrows=True)
+
+        # Draw nodes
+        nx.draw_networkx_nodes(G, pos, node_color='lightblue', node_shape='s', node_size=3000)
+        nx.draw_networkx_nodes(G, pos, nodelist=[top_keyword], node_color='lightgreen', node_shape='o', node_size=5000)
+
+        # Draw edges
+        nx.draw_networkx_edges(G, pos)
+        nx.draw_networkx_edge_labels(G, pos, edge_labels={(u, v): d['label'] for u, v, d in G.edges(data=True)})
+
+        # Draw labels
+        nx.draw_networkx_labels(G, pos, font_size=10, font_family="sans-serif")
+
         plt.title("Knowledge Graph")
+        plt.axis('off')
+        plt.show()
         plt.savefig(graph_image_path)
-        plt.close()
 
         print(f"Knowledge graph saved to: {graph_image_path}")
 
