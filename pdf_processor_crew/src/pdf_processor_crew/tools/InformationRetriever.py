@@ -1,4 +1,4 @@
-from rank_bm25 import BM25Okapi
+from langchain_community.retrievers import BM25Retriever
 import json
 import os
 from typing import List, Dict, ClassVar
@@ -13,7 +13,7 @@ class InformationRetriever:
     @staticmethod
     def RetrieveInformation(user_query: str, text_file_path: str, json_file_path: str) -> List[Dict[str, str]]:
         """
-        Retrieve relevant information from the text and JSON files based on the user query using BM25 and save the results.
+        Retrieve relevant information from the text and JSON files based on the user query using BM25.
 
         Args:
             user_query (str): The user's query.
@@ -28,15 +28,16 @@ class InformationRetriever:
         json_file_path = json_file_path.strip('"')
 
         results = []
-        
+
         # Load and process the text file
         text_data = []
         if os.path.exists(text_file_path):
             with open(text_file_path, 'r') as file:
                 text_data = file.read().split('\n')
             # Index the text data for BM25 search
-            bm25_text = BM25Okapi([line.split() for line in text_data])
-            text_scores = bm25_text.get_scores(user_query.split())
+            bm25_retriever = BM25Retriever()
+            bm25_retriever.fit(text_data)
+            text_scores = bm25_retriever.get_scores(user_query)
             top_text_indices = text_scores.argsort()[-5:][::-1]
             for idx in top_text_indices:
                 results.append({"source": "text", "data": text_data[idx]})
@@ -62,8 +63,9 @@ class InformationRetriever:
                     context = " ".join(row)
                     contexts.append(context)
                     table_info.append((table_name, headers, row))
-            bm25_json = BM25Okapi([context.split() for context in contexts])
-            json_scores = bm25_json.get_scores(user_query.split())
+            bm25_retriever = BM25Retriever()
+            bm25_retriever.fit(contexts)
+            json_scores = bm25_retriever.get_scores(user_query)
             top_json_indices = json_scores.argsort()[-5:][::-1]
             for idx in top_json_indices:
                 table_name, headers, row = table_info[idx]

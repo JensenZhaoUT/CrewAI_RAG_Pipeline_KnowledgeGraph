@@ -18,6 +18,7 @@ ghostscript = "^0.7"
 nltk = "^3.8.1"
 rank-bm25 = "^0.2.2"
 matplotlib = "^3.7.1"
+langchain-community = "^0.2.9"
 
 [tool.poetry.scripts]
 pdf_processor_crew = "pdf_processor_crew.main:run"

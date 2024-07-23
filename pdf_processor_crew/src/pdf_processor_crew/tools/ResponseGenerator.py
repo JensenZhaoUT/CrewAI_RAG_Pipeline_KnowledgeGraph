@@ -16,42 +16,42 @@ class ResponseGenerator:
 
     @staticmethod
     @tool("generate_response")
-    def GenerateResponse(user_query: str, text_file_path: str, json_file_path: str) -> str:
+    def GenerateResponse(user_query: str, json_file_path: str) -> str:
         """
-        Generate a response to the user's query using the retrieved information from both text and JSON files.
+        Generate a response to the user's query using the retrieved information.
 
         Args:
             user_query (str): The user's query.
-            text_file_path (str): The path to the text file containing extracted text.
-            json_file_path (str): The path to the JSON file containing parsed data.
+            json_file_path (str): The path to the JSON file containing the parsed data.
 
         Returns:
             str: The generated response.
         """
         # Retrieve information using InformationRetriever
         try:
-            information_retriever = InformationRetriever()
-            retrieved_info = information_retriever.invoke(user_query, text_file_path, json_file_path)
-            print(f"Retrieved information: {retrieved_info}")
+            retrieved_file_path = InformationRetriever.RetrieveInformation(user_query, json_file_path)
+            with open(retrieved_file_path, 'r') as file:
+                retrieved_info = json.load(file)
         except Exception as e:
             return f"Error retrieving information: {e}"
 
         # Create a prompt with the retrieved information and user query
         context = "Based on the retrieved information, answer the following query:\n"
         for info in retrieved_info:
-            source = info["source"]
-            data = info["data"]
-            context += f"Source: {source}\nData: {data}\n\n"
+            table_name = info["table_name"]
+            header = info["header"]
+            row = info["row"]
+            context += f"Table: {table_name}\nHeader: {header}\nRow: {row}\n\n"
         
         context += f"User Query: {user_query}\n"
         
         # Generate a response using the LLM model
         try:
             response_generator = ResponseGenerator()
-            response = response_generator.llm.predict(context)
+            response = response_generator.llm(context)
         except Exception as e:
             return f"Error generating response: {e}"
         
         print(f"Generated response: {response}")
 
-        return response, "RAG integration task completed."
+        return response

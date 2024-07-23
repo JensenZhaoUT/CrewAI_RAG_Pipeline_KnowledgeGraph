@@ -43,6 +43,8 @@ def run():
         'retrieved_file_path': retrieved_file_path
     }
 
+    user_query = input("Please enter your query: ")
+
     # Initialize agents and tasks
     agents = DocumentAgents()
     tasks = DocumentTasks()
@@ -66,13 +68,7 @@ def run():
         path_to_save_dir=inputs['path_to_save_dir'],
         json_file_path=inputs['json_file_path']
     )
-    knowledge_graph_generation_task = tasks.knowledge_graph_generation_task(
-        agent=knowledge_graph_generation_agent,
-        retrieved_file_path=inputs['retrieved_file_path'],
-        path_to_save_dir=inputs['path_to_save_dir']
-    )
 
-    user_query = input("Please enter your query: ")
     rag_integration_task = tasks.rag_integration_task(
         agent=rag_integration_agent,
         user_query=user_query,
@@ -80,10 +76,16 @@ def run():
         json_file_path=inputs['parsed_tables']
     )
 
+    knowledge_graph_generation_task = tasks.knowledge_graph_generation_task(
+        agent=knowledge_graph_generation_agent,
+        retrieved_file_path=inputs['retrieved_file_path'],
+        path_to_save_dir=inputs['path_to_save_dir']
+    )
+
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[table_parsing_agent],
-        tasks=[table_parsing_task],
+        agents=[rag_integration_agent],
+        tasks=[rag_integration_task],
         process=Process.sequential,
         verbose=True,
     )
