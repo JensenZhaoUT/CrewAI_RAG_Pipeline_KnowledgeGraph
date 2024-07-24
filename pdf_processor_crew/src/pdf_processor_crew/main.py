@@ -84,8 +84,8 @@ def run():
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[document_ingestion_agent, table_parsing_agent, rag_integration_agent, knowledge_graph_generation_agent],
-        tasks=[document_ingestion_task, table_parsing_task, rag_integration_task, knowledge_graph_generation_task],
+        agents=[rag_integration_agent, knowledge_graph_generation_agent],
+        tasks=[rag_integration_task, knowledge_graph_generation_task],
         process=Process.sequential,
         verbose=True
     )

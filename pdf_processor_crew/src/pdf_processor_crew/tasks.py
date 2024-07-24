@@ -7,7 +7,7 @@ class DocumentTasks:
         return Task(
             description=dedent(f"""
                 Load and pre-process PDF documents in the path_to_pdf to extract the raw content of the file and save it into the Save directory as txt file.
-                Extract tables from the PDF document in the path_to_pdf and preprocess the tables and save the tables as CSV files in the Save directory. In second step, ensure accurate extraction of table data and convert it into structured formats
+                Next, extract tables from the same PDF document in the path_to_pdf and preprocess the tables and save the tables as CSV files in the Save directory. In second step, ensure accurate extraction of table data and convert it into structured formats
                 for further analysis.
                 PDF file: {path_to_pdf}
                 Save directory: {path_to_save_dir}

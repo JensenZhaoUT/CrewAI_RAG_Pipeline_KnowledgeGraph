@@ -29,7 +29,7 @@ class ResponseGenerator:
         """
         # Retrieve information using InformationRetriever
         retrieved_info = InformationRetriever.RetrieveInformation(user_query, text_file_path)
-        print("The retrieved info is:", retrieved_info)
+        # print("The retrieved info is:", retrieved_info)
 
         # Create a prompt with the retrieved information and user query
         context = "Based on the retrieved information, answer the following query:\n"
@@ -45,4 +45,4 @@ class ResponseGenerator:
         
         print(f"Generated response: {response}")
 
-        return response
+        return response, "RAG integration task completed."

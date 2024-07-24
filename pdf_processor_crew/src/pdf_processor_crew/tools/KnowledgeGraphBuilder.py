@@ -95,7 +95,7 @@ class KnowledgeGraphBuilder:
                 G.add_edge(top_keyword, item, label=header)
         
         # Define the save path for the knowledge graph image
-        graph_image_path = os.path.join(path_to_save_dir, "knowledge_graph.png")
+        graph_image_path = os.path.join(path_to_save_dir, "knowledge_graph_2.png")
         
         # Draw the graph
         plt.figure(figsize=(12, 8))

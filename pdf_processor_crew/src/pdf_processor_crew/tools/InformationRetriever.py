@@ -46,6 +46,6 @@ class InformationRetriever:
         
         results = [{"context": retrieved_context}]
 
-        print(f"Retrieved information: {results}")
+        # print(f"Retrieved information: {results}")
 
         return results

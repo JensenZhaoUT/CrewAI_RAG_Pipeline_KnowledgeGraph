@@ -126,7 +126,7 @@ class TableParser:
             
             # Check if file exists
             if not os.path.exists(csv_path):
-                print(f"DEBUG: os.path.exists({csv_path}) -> {os.path.exists(csv_path)}")
+                # print(f"DEBUG: os.path.exists({csv_path}) -> {os.path.exists(csv_path)}")
                 continue  # Skip non-existing files
 
             print(f"TableParser received cleaned file path: {csv_path}")
@@ -154,4 +154,4 @@ class TableParser:
         
         print(f"All parsed data saved to: {json_file_path}")
 
-        return json_file_path
+        return json_file_path, "Table parsing task completed."
