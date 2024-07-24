@@ -12,9 +12,8 @@ First, if you haven't already, install Poetry:
 pip install poetry
 ```
 
-Next, navigate to your project directory and install the dependencies:
-
-1. First lock the dependencies and then install them:
+Next, navigate to your project directory and install the dependencies
+First lock the dependencies and then install them:
 ```bash
 poetry lock
 ```
