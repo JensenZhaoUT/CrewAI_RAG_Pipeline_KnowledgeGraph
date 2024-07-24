@@ -62,7 +62,7 @@ class DocumentAgents:
     def knowledge_graph_generation_agent(self) -> Agent:
         return Agent(
             role='Knowledge Graph Generation Agent',
-            goal='Build a detailed knowledge graph showing the relationship between entities based on the extracted data.',
+            goal='Read the user query. Build a detailed knowledge graph based on the extracted data.',
             backstory='As a knowledge engineer, you are adept at creating structured representations of information that show the relationship between entities.',
             tools=[KnowledgeGraphBuilder.BuildGraph],
             allow_delegation=False,

@@ -77,42 +77,23 @@ def run():
 
     knowledge_graph_generation_task = tasks.knowledge_graph_generation_task(
         agent=knowledge_graph_generation_agent,
-        retrieved_file_path=inputs['retrieved_file_path'],
-        path_to_save_dir=inputs['path_to_save_dir']
+        user_query=user_query,
+        parsed_tables=inputs['parsed_tables'],
+        path_to_save_dir=inputs['json_file_path']
     )
 
     # Create and run the Crew for the first two tasks
     crew = Crew(
-        agents=[rag_integration_agent],
-        tasks=[rag_integration_task],
+        agents=[document_ingestion_agent, table_parsing_agent, rag_integration_agent, knowledge_graph_generation_agent],
+        tasks=[document_ingestion_task, table_parsing_task, rag_integration_task, knowledge_graph_generation_task],
         process=Process.sequential,
-        verbose=True,
+        verbose=True
     )
 
     # Kick off the Crew pipeline for the first two tasks
     result = crew.kickoff()
 
     print("\nInitial processing completed. Results:\n", result)
-
-    # # Prompt the user for input
-    # user_query = input("Please enter your query: ")
-
-    # # Initialize the user prompt handling task
-    # user_prompt_handling_task = tasks.user_prompt_handling_task(
-    #     agent=user_prompt_handling_agent,
-    #     user_query=user_query
-    # )
-
-    # # Run the user prompt handling task
-    # crew = Crew(
-    #     agents=[user_prompt_handling_agent],
-    #     tasks=[user_prompt_handling_task],
-    #     process=Process.sequential,
-    #     verbose=True,
-    # )
-
-    # result = crew.kickoff()
-    # print("\nUser prompt processing completed. Results:\n", result)
 
 if __name__ == "__main__":
     run()

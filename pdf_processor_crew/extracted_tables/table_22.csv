@@ -1,8 +1,0 @@
-0,1
-Code Value,Format Description
-R,Replace	Rap	Back	Subscription	data	on	file	with	that	provided	in	the	request
-D,Delete	Rap	Back	subscription	data	provided	in	request	that	matches	what	is	on	file
-A,Append	Rap	Back	subscription	data	provided	in	request	to	that	on	file
-C,Cancel the Rap Back subscription
-N,Renew the Rap Back subscription (Currently not being used)
-U,Un-cancel a cancelled Rap Back subscription
