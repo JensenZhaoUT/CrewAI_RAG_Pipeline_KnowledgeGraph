@@ -2,37 +2,6 @@
 ## Overview
 *This project implements a pipeline to process a PDF document, extract relevant information, and generate responses to user queries using Llama3. The pipeline is designed to utilize CrewAI for managing agents and tasks and leverages BM25 for information retrieval from text data.*
 
-### Project Directory
-project-root/
-│
-├── src/
-│   ├── pdf_processor_crew/
-│   │   ├── __init__.py
-│   │   ├── agents.py
-│   │   ├── tasks.py
-│   │   ├── tools/
-│   │   │   ├── PDFLoader.py
-│   │   │   ├── TableExtractor.py
-│   │   │   ├── DataPreprocessor.py
-│   │   │   ├── HeaderIdentifier.py
-│   │   │   ├── RowColumnParser.py
-│   │   │   ├── PromptProcessor.py
-│   │   │   ├── InformationRetriever.py
-│   │   │   ├── ResponseGenerator.py
-│   │   │   ├── EntityExtractor.py
-│   │   │   ├── RelationshipMapper.py
-│   │   │   ├── GraphVisualizer.py
-│   │   ├── main.py
-│
-├── extracted_tables/
-│   ├── RAG_Document.txt
-│
-├── parsed_tables/
-│   ├── all_parsed_tables.json
-│   ├── KnowledgeGraph.jpg
-│
-└── pyproject.toml
-
 ### Project Structure
 1. **Document Ingestion Agent:** Load and pre-process PDF documents, focusing on tables.
 2. **Table Parsing Agent:** Parse tables within the documents to extract structured data.
