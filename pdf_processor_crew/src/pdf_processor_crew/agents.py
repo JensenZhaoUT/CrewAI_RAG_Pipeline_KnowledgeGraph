@@ -10,7 +10,7 @@ class DocumentAgents:
 
     def __init__(self):
         self.llm = ChatOpenAI(
-            model="crewai-llama3",
+            model="crewai-llama3.1-8b",
             base_url="http://localhost:11434/v1",
             api_key="NA"
         )
