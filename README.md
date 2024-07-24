@@ -44,15 +44,27 @@ cd CrewAI_RAG_Pipeline_KnowledgeGraph
 bash build.bash
 bash run.bash
 ```
-3. Get Llama 3 model locally
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-ollama pull llama3
-```
 
 > :memo: **Note**
 >
 > The dockerfile is fairly large and can long time to build since it's prepared to be ran without the poetry dependencies. That gives user dual option to run the project in Docker. Hence enhanced the customizability. 
+
+3. Setup Large Language Model
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull llama3
+ollama create <your-model-name> -f ./Modelfile
+```
+Modify the <pdf_processor_crew/Modelfile> to the parameters you prefer
+Change <ResponseGenerator.py> and <agents.py>'s line
+```
+model="crewai-llama3.1-8b"
+```
+to <your_model_name>.
+
+> :memo: **Note**
+>
+> The Llama 3.1 seems to be unstable when executing some of the tasks. Fine tunning the parameters in the Modelfile could be necessary.
 
 ### Docker Setup
 1. Install Poetry
